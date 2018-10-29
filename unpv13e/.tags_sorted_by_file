@@ -1,0 +1,1941 @@
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.8	//
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+PROGS	advio/Makefile	/^PROGS =	tcpcli01 tcpcli02 tcpserv02 \\$/;"	m
+main	advio/daytimetcpcli.c	/^main(int argc, char **argv)$/;"	f
+main	advio/daytimeudpcli3.c	/^main(int argc, char **argv)$/;"	f
+main	advio/daytimeudpcli4.c	/^main(int argc, char **argv)$/;"	f
+dg_cli	advio/dgclitimeo.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+dg_cli	advio/dgclitimeo1.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+dg_cli	advio/dgclitimeo2.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+dg_cli	advio/dgclitimeo3.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+sig_alrm	advio/dgclitimeo3.c	/^sig_alrm(int signo)$/;"	f	file:
+MAXLINE	advio/dgechoaddr.c	/^#define	MAXLINE	/;"	d	file:
+MAXLINE	advio/dgechoaddr.c	/^#undef	MAXLINE$/;"	d	file:
+dg_echo	advio/dgechoaddr.c	/^dg_echo(int sockfd, SA *pcliaddr, socklen_t clilen)$/;"	f
+MAXLINE	advio/old/dgechoaddr.c	/^#define	MAXLINE	/;"	d	file:
+MAXLINE	advio/old/dgechoaddr.c	/^#undef	MAXLINE$/;"	d	file:
+dg_echo	advio/old/dgechoaddr.c	/^dg_echo(int sockfd, SA *pcliaddr, socklen_t clilen)$/;"	f
+CONTROL_LEN	advio/old/recvfromflags.c	/^#define	CONTROL_LEN	/;"	d	file:
+Recvfrom_flags	advio/old/recvfromflags.c	/^Recvfrom_flags(int fd, void *ptr, size_t nbytes, int *flagsp,$/;"	f
+recvfrom_flags	advio/old/recvfromflags.c	/^recvfrom_flags(int fd, void *ptr, size_t nbytes, int *flagsp,$/;"	f
+CONTROL_LEN	advio/old/test01.c	/^#define	CONTROL_LEN	/;"	d	file:
+main	advio/old/test01.c	/^main(int argc, char **argv)$/;"	f
+Recvfrom_flags	advio/recvfromflags.c	/^Recvfrom_flags(int fd, void *ptr, size_t nbytes, int *flagsp,$/;"	f
+recvfrom_flags	advio/recvfromflags.c	/^recvfrom_flags(int fd, void *ptr, size_t nbytes, int *flagsp,$/;"	f
+sig_chld	advio/sig_chld_waitpid.c	/^sig_chld(int signo)$/;"	f
+str_cli	advio/str_cli_kqueue04.c	/^str_cli(FILE *fp, int sockfd)$/;"	f
+str_cli	advio/str_cli_poll03.c	/^str_cli(FILE *fp, int sockfd)$/;"	f
+str_cli	advio/str_cli_select02.c	/^str_cli(FILE *fp, int sockfd)$/;"	f
+str_echo	advio/str_echo_stdio02.c	/^str_echo(int sockfd)$/;"	f
+main	advio/tcpcli01.c	/^main(int argc, char **argv)$/;"	f
+main	advio/tcpcli02.c	/^main(int argc, char **argv)$/;"	f
+main	advio/tcpcli03.c	/^main(int argc, char **argv)$/;"	f
+main	advio/tcpcli04.c	/^main(int argc, char **argv)$/;"	f
+main	advio/tcpserv02.c	/^main(int argc, char **argv)$/;"	f
+main	advio/udpcli01.c	/^main(int argc, char **argv)$/;"	f
+main	advio/udpcli02.c	/^main(int argc, char **argv)$/;"	f
+main	advio/udpcli03.c	/^main(int argc, char **argv)$/;"	f
+main	advio/udpserv01.c	/^main(int argc, char **argv)$/;"	f
+main	advio/udpserv03.c	/^main(int argc, char **argv)$/;"	f
+mydg_echo	advio/udpserv03.c	/^mydg_echo(int sockfd, SA *pcliaddr, socklen_t clilen, SA *myaddr)$/;"	f
+main	advio/udpserv04.c	/^main(int argc, char **argv)$/;"	f
+mydg_echo	advio/udpserv04.c	/^mydg_echo(int sockfd, SA *myaddr, socklen_t salen)$/;"	f
+PROGS	bcast/Makefile	/^PROGS =	udpcli01 udpcli02 udpcli03 udpcli04 udpcli05 udpcli06$/;"	m
+dg_cli	bcast/dgclibcast1.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+recvfrom_alarm	bcast/dgclibcast1.c	/^recvfrom_alarm(int signo)$/;"	f	file:
+dg_cli	bcast/dgclibcast2.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+recvfrom_alarm	bcast/dgclibcast2.c	/^recvfrom_alarm(int signo)$/;"	f	file:
+dg_cli	bcast/dgclibcast3.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+recvfrom_alarm	bcast/dgclibcast3.c	/^recvfrom_alarm(int signo)$/;"	f	file:
+dg_cli	bcast/dgclibcast4.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+recvfrom_alarm	bcast/dgclibcast4.c	/^recvfrom_alarm(int signo)$/;"	f	file:
+dg_cli	bcast/dgclibcast5.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+jmpbuf	bcast/dgclibcast5.c	/^static sigjmp_buf	jmpbuf;$/;"	v	file:
+recvfrom_alarm	bcast/dgclibcast5.c	/^recvfrom_alarm(int signo)$/;"	f	file:
+dg_cli	bcast/dgclibcast6.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+pipefd	bcast/dgclibcast6.c	/^static int	pipefd[2];$/;"	v	file:
+recvfrom_alarm	bcast/dgclibcast6.c	/^recvfrom_alarm(int signo)$/;"	f	file:
+main	bcast/udpcli01.c	/^main(int argc, char **argv)$/;"	f
+main	bcast/udpcli02.c	/^main(int argc, char **argv)$/;"	f
+main	bcast/udpcli03.c	/^main(int argc, char **argv)$/;"	f
+main	bcast/udpcli04.c	/^main(int argc, char **argv)$/;"	f
+main	bcast/udpcli05.c	/^main(int argc, char **argv)$/;"	f
+main	bcast/udpcli06.c	/^main(int argc, char **argv)$/;"	f
+main	config.guess	/^		main()$/;"	f
+main	config.guess	/^	main ()$/;"	f
+main	config.guess	/^main ()$/;"	f
+pthread_create	configure	/^pthread_create ();$/;"	f
+res_init	configure	/^res_init ();$/;"	f
+socket	configure	/^socket ();$/;"	f
+t_open	configure	/^t_open ();$/;"	f
+PROGS	debug/Makefile	/^PROGS =	qlen backlog test01 test02 test03 test04 test05 test06$/;"	m
+ADDR	debug/backlog.c	/^#define	ADDR	/;"	d	file:
+MAXBACKLOG	debug/backlog.c	/^#define	MAXBACKLOG	/;"	d	file:
+PORT	debug/backlog.c	/^#define	PORT	/;"	d	file:
+cfd	debug/backlog.c	/^#define	cfd	/;"	d	file:
+do_child	debug/backlog.c	/^do_child(void)$/;"	f
+do_parent	debug/backlog.c	/^do_parent(void)$/;"	f
+main	debug/backlog.c	/^main(int argc, char **argv)$/;"	f
+parent_alrm	debug/backlog.c	/^parent_alrm(int signo)$/;"	f
+pfd	debug/backlog.c	/^#define	pfd	/;"	d	file:
+pid	debug/backlog.c	/^pid_t				pid;	\/* of child *\/$/;"	v
+pipefd	debug/backlog.c	/^int			pipefd[2];$/;"	v
+serv	debug/backlog.c	/^struct sockaddr_in	serv;$/;"	v	typeref:struct:sockaddr_in
+ADDR	debug/qlen.c	/^#define	ADDR	/;"	d	file:
+MAXBACKLOG	debug/qlen.c	/^#define	MAXBACKLOG	/;"	d	file:
+PORT	debug/qlen.c	/^#define	PORT	/;"	d	file:
+cfd	debug/qlen.c	/^#define	cfd	/;"	d	file:
+do_child	debug/qlen.c	/^do_child(void)$/;"	f
+do_parent	debug/qlen.c	/^do_parent(void)$/;"	f
+main	debug/qlen.c	/^main(int argc, char **argv)$/;"	f
+parent_alrm	debug/qlen.c	/^parent_alrm(int signo)$/;"	f
+pfd	debug/qlen.c	/^#define	pfd	/;"	d	file:
+pid	debug/qlen.c	/^pid_t				pid;	\/* of child *\/$/;"	v
+pipefd	debug/qlen.c	/^int			pipefd[2];$/;"	v
+serv	debug/qlen.c	/^struct sockaddr_in	serv;$/;"	v	typeref:struct:sockaddr_in
+main	debug/test01.c	/^main(int argc, char **argv)$/;"	f
+main	debug/test02.c	/^main(int argc, char **argv)$/;"	f
+main	debug/test03.c	/^main(int argc, char **argv)$/;"	f
+main	debug/test04.c	/^main(int argc, char **argv)$/;"	f
+sig_alrm	debug/test04.c	/^sig_alrm(int signo)$/;"	f
+connfd	debug/test05.c	/^int		listenfd, connfd;$/;"	v
+listenfd	debug/test05.c	/^int		listenfd, connfd;$/;"	v
+main	debug/test05.c	/^main(int argc, char **argv)$/;"	f
+sig_poll	debug/test05.c	/^sig_poll(int signo)$/;"	f
+main	debug/test06.c	/^main(int argc, char **argv)$/;"	f
+INFTIM	debug/unpxti.h	/^#undef	INFTIM	/;"	d
+T_INET_IP	debug/unpxti.h	/^#define	T_INET_IP	/;"	d
+T_INET_TCP	debug/unpxti.h	/^#define	T_INET_TCP	/;"	d
+T_INET_UDP	debug/unpxti.h	/^#define	T_INET_UDP	/;"	d
+T_IP_BROADCAST	debug/unpxti.h	/^#define	T_IP_BROADCAST	/;"	d
+T_IP_DONTROUTE	debug/unpxti.h	/^#define	T_IP_DONTROUTE	/;"	d
+T_IP_OPTIONS	debug/unpxti.h	/^#define	T_IP_OPTIONS	/;"	d
+T_IP_REUSEADDR	debug/unpxti.h	/^#define	T_IP_REUSEADDR	/;"	d
+T_IP_TOS	debug/unpxti.h	/^#define	T_IP_TOS	/;"	d
+T_IP_TTL	debug/unpxti.h	/^#define	T_IP_TTL	/;"	d
+T_TCP_KEEPALIVE	debug/unpxti.h	/^#define	T_TCP_KEEPALIVE	/;"	d
+T_TCP_MAXSEG	debug/unpxti.h	/^#define	T_TCP_MAXSEG	/;"	d
+T_TCP_NODELAY	debug/unpxti.h	/^#define	T_TCP_NODELAY	/;"	d
+T_UDP_CHECKSUM	debug/unpxti.h	/^#define	T_UDP_CHECKSUM	/;"	d
+XTI_TCP	debug/unpxti.h	/^# define	XTI_TCP	/;"	d
+XTI_UDP	debug/unpxti.h	/^# define	XTI_UDP	/;"	d
+__unp_xti_h	debug/unpxti.h	/^#define	__unp_xti_h$/;"	d
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+OBJS	icmpd/Makefile	/^OBJS = icmpd.o readable_listen.o readable_conn.o readable_v4.o readable_v6.o$/;"	m
+PROGS	icmpd/Makefile	/^PROGS =	icmpd udpcli01$/;"	m
+dg_cli	icmpd/dgcli01.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+main	icmpd/icmpd.c	/^main(int argc, char **argv)$/;"	f
+allset	icmpd/icmpd.h	/^fd_set			rset, allset;$/;"	v
+cliaddr	icmpd/icmpd.h	/^struct sockaddr_un	cliaddr;$/;"	v	typeref:struct:sockaddr_un
+client	icmpd/icmpd.h	/^struct client {$/;"	s
+client	icmpd/icmpd.h	/^} client[FD_SETSIZE];$/;"	v	typeref:struct:client
+connfd	icmpd/icmpd.h	/^  int	connfd;			\/* Unix domain stream socket to client *\/$/;"	m	struct:client
+family	icmpd/icmpd.h	/^  int	family;			\/* AF_INET or AF_INET6 *\/$/;"	m	struct:client
+fd4	icmpd/icmpd.h	/^int				fd4, fd6, listenfd, maxi, maxfd, nready;$/;"	v
+fd6	icmpd/icmpd.h	/^int				fd4, fd6, listenfd, maxi, maxfd, nready;$/;"	v
+listenfd	icmpd/icmpd.h	/^int				fd4, fd6, listenfd, maxi, maxfd, nready;$/;"	v
+lport	icmpd/icmpd.h	/^  int	lport;			\/* local port bound to client's UDP socket *\/$/;"	m	struct:client
+maxfd	icmpd/icmpd.h	/^int				fd4, fd6, listenfd, maxi, maxfd, nready;$/;"	v
+maxi	icmpd/icmpd.h	/^int				fd4, fd6, listenfd, maxi, maxfd, nready;$/;"	v
+nready	icmpd/icmpd.h	/^int				fd4, fd6, listenfd, maxi, maxfd, nready;$/;"	v
+rset	icmpd/icmpd.h	/^fd_set			rset, allset;$/;"	v
+readable_conn	icmpd/readable_conn.c	/^readable_conn(int i)$/;"	f
+readable_listen	icmpd/readable_listen.c	/^readable_listen(void)$/;"	f
+readable_v4	icmpd/readable_v4.c	/^readable_v4(void)$/;"	f
+readable_v6	icmpd/readable_v6.c	/^readable_v6(void)$/;"	f
+main	icmpd/udpcli01.c	/^main(int argc, char **argv)$/;"	f
+ICMPD_PATH	icmpd/unpicmpd.h	/^#define	ICMPD_PATH	/;"	d
+__unpicmp_h	icmpd/unpicmpd.h	/^#define	__unpicmp_h$/;"	d
+icmpd_code	icmpd/unpicmpd.h	/^  char				icmpd_code;	\/* actual ICMPv[46] code *\/$/;"	m	struct:icmpd_err
+icmpd_dest	icmpd/unpicmpd.h	/^  struct sockaddr_storage	icmpd_dest;	\/* sockaddr_storage handles any size *\/$/;"	m	struct:icmpd_err	typeref:struct:icmpd_err::sockaddr_storage
+icmpd_err	icmpd/unpicmpd.h	/^struct icmpd_err {$/;"	s
+icmpd_errno	icmpd/unpicmpd.h	/^  int				icmpd_errno;\/* EHOSTUNREACH, EMSGSIZE, ECONNREFUSED *\/$/;"	m	struct:icmpd_err
+icmpd_len	icmpd/unpicmpd.h	/^  socklen_t			icmpd_len;	\/* length of sockaddr{} that follows *\/$/;"	m	struct:icmpd_err
+icmpd_type	icmpd/unpicmpd.h	/^  char				icmpd_type;	\/* actual ICMPv[46] type *\/$/;"	m	struct:icmpd_err
+PROGS	inetd/Makefile	/^PROGS =	daytimetcpsrv2 daytimetcpsrv3$/;"	m
+main	inetd/daytimetcpsrv2.c	/^main(int argc, char **argv)$/;"	f
+main	inetd/daytimetcpsrv3.c	/^main(int argc, char **argv)$/;"	f
+PROGS	intro/Makefile	/^PROGS =	daytimetcpcli daytimetcpcli1 daytimetcpcli2 daytimetcpcli3 \\$/;"	m
+main	intro/byteorder.c	/^main(int argc, char **argv)$/;"	f
+main	intro/daytimetcpcli.c	/^main(int argc, char **argv)$/;"	f
+main	intro/daytimetcpcli1.c	/^main(int argc, char **argv)$/;"	f
+main	intro/daytimetcpcli2.c	/^main(int argc, char **argv)$/;"	f
+main	intro/daytimetcpcli3.c	/^main(int argc, char **argv)$/;"	f
+main	intro/daytimetcpcliv6.c	/^main(int argc, char **argv)$/;"	f
+main	intro/daytimetcpsrv.c	/^main(int argc, char **argv)$/;"	f
+main	intro/daytimetcpsrv1.c	/^main(int argc, char **argv)$/;"	f
+main	intro/daytimetcpsrv2.c	/^main(int argc, char **argv)$/;"	f
+main	intro/daytimetcpsrv3.c	/^main(int argc, char **argv)$/;"	f
+main	intro/daytimetcpsrvv6.c	/^main(int argc, char **argv)$/;"	f
+PROGS	ioctl/Makefile	/^PROGS =	lsif01 lsif02 prifinfo prmac$/;"	m
+main	ioctl/lsif01.c	/^main(int argc, char **argv)$/;"	f
+etherprint	ioctl/lsif02.c	/^etherprint(const u_char eaddr[6], char string[18])$/;"	f
+main	ioctl/lsif02.c	/^main(int argc, char **argv)$/;"	f
+main	ioctl/prifinfo.c	/^main(int argc, char **argv)$/;"	f
+main	ioctl/prmac.c	/^main(int argc, char **argv)$/;"	f
+main	ioctl/test1.c	/^main(int argc, char **argv)$/;"	f
+PROGS	ipopts/Makefile	/^PROGS =	tcpcli01 tcpserv01$/;"	m
+dg_echo	ipopts/dgechoprintroute.c	/^dg_echo(int sockfd, SA *pcliaddr, socklen_t clilen)$/;"	f
+sig_chld	ipopts/sigchldwaitpid.c	/^sig_chld(int signo)$/;"	f
+inet_srcrt_add	ipopts/sourceroute.c	/^inet_srcrt_add(char *hostptr)$/;"	f
+inet_srcrt_init	ipopts/sourceroute.c	/^inet_srcrt_init(int type)$/;"	f
+inet_srcrt_print	ipopts/sourceroute.c	/^inet_srcrt_print(u_char *ptr, int len)$/;"	f
+lenptr	ipopts/sourceroute.c	/^static u_char	*lenptr;	\/* pointer to length byte in SRR option *\/$/;"	v	file:
+ocnt	ipopts/sourceroute.c	/^static int		ocnt;		\/* count of # addresses *\/$/;"	v	file:
+optr	ipopts/sourceroute.c	/^static u_char	*optr;		\/* pointer into options being formed *\/$/;"	v	file:
+inet6_srcrt_print	ipopts/sourceroute6.c	/^inet6_srcrt_print(void *ptr)$/;"	f
+main	ipopts/tcpcli01.c	/^main(int argc, char **argv)$/;"	f
+main	ipopts/tcpserv01.c	/^main(int argc, char **argv)$/;"	f
+main	ipopts/udpcli01.c	/^main(int argc, char **argv)$/;"	f
+main	ipopts/udpserv01.c	/^main(int argc, char **argv)$/;"	f
+OBJS	key/Makefile	/^OBJS = printsadbmsg.o name.o$/;"	m
+PROGS	key/Makefile	/^PROGS =	dump register add$/;"	m
+main	key/add.c	/^main(int argc, char **argv)$/;"	f
+prefix_all	key/add.c	/^prefix_all(struct sockaddr *sa)$/;"	f
+sadb_add	key/add.c	/^sadb_add(struct sockaddr *src, struct sockaddr *dst, int type, int alg,$/;"	f
+salen	key/add.c	/^salen(struct sockaddr *sa)$/;"	f
+main	key/dump.c	/^main(int argc, char **argv)$/;"	f
+sadb_dump	key/dump.c	/^sadb_dump(int type)$/;"	f
+ahalg	key/name.c	/^static struct idlist ahalg[] = {$/;"	v	typeref:struct:idlist	file:
+espalg	key/name.c	/^static struct idlist espalg[] = {$/;"	v	typeref:struct:idlist	file:
+getsaalgbyname	key/name.c	/^getsaalgbyname(int type, char *name)$/;"	f
+getsatypebyname	key/name.c	/^getsatypebyname(char *name)$/;"	f
+idlist	key/name.c	/^struct idlist {$/;"	s	file:
+idlistlookup	key/name.c	/^idlistlookup(char *name, struct idlist *il)$/;"	f
+name	key/name.c	/^	const char *name;$/;"	m	struct:idlist	file:
+satype	key/name.c	/^static struct idlist satype[] = {$/;"	v	typeref:struct:idlist	file:
+val	key/name.c	/^	int val;$/;"	m	struct:idlist	file:
+address_print	key/printsadbmsg.c	/^address_print(struct sadb_ext *ext)$/;"	f
+get_auth_alg	key/printsadbmsg.c	/^get_auth_alg(int alg)$/;"	f
+get_encrypt_alg	key/printsadbmsg.c	/^get_encrypt_alg(int alg)$/;"	f
+get_sa_state	key/printsadbmsg.c	/^get_sa_state(int state)$/;"	f
+get_sadb_alg_type	key/printsadbmsg.c	/^get_sadb_alg_type(int alg, int authenc)$/;"	f
+get_sadb_msg_type	key/printsadbmsg.c	/^get_sadb_msg_type(int type)$/;"	f
+get_sadb_satype	key/printsadbmsg.c	/^get_sadb_satype(int type)$/;"	f
+key_print	key/printsadbmsg.c	/^key_print(struct sadb_ext *ext)$/;"	f
+lifetime_print	key/printsadbmsg.c	/^lifetime_print(struct sadb_ext *ext)$/;"	f
+print_sadb_msg	key/printsadbmsg.c	/^print_sadb_msg(struct sadb_msg *msg, int msglen)$/;"	f
+sa_print	key/printsadbmsg.c	/^sa_print(struct sadb_ext *ext)$/;"	f
+supported_print	key/printsadbmsg.c	/^supported_print(struct sadb_ext *ext)$/;"	f
+main	key/register.c	/^main(int argc, char **argv)$/;"	f
+sadb_register	key/register.c	/^sadb_register(int type)$/;"	f
+AF_LOCAL	key/unp.h	/^#define AF_LOCAL	/;"	d
+BUFFSIZE	key/unp.h	/^#define	BUFFSIZE	/;"	d
+CMSG_LEN	key/unp.h	/^#define	CMSG_LEN(/;"	d
+CMSG_SPACE	key/unp.h	/^#define	CMSG_SPACE(/;"	d
+DIR_MODE	key/unp.h	/^#define	DIR_MODE	/;"	d
+FILE_MODE	key/unp.h	/^#define	FILE_MODE	/;"	d
+INADDR_NONE	key/unp.h	/^#define	INADDR_NONE	/;"	d
+INET6_ADDRSTRLEN	key/unp.h	/^#define	INET6_ADDRSTRLEN	/;"	d
+INET_ADDRSTRLEN	key/unp.h	/^#define	INET_ADDRSTRLEN	/;"	d
+INFTIM	key/unp.h	/^#define INFTIM /;"	d
+INFTIM_UNPH	key/unp.h	/^#define	INFTIM_UNPH	/;"	d
+LISTENQ	key/unp.h	/^#define	LISTENQ	/;"	d
+MAXLINE	key/unp.h	/^#define	MAXLINE	/;"	d
+MAXSOCKADDR	key/unp.h	/^#define	MAXSOCKADDR /;"	d
+PF_LOCAL	key/unp.h	/^#define PF_LOCAL	/;"	d
+SA	key/unp.h	/^#define	SA	/;"	d
+SERV_PORT	key/unp.h	/^#define	SERV_PORT	/;"	d
+SERV_PORT_STR	key/unp.h	/^#define	SERV_PORT_STR	/;"	d
+SHUT_RD	key/unp.h	/^#define	SHUT_RD	/;"	d
+SHUT_RDWR	key/unp.h	/^#define	SHUT_RDWR	/;"	d
+SHUT_WR	key/unp.h	/^#define	SHUT_WR	/;"	d
+SUN_LEN	key/unp.h	/^# define	SUN_LEN(/;"	d
+Sigfunc	key/unp.h	/^typedef	void	Sigfunc(int);	\/* for signal handlers *\/$/;"	t
+UNIXDG_PATH	key/unp.h	/^#define	UNIXDG_PATH	/;"	d
+UNIXSTR_PATH	key/unp.h	/^#define	UNIXSTR_PATH	/;"	d
+__unp_h	key/unp.h	/^#define	__unp_h$/;"	d
+bzero	key/unp.h	/^#define	bzero(/;"	d
+gethostbyname2	key/unp.h	/^#define	gethostbyname2(/;"	d
+if_index	key/unp.h	/^  unsigned int   if_index;  \/* 1, 2, ... *\/$/;"	m	struct:if_nameindex
+if_name	key/unp.h	/^  char          *if_name;   \/* null terminated name: "le0", ... *\/$/;"	m	struct:if_nameindex
+if_nameindex	key/unp.h	/^struct if_nameindex {$/;"	s
+in_pktinfo	key/unp.h	/^struct in_pktinfo {$/;"	s
+ipi_addr	key/unp.h	/^  struct in_addr	ipi_addr;	\/* dst IPv4 address *\/$/;"	m	struct:in_pktinfo	typeref:struct:in_pktinfo::in_addr
+ipi_ifindex	key/unp.h	/^  int				ipi_ifindex;\/* received interface index *\/$/;"	m	struct:in_pktinfo
+max	key/unp.h	/^#define	max(/;"	d
+min	key/unp.h	/^#define	min(/;"	d
+recv	key/unp.h	/^#define	recv(/;"	d
+recv	key/unp.h	/^#undef	recv$/;"	d
+send	key/unp.h	/^#define	send(/;"	d
+send	key/unp.h	/^#undef	send$/;"	d
+timespec	key/unp.h	/^struct timespec {$/;"	s
+tv_nsec	key/unp.h	/^  long		tv_nsec;	\/* and nanoseconds *\/$/;"	m	struct:timespec
+tv_sec	key/unp.h	/^  time_t	tv_sec;		\/* seconds *\/$/;"	m	struct:timespec
+AI_CANONNAME	lib/addrinfo.h	/^#define	AI_CANONNAME	/;"	d
+AI_PASSIVE	lib/addrinfo.h	/^#define	AI_PASSIVE	/;"	d
+EAI_ADDRFAMILY	lib/addrinfo.h	/^#define	EAI_ADDRFAMILY	/;"	d
+EAI_AGAIN	lib/addrinfo.h	/^#define	EAI_AGAIN	/;"	d
+EAI_BADFLAGS	lib/addrinfo.h	/^#define	EAI_BADFLAGS	/;"	d
+EAI_FAIL	lib/addrinfo.h	/^#define	EAI_FAIL	/;"	d
+EAI_FAMILY	lib/addrinfo.h	/^#define	EAI_FAMILY	/;"	d
+EAI_MEMORY	lib/addrinfo.h	/^#define	EAI_MEMORY	/;"	d
+EAI_NODATA	lib/addrinfo.h	/^#define	EAI_NODATA	/;"	d
+EAI_NONAME	lib/addrinfo.h	/^#define	EAI_NONAME	/;"	d
+EAI_SERVICE	lib/addrinfo.h	/^#define	EAI_SERVICE	/;"	d
+EAI_SOCKTYPE	lib/addrinfo.h	/^#define	EAI_SOCKTYPE	/;"	d
+EAI_SYSTEM	lib/addrinfo.h	/^#define	EAI_SYSTEM	/;"	d
+NI_DGRAM	lib/addrinfo.h	/^#define	NI_DGRAM	/;"	d
+NI_MAXHOST	lib/addrinfo.h	/^#define	NI_MAXHOST	/;"	d
+NI_MAXSERV	lib/addrinfo.h	/^#define	NI_MAXSERV	/;"	d
+NI_NAMEREQD	lib/addrinfo.h	/^#define	NI_NAMEREQD	/;"	d
+NI_NOFQDN	lib/addrinfo.h	/^#define	NI_NOFQDN	/;"	d
+NI_NUMERICHOST	lib/addrinfo.h	/^#define	NI_NUMERICHOST /;"	d
+NI_NUMERICSERV	lib/addrinfo.h	/^#define	NI_NUMERICSERV /;"	d
+__addrinfo_h	lib/addrinfo.h	/^#define	__addrinfo_h$/;"	d
+addrinfo	lib/addrinfo.h	/^struct addrinfo {$/;"	s
+ai_addr	lib/addrinfo.h	/^  struct sockaddr	*ai_addr;	\/* binary address *\/$/;"	m	struct:addrinfo	typeref:struct:addrinfo::sockaddr
+ai_addrlen	lib/addrinfo.h	/^  size_t	ai_addrlen;			\/* length of ai_addr *\/$/;"	m	struct:addrinfo
+ai_canonname	lib/addrinfo.h	/^  char		*ai_canonname;		\/* canonical name for host *\/$/;"	m	struct:addrinfo
+ai_family	lib/addrinfo.h	/^  int		ai_family;			\/* PF_xxx *\/$/;"	m	struct:addrinfo
+ai_flags	lib/addrinfo.h	/^  int		ai_flags;			\/* AI_PASSIVE, AI_CANONNAME *\/$/;"	m	struct:addrinfo
+ai_next	lib/addrinfo.h	/^  struct addrinfo	*ai_next;	\/* next structure in linked list *\/$/;"	m	struct:addrinfo	typeref:struct:addrinfo::addrinfo
+ai_protocol	lib/addrinfo.h	/^  int		ai_protocol;		\/* IPPROTO_xxx for IPv4 and IPv6 *\/$/;"	m	struct:addrinfo
+ai_socktype	lib/addrinfo.h	/^  int		ai_socktype;		\/* SOCK_xxx *\/$/;"	m	struct:addrinfo
+connect_nonb	lib/connect_nonb.c	/^connect_nonb(int sockfd, const SA *saptr, socklen_t salen, int nsec)$/;"	f
+Connect_timeo	lib/connect_timeo.c	/^Connect_timeo(int fd, const SA *sa, socklen_t salen, int sec)$/;"	f
+connect_alarm	lib/connect_timeo.c	/^connect_alarm(int signo)$/;"	f	file:
+connect_timeo	lib/connect_timeo.c	/^connect_timeo(int sockfd, const SA *saptr, socklen_t salen, int nsec)$/;"	f
+daemon_inetd	lib/daemon_inetd.c	/^daemon_inetd(const char *pname, int facility)$/;"	f
+MAXFD	lib/daemon_init.c	/^#define	MAXFD	/;"	d	file:
+daemon_init	lib/daemon_init.c	/^daemon_init(const char *pname, int facility)$/;"	f
+dg_cli	lib/dg_cli.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+dg_echo	lib/dg_echo.c	/^dg_echo(int sockfd, SA *pcliaddr, socklen_t clilen)$/;"	f
+daemon_proc	lib/error.c	/^int		daemon_proc;		\/* set nonzero by daemon_init() *\/$/;"	v
+err_doit	lib/error.c	/^err_doit(int errnoflag, int level, const char *fmt, va_list ap)$/;"	f	file:
+err_dump	lib/error.c	/^err_dump(const char *fmt, ...)$/;"	f
+err_msg	lib/error.c	/^err_msg(const char *fmt, ...)$/;"	f
+err_quit	lib/error.c	/^err_quit(const char *fmt, ...)$/;"	f
+err_ret	lib/error.c	/^err_ret(const char *fmt, ...)$/;"	f
+err_sys	lib/error.c	/^err_sys(const char *fmt, ...)$/;"	f
+Family_to_level	lib/family_to_level.c	/^Family_to_level(int family)$/;"	f
+family_to_level	lib/family_to_level.c	/^family_to_level(int family)$/;"	f
+Get_ifi_info	lib/get_ifi_info.c	/^Get_ifi_info(int family, int doaliases)$/;"	f
+free_ifi_info	lib/get_ifi_info.c	/^free_ifi_info(struct ifi_info *ifihead)$/;"	f
+get_ifi_info	lib/get_ifi_info.c	/^get_ifi_info(int family, int doaliases)$/;"	f
+gf_time	lib/gf_time.c	/^gf_time(void)$/;"	f
+Host_serv	lib/host_serv.c	/^Host_serv(const char *host, const char *serv, int family, int socktype)$/;"	f
+host_serv	lib/host_serv.c	/^host_serv(const char *host, const char *serv, int family, int socktype)$/;"	f
+hstrerror	lib/hstrerror.c	/^hstrerror(int err)$/;"	f
+If_indextoname	lib/if_indextoname.c	/^If_indextoname(unsigned int index, char *name)$/;"	f
+if_indextoname	lib/if_indextoname.c	/^if_indextoname(unsigned int index, char *name)$/;"	f
+If_nameindex	lib/if_nameindex.c	/^If_nameindex(void)$/;"	f
+if_freenameindex	lib/if_nameindex.c	/^if_freenameindex(struct if_nameindex *ptr)$/;"	f
+if_nameindex	lib/if_nameindex.c	/^if_nameindex(void)$/;"	f
+If_nametoindex	lib/if_nametoindex.c	/^If_nametoindex(const char *name)$/;"	f
+if_nametoindex	lib/if_nametoindex.c	/^if_nametoindex(const char *name)$/;"	f
+in6addr_any	lib/in6addr_any.c	/^const struct in6_addr in6addr_any;$/;"	v	typeref:struct:in6_addr
+Mcast_get_if	lib/mcast_get_if.c	/^Mcast_get_if(int sockfd)$/;"	f
+mcast_get_if	lib/mcast_get_if.c	/^mcast_get_if(int sockfd)$/;"	f
+Mcast_get_loop	lib/mcast_get_loop.c	/^Mcast_get_loop(int sockfd)$/;"	f
+mcast_get_loop	lib/mcast_get_loop.c	/^mcast_get_loop(int sockfd)$/;"	f
+Mcast_get_ttl	lib/mcast_get_ttl.c	/^Mcast_get_ttl(int sockfd)$/;"	f
+mcast_get_ttl	lib/mcast_get_ttl.c	/^mcast_get_ttl(int sockfd)$/;"	f
+Mcast_block_source	lib/mcast_join.c	/^Mcast_block_source(int sockfd, const SA *src, socklen_t srclen,$/;"	f
+Mcast_join	lib/mcast_join.c	/^Mcast_join(int sockfd, const SA *grp, socklen_t grplen,$/;"	f
+Mcast_join_source_group	lib/mcast_join.c	/^Mcast_join_source_group(int sockfd, const SA *src, socklen_t srclen,$/;"	f
+Mcast_unblock_source	lib/mcast_join.c	/^Mcast_unblock_source(int sockfd, const SA *src, socklen_t srclen,$/;"	f
+mcast_block_source	lib/mcast_join.c	/^mcast_block_source(int sockfd, const SA *src, socklen_t srclen,$/;"	f
+mcast_join	lib/mcast_join.c	/^mcast_join(int sockfd, const SA *grp, socklen_t grplen,$/;"	f
+mcast_join_source_group	lib/mcast_join.c	/^mcast_join_source_group(int sockfd, const SA *src, socklen_t srclen,$/;"	f
+mcast_unblock_source	lib/mcast_join.c	/^mcast_unblock_source(int sockfd, const SA *src, socklen_t srclen,$/;"	f
+Mcast_leave	lib/mcast_leave.c	/^Mcast_leave(int sockfd, const SA *grp, socklen_t grplen)$/;"	f
+Mcast_leave_source_group	lib/mcast_leave.c	/^Mcast_leave_source_group(int sockfd, const SA *src, socklen_t srclen,$/;"	f
+mcast_leave	lib/mcast_leave.c	/^mcast_leave(int sockfd, const SA *grp, socklen_t grplen)$/;"	f
+mcast_leave_source_group	lib/mcast_leave.c	/^mcast_leave_source_group(int sockfd, const SA *src, socklen_t srclen,$/;"	f
+Mcast_set_if	lib/mcast_set_if.c	/^Mcast_set_if(int sockfd, const char *ifname, u_int ifindex)$/;"	f
+mcast_set_if	lib/mcast_set_if.c	/^mcast_set_if(int sockfd, const char *ifname, u_int ifindex)$/;"	f
+Mcast_set_loop	lib/mcast_set_loop.c	/^Mcast_set_loop(int sockfd, int onoff)$/;"	f
+mcast_set_loop	lib/mcast_set_loop.c	/^mcast_set_loop(int sockfd, int onoff)$/;"	f
+Mcast_set_ttl	lib/mcast_set_ttl.c	/^Mcast_set_ttl(int sockfd, int val)$/;"	f
+mcast_set_ttl	lib/mcast_set_ttl.c	/^mcast_set_ttl(int sockfd, int val)$/;"	f
+My_addrs	lib/my_addrs.c	/^My_addrs(int *pfamily)$/;"	f
+my_addrs	lib/my_addrs.c	/^my_addrs(int *addrtype)$/;"	f
+pselect	lib/pselect.c	/^pselect(int nfds, fd_set *rset, fd_set *wset, fd_set *xset,$/;"	f
+Read_fd	lib/read_fd.c	/^Read_fd(int fd, void *ptr, size_t nbytes, int *recvfd)$/;"	f
+read_fd	lib/read_fd.c	/^read_fd(int fd, void *ptr, size_t nbytes, int *recvfd)$/;"	f
+Readable_timeo	lib/readable_timeo.c	/^Readable_timeo(int fd, int sec)$/;"	f
+readable_timeo	lib/readable_timeo.c	/^readable_timeo(int fd, int sec)$/;"	f
+Readline	lib/readline.c	/^Readline(int fd, void *ptr, size_t maxlen)$/;"	f
+my_read	lib/readline.c	/^my_read(int fd, char *ptr)$/;"	f	file:
+read_buf	lib/readline.c	/^static char	read_buf[MAXLINE];$/;"	v	file:
+read_cnt	lib/readline.c	/^static int	read_cnt;$/;"	v	file:
+read_ptr	lib/readline.c	/^static char	*read_ptr;$/;"	v	file:
+readline	lib/readline.c	/^readline(int fd, void *vptr, size_t maxlen)$/;"	f
+readlinebuf	lib/readline.c	/^readlinebuf(void **vptrptr)$/;"	f
+Readn	lib/readn.c	/^Readn(int fd, void *ptr, size_t nbytes)$/;"	f
+readn	lib/readn.c	/^readn(int fd, void *vptr, size_t n)$/;"	f
+RTT_RTOCALC	lib/rtt.c	/^#define	RTT_RTOCALC(/;"	d	file:
+rtt_d_flag	lib/rtt.c	/^int		rtt_d_flag = 0;		\/* debug flag; can be set by caller *\/$/;"	v
+rtt_debug	lib/rtt.c	/^rtt_debug(struct rtt_info *ptr)$/;"	f
+rtt_init	lib/rtt.c	/^rtt_init(struct rtt_info *ptr)$/;"	f
+rtt_minmax	lib/rtt.c	/^rtt_minmax(float rto)$/;"	f	file:
+rtt_newpack	lib/rtt.c	/^rtt_newpack(struct rtt_info *ptr)$/;"	f
+rtt_start	lib/rtt.c	/^rtt_start(struct rtt_info *ptr)$/;"	f
+rtt_stop	lib/rtt.c	/^rtt_stop(struct rtt_info *ptr, uint32_t ms)$/;"	f
+rtt_timeout	lib/rtt.c	/^rtt_timeout(struct rtt_info *ptr)$/;"	f
+rtt_ts	lib/rtt.c	/^rtt_ts(struct rtt_info *ptr)$/;"	f
+Signal	lib/signal.c	/^Signal(int signo, Sigfunc *func)	\/* for our signal() function *\/$/;"	f
+signal	lib/signal.c	/^signal(int signo, Sigfunc *func)$/;"	f
+Signal_intr	lib/signal_intr.c	/^Signal_intr(int signo, Sigfunc *func)$/;"	f
+signal_intr	lib/signal_intr.c	/^signal_intr(int signo, Sigfunc *func)$/;"	f
+snprintf	lib/snprintf.c	/^snprintf(char *buf, size_t size, const char *fmt, ...)$/;"	f
+Sock_bind_wild	lib/sock_bind_wild.c	/^Sock_bind_wild(int sockfd, int family)$/;"	f
+sock_bind_wild	lib/sock_bind_wild.c	/^sock_bind_wild(int sockfd, int family)$/;"	f
+sock_cmp_addr	lib/sock_cmp_addr.c	/^sock_cmp_addr(const struct sockaddr *sa1, const struct sockaddr *sa2,$/;"	f
+sock_cmp_port	lib/sock_cmp_port.c	/^sock_cmp_port(const struct sockaddr *sa1, const struct sockaddr *sa2,$/;"	f
+sock_get_port	lib/sock_get_port.c	/^sock_get_port(const struct sockaddr *sa, socklen_t salen)$/;"	f
+Sock_ntop	lib/sock_ntop.c	/^Sock_ntop(const struct sockaddr *sa, socklen_t salen)$/;"	f
+sock_ntop	lib/sock_ntop.c	/^sock_ntop(const struct sockaddr *sa, socklen_t salen)$/;"	f
+Sock_ntop_host	lib/sock_ntop_host.c	/^Sock_ntop_host(const struct sockaddr *sa, socklen_t salen)$/;"	f
+sock_ntop_host	lib/sock_ntop_host.c	/^sock_ntop_host(const struct sockaddr *sa, socklen_t salen)$/;"	f
+sock_set_addr	lib/sock_set_addr.c	/^sock_set_addr(struct sockaddr *sa, socklen_t salen, const void *addr)$/;"	f
+sock_set_port	lib/sock_set_port.c	/^sock_set_port(struct sockaddr *sa, socklen_t salen, int port)$/;"	f
+sock_set_wild	lib/sock_set_wild.c	/^sock_set_wild(struct sockaddr *sa, socklen_t salen)$/;"	f
+sockatmark	lib/sockatmark.c	/^sockatmark(int fd)$/;"	f
+Sockfd_to_family	lib/sockfd_to_family.c	/^Sockfd_to_family(int sockfd)$/;"	f
+sockfd_to_family	lib/sockfd_to_family.c	/^sockfd_to_family(int sockfd)$/;"	f
+str_cli	lib/str_cli.c	/^str_cli(FILE *fp, int sockfd)$/;"	f
+str_echo	lib/str_echo.c	/^str_echo(int sockfd)$/;"	f
+Tcp_connect	lib/tcp_connect.c	/^Tcp_connect(const char *host, const char *serv)$/;"	f
+tcp_connect	lib/tcp_connect.c	/^tcp_connect(const char *host, const char *serv)$/;"	f
+Tcp_listen	lib/tcp_listen.c	/^Tcp_listen(const char *host, const char *serv, socklen_t *addrlenp)$/;"	f
+tcp_listen	lib/tcp_listen.c	/^tcp_listen(const char *host, const char *serv, socklen_t *addrlenp)$/;"	f
+tv_sub	lib/tv_sub.c	/^tv_sub(struct timeval *out, struct timeval *in)$/;"	f
+Udp_client	lib/udp_client.c	/^Udp_client(const char *host, const char *serv, SA **saptr, socklen_t *lenptr)$/;"	f
+udp_client	lib/udp_client.c	/^udp_client(const char *host, const char *serv, SA **saptr, socklen_t *lenp)$/;"	f
+Udp_connect	lib/udp_connect.c	/^Udp_connect(const char *host, const char *serv)$/;"	f
+udp_connect	lib/udp_connect.c	/^udp_connect(const char *host, const char *serv)$/;"	f
+Udp_server	lib/udp_server.c	/^Udp_server(const char *host, const char *serv, socklen_t *addrlenp)$/;"	f
+udp_server	lib/udp_server.c	/^udp_server(const char *host, const char *serv, socklen_t *addrlenp)$/;"	f
+AF_LOCAL	lib/unp.h	/^#define AF_LOCAL	/;"	d
+BUFFSIZE	lib/unp.h	/^#define	BUFFSIZE	/;"	d
+CMSG_LEN	lib/unp.h	/^#define	CMSG_LEN(/;"	d
+CMSG_SPACE	lib/unp.h	/^#define	CMSG_SPACE(/;"	d
+DIR_MODE	lib/unp.h	/^#define	DIR_MODE	/;"	d
+FILE_MODE	lib/unp.h	/^#define	FILE_MODE	/;"	d
+INADDR_NONE	lib/unp.h	/^#define	INADDR_NONE	/;"	d
+INET6_ADDRSTRLEN	lib/unp.h	/^#define	INET6_ADDRSTRLEN	/;"	d
+INET_ADDRSTRLEN	lib/unp.h	/^#define	INET_ADDRSTRLEN	/;"	d
+INFTIM	lib/unp.h	/^#define INFTIM /;"	d
+INFTIM_UNPH	lib/unp.h	/^#define	INFTIM_UNPH	/;"	d
+LISTENQ	lib/unp.h	/^#define	LISTENQ	/;"	d
+MAXLINE	lib/unp.h	/^#define	MAXLINE	/;"	d
+PF_LOCAL	lib/unp.h	/^#define PF_LOCAL	/;"	d
+SA	lib/unp.h	/^#define	SA	/;"	d
+SERV_PORT	lib/unp.h	/^#define	SERV_PORT	/;"	d
+SERV_PORT_STR	lib/unp.h	/^#define	SERV_PORT_STR	/;"	d
+SHUT_RD	lib/unp.h	/^#define	SHUT_RD	/;"	d
+SHUT_RDWR	lib/unp.h	/^#define	SHUT_RDWR	/;"	d
+SHUT_WR	lib/unp.h	/^#define	SHUT_WR	/;"	d
+SUN_LEN	lib/unp.h	/^# define	SUN_LEN(/;"	d
+Sigfunc	lib/unp.h	/^typedef	void	Sigfunc(int);	\/* for signal handlers *\/$/;"	t
+UNIXDG_PATH	lib/unp.h	/^#define	UNIXDG_PATH	/;"	d
+UNIXSTR_PATH	lib/unp.h	/^#define	UNIXSTR_PATH	/;"	d
+__SS_ALIGNSIZE	lib/unp.h	/^#define	__SS_ALIGNSIZE	/;"	d
+__SS_MAXSIZE	lib/unp.h	/^#define	__SS_MAXSIZE	/;"	d
+__SS_PAD1SIZE	lib/unp.h	/^#define	__SS_PAD1SIZE	/;"	d
+__SS_PAD2SIZE	lib/unp.h	/^#define	__SS_PAD2SIZE	/;"	d
+__ss_align	lib/unp.h	/^	int64_t		__ss_align;$/;"	m	struct:sockaddr_storage
+__ss_pad1	lib/unp.h	/^	char		__ss_pad1[__SS_PAD1SIZE];$/;"	m	struct:sockaddr_storage
+__ss_pad2	lib/unp.h	/^	char		__ss_pad2[__SS_PAD2SIZE];$/;"	m	struct:sockaddr_storage
+__unp_h	lib/unp.h	/^#define	__unp_h$/;"	d
+bzero	lib/unp.h	/^#define	bzero(/;"	d
+gethostbyname2	lib/unp.h	/^#define	gethostbyname2(/;"	d
+if_index	lib/unp.h	/^  unsigned int   if_index;  \/* 1, 2, ... *\/$/;"	m	struct:if_nameindex
+if_name	lib/unp.h	/^  char          *if_name;   \/* null-terminated name: "le0", ... *\/$/;"	m	struct:if_nameindex
+if_nameindex	lib/unp.h	/^struct if_nameindex {$/;"	s
+ipi_addr	lib/unp.h	/^  struct in_addr	ipi_addr;	\/* dst IPv4 address *\/$/;"	m	struct:unp_in_pktinfo	typeref:struct:unp_in_pktinfo::in_addr
+ipi_ifindex	lib/unp.h	/^  int				ipi_ifindex;\/* received interface index *\/$/;"	m	struct:unp_in_pktinfo
+max	lib/unp.h	/^#define	max(/;"	d
+min	lib/unp.h	/^#define	min(/;"	d
+recv	lib/unp.h	/^#define	recv(/;"	d
+recv	lib/unp.h	/^#undef	recv$/;"	d
+send	lib/unp.h	/^#define	send(/;"	d
+send	lib/unp.h	/^#undef	send$/;"	d
+sockaddr_storage	lib/unp.h	/^struct sockaddr_storage {$/;"	s
+ss_family	lib/unp.h	/^	sa_family_t	ss_family;$/;"	m	struct:sockaddr_storage
+ss_len	lib/unp.h	/^	u_char		ss_len;$/;"	m	struct:sockaddr_storage
+timespec	lib/unp.h	/^struct timespec {$/;"	s
+tv_nsec	lib/unp.h	/^  long		tv_nsec;	\/* and nanoseconds *\/$/;"	m	struct:timespec
+tv_sec	lib/unp.h	/^  time_t	tv_sec;		\/* seconds *\/$/;"	m	struct:timespec
+unp_in_pktinfo	lib/unp.h	/^struct unp_in_pktinfo {$/;"	s
+IFI_ALIAS	lib/unpifi.h	/^#define	IFI_ALIAS	/;"	d
+IFI_HADDR	lib/unpifi.h	/^#define	IFI_HADDR	/;"	d
+IFI_NAME	lib/unpifi.h	/^#define	IFI_NAME	/;"	d
+__unp_ifi_h	lib/unpifi.h	/^#define	__unp_ifi_h$/;"	d
+ifi_addr	lib/unpifi.h	/^  struct sockaddr  *ifi_addr;	\/* primary address *\/$/;"	m	struct:ifi_info	typeref:struct:ifi_info::sockaddr
+ifi_brdaddr	lib/unpifi.h	/^  struct sockaddr  *ifi_brdaddr;\/* broadcast address *\/$/;"	m	struct:ifi_info	typeref:struct:ifi_info::sockaddr
+ifi_dstaddr	lib/unpifi.h	/^  struct sockaddr  *ifi_dstaddr;\/* destination address *\/$/;"	m	struct:ifi_info	typeref:struct:ifi_info::sockaddr
+ifi_flags	lib/unpifi.h	/^  short   ifi_flags;			\/* IFF_xxx constants from <net\/if.h> *\/$/;"	m	struct:ifi_info
+ifi_haddr	lib/unpifi.h	/^  u_char  ifi_haddr[IFI_HADDR];	\/* hardware address *\/$/;"	m	struct:ifi_info
+ifi_hlen	lib/unpifi.h	/^  u_short ifi_hlen;				\/* # bytes in hardware address: 0, 6, 8 *\/$/;"	m	struct:ifi_info
+ifi_index	lib/unpifi.h	/^  short   ifi_index;			\/* interface index *\/$/;"	m	struct:ifi_info
+ifi_info	lib/unpifi.h	/^struct ifi_info {$/;"	s
+ifi_mtu	lib/unpifi.h	/^  short   ifi_mtu;				\/* interface MTU *\/$/;"	m	struct:ifi_info
+ifi_myflags	lib/unpifi.h	/^  short   ifi_myflags;			\/* our own IFI_xxx flags *\/$/;"	m	struct:ifi_info
+ifi_name	lib/unpifi.h	/^  char    ifi_name[IFI_NAME];	\/* interface name, null-terminated *\/$/;"	m	struct:ifi_info
+ifi_next	lib/unpifi.h	/^  struct ifi_info  *ifi_next;	\/* next of these structures *\/$/;"	m	struct:ifi_info	typeref:struct:ifi_info::ifi_info
+RTT_MAXNREXMT	lib/unprtt.h	/^#define	RTT_MAXNREXMT /;"	d
+RTT_RXTMAX	lib/unprtt.h	/^#define	RTT_RXTMAX /;"	d
+RTT_RXTMIN	lib/unprtt.h	/^#define	RTT_RXTMIN /;"	d
+__unp_rtt_h	lib/unprtt.h	/^#define	__unp_rtt_h$/;"	d
+rtt_base	lib/unprtt.h	/^  uint32_t	rtt_base;	\/* # sec since 1\/1\/1970 at start *\/$/;"	m	struct:rtt_info
+rtt_info	lib/unprtt.h	/^struct rtt_info {$/;"	s
+rtt_nrexmt	lib/unprtt.h	/^  int		rtt_nrexmt;	\/* # times retransmitted: 0, 1, 2, ... *\/$/;"	m	struct:rtt_info
+rtt_rto	lib/unprtt.h	/^  float		rtt_rto;	\/* current RTO to use, in seconds *\/$/;"	m	struct:rtt_info
+rtt_rtt	lib/unprtt.h	/^  float		rtt_rtt;	\/* most recent measured RTT, in seconds *\/$/;"	m	struct:rtt_info
+rtt_rttvar	lib/unprtt.h	/^  float		rtt_rttvar;	\/* smoothed mean deviation, in seconds *\/$/;"	m	struct:rtt_info
+rtt_srtt	lib/unprtt.h	/^  float		rtt_srtt;	\/* smoothed RTT estimator, in seconds *\/$/;"	m	struct:rtt_info
+__unp_pthread_h	lib/unpthread.h	/^#define	__unp_pthread_h$/;"	d
+Inet_ntop	lib/wraplib.c	/^Inet_ntop(int family, const void *addrptr, char *strptr, size_t len)$/;"	f
+Inet_pton	lib/wraplib.c	/^Inet_pton(int family, const char *strptr, void *addrptr)$/;"	f
+Pthread_cond_broadcast	lib/wrappthread.c	/^Pthread_cond_broadcast(pthread_cond_t *cptr)$/;"	f
+Pthread_cond_signal	lib/wrappthread.c	/^Pthread_cond_signal(pthread_cond_t *cptr)$/;"	f
+Pthread_cond_timedwait	lib/wrappthread.c	/^Pthread_cond_timedwait(pthread_cond_t *cptr, pthread_mutex_t *mptr,$/;"	f
+Pthread_cond_wait	lib/wrappthread.c	/^Pthread_cond_wait(pthread_cond_t *cptr, pthread_mutex_t *mptr)$/;"	f
+Pthread_create	lib/wrappthread.c	/^Pthread_create(pthread_t *tid, const pthread_attr_t *attr,$/;"	f
+Pthread_detach	lib/wrappthread.c	/^Pthread_detach(pthread_t tid)$/;"	f
+Pthread_join	lib/wrappthread.c	/^Pthread_join(pthread_t tid, void **status)$/;"	f
+Pthread_key_create	lib/wrappthread.c	/^Pthread_key_create(pthread_key_t *key, void (*func)(void *))$/;"	f
+Pthread_kill	lib/wrappthread.c	/^Pthread_kill(pthread_t tid, int signo)$/;"	f
+Pthread_mutex_init	lib/wrappthread.c	/^Pthread_mutex_init(pthread_mutex_t *mptr, pthread_mutexattr_t *attr)$/;"	f
+Pthread_mutex_lock	lib/wrappthread.c	/^Pthread_mutex_lock(pthread_mutex_t *mptr)$/;"	f
+Pthread_mutex_unlock	lib/wrappthread.c	/^Pthread_mutex_unlock(pthread_mutex_t *mptr)$/;"	f
+Pthread_mutexattr_init	lib/wrappthread.c	/^Pthread_mutexattr_init(pthread_mutexattr_t *attr)$/;"	f
+Pthread_mutexattr_setpshared	lib/wrappthread.c	/^Pthread_mutexattr_setpshared(pthread_mutexattr_t *attr, int flag)$/;"	f
+Pthread_once	lib/wrappthread.c	/^Pthread_once(pthread_once_t *ptr, void (*func)(void))$/;"	f
+Pthread_setspecific	lib/wrappthread.c	/^Pthread_setspecific(pthread_key_t key, const void *value)$/;"	f
+Accept	lib/wrapsock.c	/^Accept(int fd, struct sockaddr *sa, socklen_t *salenptr)$/;"	f
+Bind	lib/wrapsock.c	/^Bind(int fd, const struct sockaddr *sa, socklen_t salen)$/;"	f
+Connect	lib/wrapsock.c	/^Connect(int fd, const struct sockaddr *sa, socklen_t salen)$/;"	f
+Getpeername	lib/wrapsock.c	/^Getpeername(int fd, struct sockaddr *sa, socklen_t *salenptr)$/;"	f
+Getsockname	lib/wrapsock.c	/^Getsockname(int fd, struct sockaddr *sa, socklen_t *salenptr)$/;"	f
+Getsockopt	lib/wrapsock.c	/^Getsockopt(int fd, int level, int optname, void *optval, socklen_t *optlenptr)$/;"	f
+Inet6_rth_add	lib/wrapsock.c	/^Inet6_rth_add(void *rthbuf, const struct in6_addr *addr)$/;"	f
+Inet6_rth_getaddr	lib/wrapsock.c	/^Inet6_rth_getaddr(const void *rthbuf, int idx)$/;"	f
+Inet6_rth_init	lib/wrapsock.c	/^Inet6_rth_init(void *rthbuf, socklen_t rthlen, int type, int segments)$/;"	f
+Inet6_rth_reverse	lib/wrapsock.c	/^Inet6_rth_reverse(const void *in, void *out)$/;"	f
+Inet6_rth_segments	lib/wrapsock.c	/^Inet6_rth_segments(const void *rthbuf)$/;"	f
+Inet6_rth_space	lib/wrapsock.c	/^Inet6_rth_space(int type, int segments)$/;"	f
+Kevent	lib/wrapsock.c	/^Kevent(int kq, const struct kevent *changelist, int nchanges,$/;"	f
+Kqueue	lib/wrapsock.c	/^Kqueue(void)$/;"	f
+Listen	lib/wrapsock.c	/^Listen(int fd, int backlog)$/;"	f
+Poll	lib/wrapsock.c	/^Poll(struct pollfd *fdarray, unsigned long nfds, int timeout)$/;"	f
+Recv	lib/wrapsock.c	/^Recv(int fd, void *ptr, size_t nbytes, int flags)$/;"	f
+Recvfrom	lib/wrapsock.c	/^Recvfrom(int fd, void *ptr, size_t nbytes, int flags,$/;"	f
+Recvmsg	lib/wrapsock.c	/^Recvmsg(int fd, struct msghdr *msg, int flags)$/;"	f
+Select	lib/wrapsock.c	/^Select(int nfds, fd_set *readfds, fd_set *writefds, fd_set *exceptfds,$/;"	f
+Send	lib/wrapsock.c	/^Send(int fd, const void *ptr, size_t nbytes, int flags)$/;"	f
+Sendmsg	lib/wrapsock.c	/^Sendmsg(int fd, const struct msghdr *msg, int flags)$/;"	f
+Sendto	lib/wrapsock.c	/^Sendto(int fd, const void *ptr, size_t nbytes, int flags,$/;"	f
+Setsockopt	lib/wrapsock.c	/^Setsockopt(int fd, int level, int optname, const void *optval, socklen_t optlen)$/;"	f
+Shutdown	lib/wrapsock.c	/^Shutdown(int fd, int how)$/;"	f
+Sockatmark	lib/wrapsock.c	/^Sockatmark(int fd)$/;"	f
+Socket	lib/wrapsock.c	/^Socket(int family, int type, int protocol)$/;"	f
+Socketpair	lib/wrapsock.c	/^Socketpair(int family, int type, int protocol, int *fd)$/;"	f
+Fclose	lib/wrapstdio.c	/^Fclose(FILE *fp)$/;"	f
+Fdopen	lib/wrapstdio.c	/^Fdopen(int fd, const char *type)$/;"	f
+Fgets	lib/wrapstdio.c	/^Fgets(char *ptr, int n, FILE *stream)$/;"	f
+Fopen	lib/wrapstdio.c	/^Fopen(const char *filename, const char *mode)$/;"	f
+Fputs	lib/wrapstdio.c	/^Fputs(const char *ptr, FILE *stream)$/;"	f
+Calloc	lib/wrapunix.c	/^Calloc(size_t n, size_t size)$/;"	f
+Close	lib/wrapunix.c	/^Close(int fd)$/;"	f
+Dup2	lib/wrapunix.c	/^Dup2(int fd1, int fd2)$/;"	f
+Fcntl	lib/wrapunix.c	/^Fcntl(int fd, int cmd, int arg)$/;"	f
+Fork	lib/wrapunix.c	/^Fork(void)$/;"	f
+Gettimeofday	lib/wrapunix.c	/^Gettimeofday(struct timeval *tv, void *foo)$/;"	f
+Ioctl	lib/wrapunix.c	/^Ioctl(int fd, int request, void *arg)$/;"	f
+Malloc	lib/wrapunix.c	/^Malloc(size_t size)$/;"	f
+Mkstemp	lib/wrapunix.c	/^Mkstemp(char *template)$/;"	f
+Mmap	lib/wrapunix.c	/^Mmap(void *addr, size_t len, int prot, int flags, int fd, off_t offset)$/;"	f
+Open	lib/wrapunix.c	/^Open(const char *pathname, int oflag, mode_t mode)$/;"	f
+Pipe	lib/wrapunix.c	/^Pipe(int *fds)$/;"	f
+Read	lib/wrapunix.c	/^Read(int fd, void *ptr, size_t nbytes)$/;"	f
+Sigaddset	lib/wrapunix.c	/^Sigaddset(sigset_t *set, int signo)$/;"	f
+Sigdelset	lib/wrapunix.c	/^Sigdelset(sigset_t *set, int signo)$/;"	f
+Sigemptyset	lib/wrapunix.c	/^Sigemptyset(sigset_t *set)$/;"	f
+Sigfillset	lib/wrapunix.c	/^Sigfillset(sigset_t *set)$/;"	f
+Sigismember	lib/wrapunix.c	/^Sigismember(const sigset_t *set, int signo)$/;"	f
+Sigpending	lib/wrapunix.c	/^Sigpending(sigset_t *set)$/;"	f
+Sigprocmask	lib/wrapunix.c	/^Sigprocmask(int how, const sigset_t *set, sigset_t *oset)$/;"	f
+Strdup	lib/wrapunix.c	/^Strdup(const char *str)$/;"	f
+Sysconf	lib/wrapunix.c	/^Sysconf(int name)$/;"	f
+Sysctl	lib/wrapunix.c	/^Sysctl(int *name, u_int namelen, void *oldp, size_t *oldlenp,$/;"	f
+Unlink	lib/wrapunix.c	/^Unlink(const char *pathname)$/;"	f
+Wait	lib/wrapunix.c	/^Wait(int *iptr)$/;"	f
+Waitpid	lib/wrapunix.c	/^Waitpid(pid_t pid, int *iptr, int options)$/;"	f
+Write	lib/wrapunix.c	/^Write(int fd, void *ptr, size_t nbytes)$/;"	f
+Writable_timeo	lib/writable_timeo.c	/^Writable_timeo(int fd, int sec)$/;"	f
+writable_timeo	lib/writable_timeo.c	/^writable_timeo(int fd, int sec)$/;"	f
+Write_fd	lib/write_fd.c	/^Write_fd(int fd, void *ptr, size_t nbytes, int sendfd)$/;"	f
+write_fd	lib/write_fd.c	/^write_fd(int fd, void *ptr, size_t nbytes, int sendfd)$/;"	f
+Writen	lib/writen.c	/^Writen(int fd, void *ptr, size_t nbytes)$/;"	f
+writen	lib/writen.c	/^writen(int fd, const void *vptr, size_t n)$/;"	f
+AI_CANONNAME	libfree/addrinfo.h	/^#define	AI_CANONNAME	/;"	d
+AI_PASSIVE	libfree/addrinfo.h	/^#define	AI_PASSIVE	/;"	d
+EAI_ADDRFAMILY	libfree/addrinfo.h	/^#define	EAI_ADDRFAMILY	/;"	d
+EAI_AGAIN	libfree/addrinfo.h	/^#define	EAI_AGAIN	/;"	d
+EAI_BADFLAGS	libfree/addrinfo.h	/^#define	EAI_BADFLAGS	/;"	d
+EAI_FAIL	libfree/addrinfo.h	/^#define	EAI_FAIL	/;"	d
+EAI_FAMILY	libfree/addrinfo.h	/^#define	EAI_FAMILY	/;"	d
+EAI_MEMORY	libfree/addrinfo.h	/^#define	EAI_MEMORY	/;"	d
+EAI_NODATA	libfree/addrinfo.h	/^#define	EAI_NODATA	/;"	d
+EAI_NONAME	libfree/addrinfo.h	/^#define	EAI_NONAME	/;"	d
+EAI_SERVICE	libfree/addrinfo.h	/^#define	EAI_SERVICE	/;"	d
+EAI_SOCKTYPE	libfree/addrinfo.h	/^#define	EAI_SOCKTYPE	/;"	d
+EAI_SYSTEM	libfree/addrinfo.h	/^#define	EAI_SYSTEM	/;"	d
+NI_DGRAM	libfree/addrinfo.h	/^#define	NI_DGRAM	/;"	d
+NI_MAXHOST	libfree/addrinfo.h	/^#define	NI_MAXHOST	/;"	d
+NI_MAXSERV	libfree/addrinfo.h	/^#define	NI_MAXSERV	/;"	d
+NI_NAMEREQD	libfree/addrinfo.h	/^#define	NI_NAMEREQD	/;"	d
+NI_NOFQDN	libfree/addrinfo.h	/^#define	NI_NOFQDN	/;"	d
+NI_NUMERICHOST	libfree/addrinfo.h	/^#define	NI_NUMERICHOST /;"	d
+NI_NUMERICSERV	libfree/addrinfo.h	/^#define	NI_NUMERICSERV /;"	d
+__addrinfo_h	libfree/addrinfo.h	/^#define	__addrinfo_h$/;"	d
+addrinfo	libfree/addrinfo.h	/^struct addrinfo {$/;"	s
+ai_addr	libfree/addrinfo.h	/^  struct sockaddr	*ai_addr;	\/* binary address *\/$/;"	m	struct:addrinfo	typeref:struct:addrinfo::sockaddr
+ai_addrlen	libfree/addrinfo.h	/^  size_t	ai_addrlen;			\/* length of ai_addr *\/$/;"	m	struct:addrinfo
+ai_canonname	libfree/addrinfo.h	/^  char		*ai_canonname;		\/* canonical name for host *\/$/;"	m	struct:addrinfo
+ai_family	libfree/addrinfo.h	/^  int		ai_family;			\/* PF_xxx *\/$/;"	m	struct:addrinfo
+ai_flags	libfree/addrinfo.h	/^  int		ai_flags;			\/* AI_PASSIVE, AI_CANONNAME *\/$/;"	m	struct:addrinfo
+ai_next	libfree/addrinfo.h	/^  struct addrinfo	*ai_next;	\/* next structure in linked list *\/$/;"	m	struct:addrinfo	typeref:struct:addrinfo::addrinfo
+ai_protocol	libfree/addrinfo.h	/^  int		ai_protocol;		\/* IPPROTO_xxx for IPv4 and IPv6 *\/$/;"	m	struct:addrinfo
+ai_socktype	libfree/addrinfo.h	/^  int		ai_socktype;		\/* SOCK_xxx *\/$/;"	m	struct:addrinfo
+AF_LOCAL	libfree/getaddrinfo.c	/^#define	AF_LOCAL	/;"	d	file:
+AI_CLONE	libfree/getaddrinfo.c	/^#define	AI_CLONE	/;"	d	file:
+HENTBUFSIZ	libfree/getaddrinfo.c	/^#define	HENTBUFSIZ	/;"	d	file:
+HENTMAXADDR	libfree/getaddrinfo.c	/^#define	HENTMAXADDR	/;"	d	file:
+INET6	libfree/getaddrinfo.c	/^#define	INET6	/;"	d	file:
+IPV4	libfree/getaddrinfo.c	/^#define	IPV4	/;"	d	file:
+IPV6	libfree/getaddrinfo.c	/^#define	IPV6	/;"	d	file:
+LOCAL	libfree/getaddrinfo.c	/^#define	LOCAL	/;"	d	file:
+PF_LOCAL	libfree/getaddrinfo.c	/^#define	PF_LOCAL	/;"	d	file:
+RES_USE_INET6	libfree/getaddrinfo.c	/^#define	RES_USE_INET6	/;"	d	file:
+_SOCKADDR_LEN	libfree/getaddrinfo.c	/^#define	_SOCKADDR_LEN	/;"	d	file:
+addrinfo_local	libfree/getaddrinfo.c	/^addrinfo_local(const char *path, struct addrinfo *hints,$/;"	f	file:
+error	libfree/getaddrinfo.c	/^#define	error(/;"	d	file:
+freeaddrinfo	libfree/getaddrinfo.c	/^freeaddrinfo(struct addrinfo *aihead)$/;"	f
+getaddrinfo	libfree/getaddrinfo.c	/^getaddrinfo(const char *host, const char *serv,$/;"	f
+getaddrinfo_clone	libfree/getaddrinfo.c	/^getaddrinfo_clone(struct addrinfo *ai)$/;"	f	file:
+getaddrinfo_host	libfree/getaddrinfo.c	/^getaddrinfo_host(const char *host,$/;"	f	file:
+getaddrinfo_port	libfree/getaddrinfo.c	/^getaddrinfo_port(struct addrinfo *aihead, int port, int socktype)$/;"	f	file:
+getaddrinfo_serv	libfree/getaddrinfo.c	/^getaddrinfo_serv(struct addrinfo *aihead,$/;"	f	file:
+hints_default	libfree/getaddrinfo.c	/^static struct addrinfo	hints_default;$/;"	v	typeref:struct:addrinfo	file:
+HENTBUFSIZ	libfree/getnameinfo.c	/^#define	HENTBUFSIZ	/;"	d	file:
+IPV4	libfree/getnameinfo.c	/^#define	IPV4	/;"	d	file:
+IPV6	libfree/getnameinfo.c	/^#define	IPV6	/;"	d	file:
+do_ipv46	libfree/getnameinfo.c	/^do_ipv46(char *host, size_t hostlen, char *serv, size_t servlen,$/;"	f	file:
+getnameinfo	libfree/getnameinfo.c	/^getnameinfo(const struct sockaddr *sa, size_t salen,$/;"	f
+in_cksum	libfree/in_cksum.c	/^in_cksum(uint16_t *addr, int len)$/;"	f
+inet_aton	libfree/inet_aton.c	/^inet_aton(const char *cp, struct in_addr *ap)$/;"	f
+AF_INET6	libfree/inet_ntop.c	/^#define	AF_INET6	/;"	d	file:
+IN6ADDRSZ	libfree/inet_ntop.c	/^#define	IN6ADDRSZ	/;"	d	file:
+INT16SZ	libfree/inet_ntop.c	/^#define	INT16SZ	/;"	d	file:
+inet_ntop	libfree/inet_ntop.c	/^inet_ntop(af, src, dst, size)$/;"	f
+inet_ntop4	libfree/inet_ntop.c	/^inet_ntop4(src, dst, size)$/;"	f	file:
+inet_ntop6	libfree/inet_ntop.c	/^inet_ntop6(src, dst, size)$/;"	f	file:
+rcsid	libfree/inet_ntop.c	/^static char rcsid[] = "$Id: inet_ntop.c,v 1.1.1.1 2002\/11\/14 03:33:35 fenner Exp $";$/;"	v	file:
+INET_ADDRSTRLEN	libfree/inet_ntop_ipv4.c	/^#define	INET_ADDRSTRLEN	/;"	d	file:
+inet_ntop	libfree/inet_ntop_ipv4.c	/^inet_ntop(int family, const void *addrptr, char *strptr, size_t len)$/;"	f
+AF_INET6	libfree/inet_pton.c	/^#define	AF_INET6	/;"	d	file:
+IN6ADDRSZ	libfree/inet_pton.c	/^#define	IN6ADDRSZ	/;"	d	file:
+INADDRSZ	libfree/inet_pton.c	/^#define	INADDRSZ	/;"	d	file:
+INT16SZ	libfree/inet_pton.c	/^#define	INT16SZ	/;"	d	file:
+inet_pton	libfree/inet_pton.c	/^inet_pton(af, src, dst)$/;"	f
+inet_pton4	libfree/inet_pton.c	/^inet_pton4(src, dst)$/;"	f	file:
+inet_pton6	libfree/inet_pton.c	/^inet_pton6(src, dst)$/;"	f	file:
+rcsid	libfree/inet_pton.c	/^static char rcsid[] = "$Id: inet_pton.c,v 1.1.1.1 2002\/11\/14 03:33:35 fenner Exp $";$/;"	v	file:
+inet_pton	libfree/inet_pton_ipv4.c	/^inet_pton(int family, const char *strptr, void *addrptr)$/;"	f
+main	libfree/test_ascii2addr.c	/^main()$/;"	f
+main	libfree/test_getservbyname_r.c	/^main()$/;"	f
+AF_INET6	libfree/test_inet_pton.c	/^#define	AF_INET6	/;"	d	file:
+main	libfree/test_inet_pton.c	/^main(int argc, char **argv)$/;"	f
+PROGS	libgai/Makefile	/^PROGS = testga test1$/;"	m
+AI_CANONNAME	libgai/addrinfo.h	/^#define	AI_CANONNAME	/;"	d
+AI_PASSIVE	libgai/addrinfo.h	/^#define	AI_PASSIVE	/;"	d
+EAI_ADDRFAMILY	libgai/addrinfo.h	/^#define	EAI_ADDRFAMILY	/;"	d
+EAI_AGAIN	libgai/addrinfo.h	/^#define	EAI_AGAIN	/;"	d
+EAI_BADFLAGS	libgai/addrinfo.h	/^#define	EAI_BADFLAGS	/;"	d
+EAI_FAIL	libgai/addrinfo.h	/^#define	EAI_FAIL	/;"	d
+EAI_FAMILY	libgai/addrinfo.h	/^#define	EAI_FAMILY	/;"	d
+EAI_MEMORY	libgai/addrinfo.h	/^#define	EAI_MEMORY	/;"	d
+EAI_NODATA	libgai/addrinfo.h	/^#define	EAI_NODATA	/;"	d
+EAI_NONAME	libgai/addrinfo.h	/^#define	EAI_NONAME	/;"	d
+EAI_SERVICE	libgai/addrinfo.h	/^#define	EAI_SERVICE	/;"	d
+EAI_SOCKTYPE	libgai/addrinfo.h	/^#define	EAI_SOCKTYPE	/;"	d
+EAI_SYSTEM	libgai/addrinfo.h	/^#define	EAI_SYSTEM	/;"	d
+NI_DGRAM	libgai/addrinfo.h	/^#define	NI_DGRAM	/;"	d
+NI_MAXHOST	libgai/addrinfo.h	/^#define	NI_MAXHOST	/;"	d
+NI_MAXSERV	libgai/addrinfo.h	/^#define	NI_MAXSERV	/;"	d
+NI_NAMEREQD	libgai/addrinfo.h	/^#define	NI_NAMEREQD	/;"	d
+NI_NOFQDN	libgai/addrinfo.h	/^#define	NI_NOFQDN	/;"	d
+NI_NUMERICHOST	libgai/addrinfo.h	/^#define	NI_NUMERICHOST /;"	d
+NI_NUMERICSERV	libgai/addrinfo.h	/^#define	NI_NUMERICSERV /;"	d
+__addrinfo_h	libgai/addrinfo.h	/^#define	__addrinfo_h$/;"	d
+addrinfo	libgai/addrinfo.h	/^struct addrinfo {$/;"	s
+ai_addr	libgai/addrinfo.h	/^  struct sockaddr	*ai_addr;	\/* binary address *\/$/;"	m	struct:addrinfo	typeref:struct:addrinfo::sockaddr
+ai_addrlen	libgai/addrinfo.h	/^  size_t	ai_addrlen;			\/* length of ai_addr *\/$/;"	m	struct:addrinfo
+ai_canonname	libgai/addrinfo.h	/^  char		*ai_canonname;		\/* canonical name for host *\/$/;"	m	struct:addrinfo
+ai_family	libgai/addrinfo.h	/^  int		ai_family;			\/* PF_xxx *\/$/;"	m	struct:addrinfo
+ai_flags	libgai/addrinfo.h	/^  int		ai_flags;			\/* AI_PASSIVE, AI_CANONNAME *\/$/;"	m	struct:addrinfo
+ai_next	libgai/addrinfo.h	/^  struct addrinfo	*ai_next;	\/* next structure in linked list *\/$/;"	m	struct:addrinfo	typeref:struct:addrinfo::addrinfo
+ai_protocol	libgai/addrinfo.h	/^  int		ai_protocol;		\/* IPPROTO_xxx for IPv4 and IPv6 *\/$/;"	m	struct:addrinfo
+ai_socktype	libgai/addrinfo.h	/^  int		ai_socktype;		\/* SOCK_xxx *\/$/;"	m	struct:addrinfo
+freeaddrinfo	libgai/freeaddrinfo.c	/^freeaddrinfo(struct addrinfo *aihead)$/;"	f
+ga_aistruct	libgai/ga_aistruct.c	/^ga_aistruct(struct addrinfo ***paipnext, const struct addrinfo *hintsp,$/;"	f
+ga_clone	libgai/ga_clone.c	/^ga_clone(struct addrinfo *ai)$/;"	f
+ga_echeck	libgai/ga_echeck.c	/^ga_echeck(const char *hostname, const char *servname,$/;"	f
+ga_nsearch	libgai/ga_nsearch.c	/^ga_nsearch(const char *hostname, const struct addrinfo *hintsp,$/;"	f
+ga_port	libgai/ga_port.c	/^ga_port(struct addrinfo *aihead, int port, int socktype)$/;"	f
+ga_serv	libgai/ga_serv.c	/^ga_serv(struct addrinfo *aihead, const struct addrinfo *hintsp,$/;"	f
+ga_unix	libgai/ga_unix.c	/^ga_unix(const char *path, struct addrinfo *hintsp, struct addrinfo **result)$/;"	f
+AI_CLONE	libgai/gai_hdr.h	/^#define	AI_CLONE	/;"	d
+family	libgai/gai_hdr.h	/^  int			family;	\/* AF_xxx *\/$/;"	m	struct:search
+host	libgai/gai_hdr.h	/^  const char	*host;	\/* hostname or address string *\/$/;"	m	struct:search
+search	libgai/gai_hdr.h	/^struct search {$/;"	s
+gai_strerror	libgai/gai_strerror.c	/^gai_strerror(int err)$/;"	f
+error	libgai/getaddrinfo.c	/^#define	error(/;"	d	file:
+getaddrinfo	libgai/getaddrinfo.c	/^getaddrinfo(const char *hostname, const char *servname,$/;"	f
+getnameinfo	libgai/getnameinfo.c	/^getnameinfo(const struct sockaddr *sa, socklen_t salen,$/;"	f
+gn_ipv46	libgai/gn_ipv46.c	/^gn_ipv46(char *host, size_t hostlen, char *serv, size_t servlen,$/;"	f
+ga_unixstruct	libgai/old/ga_unixstruct.c	/^ga_unixstruct(const char *path, struct addrinfo *hintsp,$/;"	f
+AI_CLONE	libgai/old/savecopy.c	/^#define	AI_CLONE	/;"	d	file:
+error	libgai/old/savecopy.c	/^#define	error(/;"	d	file:
+family	libgai/old/savecopy.c	/^  int			family;	\/* AF_xxx *\/$/;"	m	struct:search	file:
+freeaddrinfo	libgai/old/savecopy.c	/^freeaddrinfo(struct addrinfo *aihead)$/;"	f
+ga_aistruct	libgai/old/savecopy.c	/^ga_aistruct(struct addrinfo ***paipnext, const struct addrinfo *hintsp,$/;"	f	file:
+ga_clone	libgai/old/savecopy.c	/^ga_clone(struct addrinfo *ai)$/;"	f	file:
+ga_echeck	libgai/old/savecopy.c	/^ga_echeck(const char *hostname, const char *servname,$/;"	f	file:
+ga_nsearch	libgai/old/savecopy.c	/^ga_nsearch(const char *hostname, const struct addrinfo *hintsp,$/;"	f	file:
+ga_port	libgai/old/savecopy.c	/^ga_port(struct addrinfo *aihead, int port, int socktype)$/;"	f	file:
+ga_serv	libgai/old/savecopy.c	/^ga_serv(struct addrinfo *aihead, const struct addrinfo *hintsp,$/;"	f	file:
+ga_unix	libgai/old/savecopy.c	/^ga_unix(const char *path, struct addrinfo *hintsp, struct addrinfo **result)$/;"	f	file:
+getaddrinfo	libgai/old/savecopy.c	/^getaddrinfo(const char *hostname, const char *servname,$/;"	f
+hints_default	libgai/old/savecopy.c	/^static struct addrinfo	hints_default;$/;"	v	typeref:struct:addrinfo	file:
+host	libgai/old/savecopy.c	/^  const char	*host;	\/* hostname of address string *\/$/;"	m	struct:search	file:
+search	libgai/old/savecopy.c	/^struct search {$/;"	s	file:
+main	libgai/test1.c	/^main(int argc, char **argv)$/;"	f
+do_errtest	libgai/testga.c	/^do_errtest(void)$/;"	f	file:
+do_funccall	libgai/testga.c	/^do_funccall(const char *host, const char *serv,$/;"	f	file:
+do_onetest	libgai/testga.c	/^do_onetest(char *host, char *serv, struct addrinfo *hints, int iteration)$/;"	f	file:
+main	libgai/testga.c	/^main(int argc, char **argv)$/;"	f
+str_fam	libgai/testga.c	/^str_fam(int family)$/;"	f	file:
+str_sock	libgai/testga.c	/^str_sock(int socktype)$/;"	f	file:
+usage	libgai/testga.c	/^usage(const char *msg)$/;"	f	file:
+vflag	libgai/testga.c	/^int		vflag;$/;"	v
+NEXT_SA	libroute/get_rtaddrs.c	/^#define NEXT_SA(/;"	d	file:
+ROUNDUP	libroute/get_rtaddrs.c	/^#define ROUNDUP(/;"	d	file:
+get_rtaddrs	libroute/get_rtaddrs.c	/^get_rtaddrs(int addrs, SA *sa, SA **rti_info)$/;"	f
+If_indextoname	libroute/if_indextoname.c	/^If_indextoname(unsigned int idx, char *name)$/;"	f
+if_indextoname	libroute/if_indextoname.c	/^if_indextoname(unsigned int idx, char *name)$/;"	f
+If_nameindex	libroute/if_nameindex.c	/^If_nameindex(void)$/;"	f
+if_freenameindex	libroute/if_nameindex.c	/^if_freenameindex(struct if_nameindex *ptr)$/;"	f
+if_nameindex	libroute/if_nameindex.c	/^if_nameindex(void)$/;"	f
+If_nametoindex	libroute/if_nametoindex.c	/^If_nametoindex(const char *name)$/;"	f
+if_nametoindex	libroute/if_nametoindex.c	/^if_nametoindex(const char *name)$/;"	f
+Net_rt_dump	libroute/net_rt_dump.c	/^Net_rt_dump(int family, int flags, size_t *lenp)$/;"	f
+net_rt_dump	libroute/net_rt_dump.c	/^net_rt_dump(int family, int flags, size_t *lenp)$/;"	f
+Net_rt_iflist	libroute/net_rt_iflist.c	/^Net_rt_iflist(int family, int flags, size_t *lenp)$/;"	f
+net_rt_iflist	libroute/net_rt_iflist.c	/^net_rt_iflist(int family, int flags, size_t *lenp)$/;"	f
+sock_masktop	libroute/sock_masktop.c	/^sock_masktop(SA *sa, socklen_t salen)$/;"	f
+Sock_masktop	libroute/unproute.h	/^#define	Sock_masktop(/;"	d
+PROGS	mcast/Makefile	/^PROGS =	sendrecv udpcli05 udpcli06 udpserv01$/;"	m
+dg_cli	mcast/dgclibcast1.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+recvfrom_alarm	mcast/dgclibcast1.c	/^recvfrom_alarm(int signo)$/;"	f	file:
+dg_cli	mcast/dgclimcast5.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+jmpbuf	mcast/dgclimcast5.c	/^static sigjmp_buf	jmpbuf;$/;"	v	file:
+recvfrom_alarm	mcast/dgclimcast5.c	/^recvfrom_alarm(int signo)$/;"	f	file:
+dg_cli	mcast/dgclimcast6.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+jmpbuf	mcast/dgclimcast6.c	/^static sigjmp_buf	jmpbuf;$/;"	v	file:
+recvfrom_alarm	mcast/dgclimcast6.c	/^recvfrom_alarm(int signo)$/;"	f	file:
+main	mcast/main.c	/^main(int argc, char **argv)$/;"	f
+recv_all	mcast/recv.c	/^recv_all(int recvfd, socklen_t salen)$/;"	f
+SENDRATE	mcast/send.c	/^#define	SENDRATE	/;"	d	file:
+send_all	mcast/send.c	/^send_all(int sendfd, SA *sadest, socklen_t salen)$/;"	f
+main	mcast/udpcli01.c	/^main(int argc, char **argv)$/;"	f
+main	mcast/udpcli05.c	/^main(int argc, char **argv)$/;"	f
+main	mcast/udpcli06.c	/^main(int argc, char **argv)$/;"	f
+main	mcast/udpserv01.c	/^main(int argc, char **argv)$/;"	f
+PROGS	mysdr/Makefile	/^PROGS =	mysdr$/;"	m
+loop	mysdr/loop.c	/^loop(int sockfd, socklen_t salen)$/;"	f
+SAP_NAME	mysdr/main.c	/^#define	SAP_NAME	/;"	d	file:
+SAP_PORT	mysdr/main.c	/^#define	SAP_PORT	/;"	d	file:
+main	mysdr/main.c	/^main(int argc, char **argv)$/;"	f
+SAP_AUTHLEN_MASK	mysdr/mysdr.h	/^#define	SAP_AUTHLEN_MASK	/;"	d
+SAP_AUTHLEN_SHIFT	mysdr/mysdr.h	/^#define	SAP_AUTHLEN_SHIFT	/;"	d
+SAP_COMPRESSED	mysdr/mysdr.h	/^#define	SAP_COMPRESSED	/;"	d
+SAP_DELETE	mysdr/mysdr.h	/^#define	SAP_DELETE	/;"	d
+SAP_ENCRYPTED	mysdr/mysdr.h	/^#define	SAP_ENCRYPTED	/;"	d
+SAP_HASH_MASK	mysdr/mysdr.h	/^#define	SAP_HASH_MASK	/;"	d
+SAP_IPV6	mysdr/mysdr.h	/^#define	SAP_IPV6	/;"	d
+SAP_VERSION	mysdr/mysdr.h	/^#define	SAP_VERSION	/;"	d
+SAP_VERSION_MASK	mysdr/mysdr.h	/^#define SAP_VERSION_MASK	/;"	d
+SAP_VERSION_SHIFT	mysdr/mysdr.h	/^#define	SAP_VERSION_SHIFT	/;"	d
+PROGS	names/Makefile	/^PROGS =	daytimetcpcli daytimetcpcli1 daytimetcpsrv1 daytimetcpsrv2 \\$/;"	m
+main	names/daytimetcpcli.c	/^main(int argc, char **argv)$/;"	f
+main	names/daytimetcpcli1.c	/^main(int argc, char **argv)$/;"	f
+main	names/daytimetcpcli2.c	/^main(int argc, char **argv)$/;"	f
+main	names/daytimetcpcli3.c	/^main(int argc, char **argv)$/;"	f
+main	names/daytimetcpsrv1.c	/^main(int argc, char **argv)$/;"	f
+main	names/daytimetcpsrv2.c	/^main(int argc, char **argv)$/;"	f
+main	names/daytimetcpsrv3.c	/^main(int argc, char **argv)$/;"	f
+main	names/daytimetcpsrv4.c	/^main(int argc, char **argv)$/;"	f
+main	names/daytimeudpcli1.c	/^main(int argc, char **argv)$/;"	f
+main	names/daytimeudpcli2.c	/^main(int argc, char **argv)$/;"	f
+main	names/daytimeudpsrv2.c	/^main(int argc, char **argv)$/;"	f
+main	names/daytimeudpsrv3.c	/^main(int argc, char **argv)$/;"	f
+main	names/hostent.c	/^main(int argc, char **argv)$/;"	f
+main	names/hostent2.c	/^main(int argc, char **argv)$/;"	f
+main	names/hostent3.c	/^main(int argc, char **argv)$/;"	f
+pr_ipv4	names/hostent3.c	/^pr_ipv4(char **listptr)$/;"	f
+my_addrs	names/myaddrs1.c	/^my_addrs(int *addrtype)$/;"	f
+main	names/netent.c	/^main(int argc, char **argv)$/;"	f
+main	names/prmyaddrs.c	/^main(int argc, char **argv)$/;"	f
+main	names/prmyaddrs1.c	/^main(int argc, char **argv)$/;"	f
+main	names/test1.c	/^main(int argc, char **argv)$/;"	f
+main	names/test2.c	/^main(int argc, char **argv)$/;"	f
+Udp_server_reuseaddr	names/udp_server_reuseaddr.c	/^Udp_server_reuseaddr(const char *host, const char *serv, socklen_t *addrlenp)$/;"	f
+udp_server_reuseaddr	names/udp_server_reuseaddr.c	/^udp_server_reuseaddr(const char *host, const char *serv, socklen_t *addrlenp)$/;"	f
+PROGS	nonblock/Makefile	/^PROGS =	daytimetcpcli tcpcli01 tcpcli02 tcpcli03 tcpcli04 tcpservselect02 web$/;"	m
+main	nonblock/daytimetcpcli.c	/^main(int argc, char **argv)$/;"	f
+home_page	nonblock/home_page.c	/^home_page(const char *host, const char *fname)$/;"	f
+start_connect	nonblock/start_connect.c	/^start_connect(struct file *fptr)$/;"	f
+str_cli	nonblock/strclifork.c	/^str_cli(FILE *fp, int sockfd)$/;"	f
+str_cli	nonblock/strclinonb.c	/^str_cli(FILE *fp, int sockfd)$/;"	f
+main	nonblock/tcpcli01.c	/^main(int argc, char **argv)$/;"	f
+main	nonblock/tcpcli02.c	/^main(int argc, char **argv)$/;"	f
+main	nonblock/tcpcli03.c	/^main(int argc, char **argv)$/;"	f
+main	nonblock/tcpcli04.c	/^main(int argc, char **argv)$/;"	f
+main	nonblock/tcpservselect03.c	/^main(int argc, char **argv)$/;"	f
+main	nonblock/web.c	/^main(int argc, char **argv)$/;"	f
+F_CONNECTING	nonblock/web.h	/^#define	F_CONNECTING	/;"	d
+F_DONE	nonblock/web.h	/^#define	F_DONE	/;"	d
+F_READING	nonblock/web.h	/^#define	F_READING	/;"	d
+GET_CMD	nonblock/web.h	/^#define	GET_CMD	/;"	d
+MAXFILES	nonblock/web.h	/^#define	MAXFILES	/;"	d
+SERV	nonblock/web.h	/^#define	SERV	/;"	d
+f_fd	nonblock/web.h	/^  int    f_fd;				\/* descriptor *\/$/;"	m	struct:file
+f_flags	nonblock/web.h	/^  int	 f_flags;			\/* F_xxx below *\/$/;"	m	struct:file
+f_host	nonblock/web.h	/^  char	*f_host;			\/* hostname or IPv4\/IPv6 address *\/$/;"	m	struct:file
+f_name	nonblock/web.h	/^  char	*f_name;			\/* filename *\/$/;"	m	struct:file
+file	nonblock/web.h	/^struct file {$/;"	s
+file	nonblock/web.h	/^} file[MAXFILES];$/;"	v	typeref:struct:file
+maxfd	nonblock/web.h	/^int		nconn, nfiles, nlefttoconn, nlefttoread, maxfd;$/;"	v
+nconn	nonblock/web.h	/^int		nconn, nfiles, nlefttoconn, nlefttoread, maxfd;$/;"	v
+nfiles	nonblock/web.h	/^int		nconn, nfiles, nlefttoconn, nlefttoread, maxfd;$/;"	v
+nlefttoconn	nonblock/web.h	/^int		nconn, nfiles, nlefttoconn, nlefttoread, maxfd;$/;"	v
+nlefttoread	nonblock/web.h	/^int		nconn, nfiles, nlefttoconn, nlefttoread, maxfd;$/;"	v
+rset	nonblock/web.h	/^fd_set	rset, wset;$/;"	v
+wset	nonblock/web.h	/^fd_set	rset, wset;$/;"	v
+write_get_cmd	nonblock/write_get_cmd.c	/^write_get_cmd(struct file *fptr)$/;"	f
+PROGS	oob/Makefile	/^PROGS =	tcprecv01 tcprecv02 tcprecv03 tcprecv04 tcprecv05 tcprecv06 \\$/;"	m
+heartbeat_cli	oob/heartbeatcli.c	/^heartbeat_cli(int servfd_arg, int nsec_arg, int maxnprobes_arg)$/;"	f
+maxnprobes	oob/heartbeatcli.c	/^static int		maxnprobes;		\/* #probes w\/no response before quit *\/$/;"	v	file:
+nprobes	oob/heartbeatcli.c	/^static int		nprobes;		\/* #probes since last server response *\/$/;"	v	file:
+nsec	oob/heartbeatcli.c	/^static int		nsec;			\/* #seconds betweeen each alarm *\/$/;"	v	file:
+servfd	oob/heartbeatcli.c	/^static int		servfd;$/;"	v	file:
+sig_alrm	oob/heartbeatcli.c	/^sig_alrm(int signo)$/;"	f	file:
+sig_urg	oob/heartbeatcli.c	/^sig_urg(int signo)$/;"	f	file:
+heartbeat_serv	oob/heartbeatserv.c	/^heartbeat_serv(int servfd_arg, int nsec_arg, int maxnalarms_arg)$/;"	f
+maxnalarms	oob/heartbeatserv.c	/^static int	maxnalarms;		\/* #alarms w\/no client probe before quit *\/$/;"	v	file:
+nprobes	oob/heartbeatserv.c	/^static int	nprobes;		\/* #alarms since last client probe *\/$/;"	v	file:
+nsec	oob/heartbeatserv.c	/^static int	nsec;			\/* #seconds between each alarm *\/$/;"	v	file:
+servfd	oob/heartbeatserv.c	/^static int	servfd;$/;"	v	file:
+sig_alrm	oob/heartbeatserv.c	/^sig_alrm(int signo)$/;"	f	file:
+sig_urg	oob/heartbeatserv.c	/^sig_urg(int signo)$/;"	f	file:
+sig_chld	oob/sigchldwaitpid.c	/^sig_chld(int signo)$/;"	f
+str_cli	oob/strcliselect02.c	/^str_cli(FILE *fp, int sockfd)$/;"	f
+str_echo	oob/strecho02.c	/^str_echo(int sockfd)$/;"	f
+main	oob/tcpcli02.c	/^main(int argc, char **argv)$/;"	f
+connfd	oob/tcprecv01.c	/^int		listenfd, connfd;$/;"	v
+listenfd	oob/tcprecv01.c	/^int		listenfd, connfd;$/;"	v
+main	oob/tcprecv01.c	/^main(int argc, char **argv)$/;"	f
+sig_urg	oob/tcprecv01.c	/^sig_urg(int signo)$/;"	f
+main	oob/tcprecv02.c	/^main(int argc, char **argv)$/;"	f
+main	oob/tcprecv03.c	/^main(int argc, char **argv)$/;"	f
+main	oob/tcprecv03p.c	/^main(int argc, char **argv)$/;"	f
+main	oob/tcprecv04.c	/^main(int argc, char **argv)$/;"	f
+connfd	oob/tcprecv05.c	/^int		listenfd, connfd;$/;"	v
+listenfd	oob/tcprecv05.c	/^int		listenfd, connfd;$/;"	v
+main	oob/tcprecv05.c	/^main(int argc, char **argv)$/;"	f
+sig_urg	oob/tcprecv05.c	/^sig_urg(int signo)$/;"	f
+main	oob/tcprecv06.c	/^main(int argc, char **argv)$/;"	f
+main	oob/tcpsend01.c	/^main(int argc, char **argv)$/;"	f
+main	oob/tcpsend02.c	/^main(int argc, char **argv)$/;"	f
+main	oob/tcpsend03.c	/^main(int argc, char **argv)$/;"	f
+main	oob/tcpsend04.c	/^main(int argc, char **argv)$/;"	f
+main	oob/tcpsend05.c	/^main(int argc, char **argv)$/;"	f
+main	oob/tcpsend06.c	/^main(int argc, char **argv)$/;"	f
+main	oob/tcpserv02.c	/^main(int argc, char **argv)$/;"	f
+OBJS	ping/Makefile	/^OBJS = init_v6.o main.o proc_v4.o proc_v6.o readloop.o \\$/;"	m
+PROGS	ping/Makefile	/^PROGS =	ping$/;"	m
+A	ping/bsdping.c	/^#define	A(/;"	d	file:
+B	ping/bsdping.c	/^#define	B(/;"	d	file:
+BSPACE	ping/bsdping.c	/^char BSPACE = '\\b';		\/* characters written for flood *\/$/;"	v
+CLR	ping/bsdping.c	/^#define	CLR(/;"	d	file:
+DEFDATALEN	ping/bsdping.c	/^#define	DEFDATALEN	/;"	d	file:
+DOT	ping/bsdping.c	/^char DOT = '.';$/;"	v
+F_FLOOD	ping/bsdping.c	/^#define	F_FLOOD	/;"	d	file:
+F_INTERVAL	ping/bsdping.c	/^#define	F_INTERVAL	/;"	d	file:
+F_NUMERIC	ping/bsdping.c	/^#define	F_NUMERIC	/;"	d	file:
+F_PINGFILLED	ping/bsdping.c	/^#define	F_PINGFILLED	/;"	d	file:
+F_QUIET	ping/bsdping.c	/^#define	F_QUIET	/;"	d	file:
+F_RROUTE	ping/bsdping.c	/^#define	F_RROUTE	/;"	d	file:
+F_SO_DEBUG	ping/bsdping.c	/^#define	F_SO_DEBUG	/;"	d	file:
+F_SO_DONTROUTE	ping/bsdping.c	/^#define	F_SO_DONTROUTE	/;"	d	file:
+F_VERBOSE	ping/bsdping.c	/^#define	F_VERBOSE	/;"	d	file:
+MAXICMPLEN	ping/bsdping.c	/^#define	MAXICMPLEN	/;"	d	file:
+MAXIPLEN	ping/bsdping.c	/^#define	MAXIPLEN	/;"	d	file:
+MAXPACKET	ping/bsdping.c	/^#define	MAXPACKET	/;"	d	file:
+MAXWAIT	ping/bsdping.c	/^#define	MAXWAIT	/;"	d	file:
+MAX_DUP_CHK	ping/bsdping.c	/^#define	MAX_DUP_CHK	/;"	d	file:
+NROUTES	ping/bsdping.c	/^#define	NROUTES	/;"	d	file:
+SET	ping/bsdping.c	/^#define	SET(/;"	d	file:
+TST	ping/bsdping.c	/^#define	TST(/;"	d	file:
+copyright	ping/bsdping.c	/^static char copyright[] =$/;"	v	file:
+datalen	ping/bsdping.c	/^int datalen = DEFDATALEN;$/;"	v
+fill	ping/bsdping.c	/^fill(bp, patp)$/;"	f
+hostname	ping/bsdping.c	/^char *hostname;$/;"	v
+ident	ping/bsdping.c	/^int ident;			\/* process id to identify our packets *\/$/;"	v
+in_cksum	ping/bsdping.c	/^in_cksum(addr, len)$/;"	f
+interval	ping/bsdping.c	/^int interval = 1;		\/* interval between packets *\/$/;"	v
+main	ping/bsdping.c	/^main(argc, argv)$/;"	f
+mx_dup_ck	ping/bsdping.c	/^int mx_dup_ck = MAX_DUP_CHK;$/;"	v
+npackets	ping/bsdping.c	/^long npackets;			\/* max packets to transmit *\/$/;"	v
+nreceived	ping/bsdping.c	/^long nreceived;			\/* # of packets we got back *\/$/;"	v
+nrepeats	ping/bsdping.c	/^long nrepeats;			\/* number of duplicates *\/$/;"	v
+ntransmitted	ping/bsdping.c	/^long ntransmitted;		\/* sequence # for outbound packets = #sent *\/$/;"	v
+onalrm	ping/bsdping.c	/^onalrm(signo)$/;"	f
+oninfo	ping/bsdping.c	/^oninfo(notused)$/;"	f
+onint	ping/bsdping.c	/^onint(notused)$/;"	f
+options	ping/bsdping.c	/^u_int options;$/;"	v
+outpack	ping/bsdping.c	/^u_char outpack[MAXPACKET];$/;"	v
+pinger	ping/bsdping.c	/^pinger()$/;"	f
+pr_addr	ping/bsdping.c	/^pr_addr(l)$/;"	f
+pr_icmph	ping/bsdping.c	/^pr_icmph(icp)$/;"	f
+pr_iph	ping/bsdping.c	/^pr_iph(ip)$/;"	f
+pr_pack	ping/bsdping.c	/^pr_pack(buf, cc, from)$/;"	f
+pr_retip	ping/bsdping.c	/^pr_retip(ip)$/;"	f
+rcvd_tbl	ping/bsdping.c	/^char rcvd_tbl[MAX_DUP_CHK \/ 8];$/;"	v
+s	ping/bsdping.c	/^int s;				\/* socket file descriptor *\/$/;"	v
+sccsid	ping/bsdping.c	/^static char sccsid[] = "@(#)ping.c	8.1 (Berkeley) 6\/5\/93";$/;"	v	file:
+summary	ping/bsdping.c	/^summary()$/;"	f
+timing	ping/bsdping.c	/^int timing;			\/* flag to do timing *\/$/;"	v
+tmax	ping/bsdping.c	/^double tmax = 0.0;		\/* maximum round trip time *\/$/;"	v
+tmin	ping/bsdping.c	/^double tmin = 999999999.0;	\/* minimum round trip time *\/$/;"	v
+tsum	ping/bsdping.c	/^double tsum = 0.0;		\/* sum of all times, for doing average *\/$/;"	v
+ttab	ping/bsdping.c	/^static char *ttab[] = {$/;"	v	file:
+tvsub	ping/bsdping.c	/^tvsub(out, in)$/;"	f
+usage	ping/bsdping.c	/^usage()$/;"	f
+whereto	ping/bsdping.c	/^struct sockaddr whereto;	\/* who to ping *\/$/;"	v	typeref:struct:sockaddr
+init_v6	ping/init_v6.c	/^init_v6()$/;"	f
+datalen	ping/main.c	/^int	datalen = 56;		\/* data that goes with ICMP echo request *\/$/;"	v
+main	ping/main.c	/^main(int argc, char **argv)$/;"	f
+proto_v4	ping/main.c	/^struct proto	proto_v4 = { proc_v4, send_v4, NULL, NULL, NULL, 0, IPPROTO_ICMP };$/;"	v	typeref:struct:proto
+proto_v6	ping/main.c	/^struct proto	proto_v6 = { proc_v6, send_v6, init_v6, NULL, NULL, 0, IPPROTO_ICMPV6 };$/;"	v	typeref:struct:proto
+ICMPV6_DEST_UNREACH	ping/old/icmp6.h	/^#define	ICMPV6_DEST_UNREACH	/;"	d
+ICMPV6_DEST_UNREACH_ADDR	ping/old/icmp6.h	/^#define	ICMPV6_DEST_UNREACH_ADDR /;"	d
+ICMPV6_DEST_UNREACH_ADMIN	ping/old/icmp6.h	/^#define	ICMPV6_DEST_UNREACH_ADMIN /;"	d
+ICMPV6_DEST_UNREACH_NOPORT	ping/old/icmp6.h	/^#define	ICMPV6_DEST_UNREACH_NOPORT	/;"	d
+ICMPV6_DEST_UNREACH_NOROUTE	ping/old/icmp6.h	/^#define	ICMPV6_DEST_UNREACH_NOROUTE	/;"	d
+ICMPV6_DEST_UNREACH_NOTNEIGHBOR	ping/old/icmp6.h	/^#define	ICMPV6_DEST_UNREACH_NOTNEIGHBOR	/;"	d
+ICMPV6_ECHORPLY	ping/old/icmp6.h	/^#define	ICMPV6_ECHORPLY	/;"	d
+ICMPV6_ECHORQST	ping/old/icmp6.h	/^#define	ICMPV6_ECHORQST	/;"	d
+ICMPV6_INFOMSG_MASK	ping/old/icmp6.h	/^#define	ICMPV6_INFOMSG_MASK	/;"	d
+ICMPV6_MGM_QUERY	ping/old/icmp6.h	/^#define	ICMPV6_MGM_QUERY	/;"	d
+ICMPV6_MGM_REDUCTION	ping/old/icmp6.h	/^#define	ICMPV6_MGM_REDUCTION	/;"	d
+ICMPV6_MGM_REPORT	ping/old/icmp6.h	/^#define	ICMPV6_MGM_REPORT	/;"	d
+ICMPV6_PARAMPROB	ping/old/icmp6.h	/^#define	ICMPV6_PARAMPROB	/;"	d
+ICMPV6_PARAMPROB_HDR	ping/old/icmp6.h	/^#define	ICMPV6_PARAMPROB_HDR	/;"	d
+ICMPV6_PARAMPROB_NXT_HDR	ping/old/icmp6.h	/^#define	ICMPV6_PARAMPROB_NXT_HDR	/;"	d
+ICMPV6_PARAMPROB_OPTS	ping/old/icmp6.h	/^#define	ICMPV6_PARAMPROB_OPTS	/;"	d
+ICMPV6_PKT_TOOBIG	ping/old/icmp6.h	/^#define	ICMPV6_PKT_TOOBIG	/;"	d
+ICMPV6_TIME_EXCEED	ping/old/icmp6.h	/^#define	ICMPV6_TIME_EXCEED	/;"	d
+ICMPV6_TIME_EXCEED_HOPS	ping/old/icmp6.h	/^#define	ICMPV6_TIME_EXCEED_HOPS	/;"	d
+ICMPV6_TIME_EXCEED_REASSEMBLY	ping/old/icmp6.h	/^#define	ICMPV6_TIME_EXCEED_REASSEMBLY	/;"	d
+icmp6_cksum	ping/old/icmp6.h	/^    u_int16_t	icmp6_cksum;		\/* Checksum field *\/$/;"	m	struct:icmp6hdr
+icmp6_code	ping/old/icmp6.h	/^    u_int8_t	icmp6_code;		\/* Code field *\/$/;"	m	struct:icmp6hdr
+icmp6_data16	ping/old/icmp6.h	/^#define	icmp6_data16	/;"	d
+icmp6_data32	ping/old/icmp6.h	/^#define	icmp6_data32	/;"	d
+icmp6_data8	ping/old/icmp6.h	/^#define	icmp6_data8	/;"	d
+icmp6_dataun	ping/old/icmp6.h	/^    } icmp6_dataun;$/;"	m	struct:icmp6hdr	typeref:union:icmp6hdr::__anon2
+icmp6_id	ping/old/icmp6.h	/^#define	icmp6_id	/;"	d
+icmp6_maxdelay	ping/old/icmp6.h	/^#define	icmp6_maxdelay	/;"	d
+icmp6_mtu	ping/old/icmp6.h	/^#define	icmp6_mtu	/;"	d
+icmp6_pptr	ping/old/icmp6.h	/^#define	icmp6_pptr	/;"	d
+icmp6_seq	ping/old/icmp6.h	/^#define	icmp6_seq	/;"	d
+icmp6_type	ping/old/icmp6.h	/^    u_int8_t	icmp6_type;		\/* Type field *\/$/;"	m	struct:icmp6hdr
+icmp6hdr	ping/old/icmp6.h	/^struct icmp6hdr {$/;"	s
+un_data16	ping/old/icmp6.h	/^	u_int16_t	un_data16[2];	\/* Type-specific field *\/$/;"	m	union:icmp6hdr::__anon2
+un_data32	ping/old/icmp6.h	/^	u_int32_t	un_data32[1];	\/* Type-specific field *\/$/;"	m	union:icmp6hdr::__anon2
+un_data8	ping/old/icmp6.h	/^	u_int8_t	un_data8[4];	\/* Type-specific field *\/$/;"	m	union:icmp6hdr::__anon2
+ctl6_flow	ping/old/ip6.h	/^	    u_int32_t ctl6_flow;	\/* 24 bits of flow-ID *\/$/;"	m	struct:ip6hdr::__anon1::ip6hdrctl
+ctl6_hlim	ping/old/ip6.h	/^	    u_int8_t  ctl6_hlim;        \/* hop limit *\/$/;"	m	struct:ip6hdr::__anon1::ip6hdrctl
+ctl6_nxt	ping/old/ip6.h	/^	    u_int8_t  ctl6_nxt;         \/* next header *\/$/;"	m	struct:ip6hdr::__anon1::ip6hdrctl
+ctl6_plen	ping/old/ip6.h	/^	    u_int16_t ctl6_plen;        \/* payload length *\/$/;"	m	struct:ip6hdr::__anon1::ip6hdrctl
+ip6_ctlun	ping/old/ip6.h	/^    } ip6_ctlun;$/;"	m	struct:ip6hdr	typeref:union:ip6hdr::__anon1
+ip6_dst	ping/old/ip6.h	/^    struct in6_addr ip6_dst;		\/* destination address *\/$/;"	m	struct:ip6hdr	typeref:struct:ip6hdr::in6_addr
+ip6_flow	ping/old/ip6.h	/^#define ip6_flow	/;"	d
+ip6_hlim	ping/old/ip6.h	/^#define	ip6_hlim	/;"	d
+ip6_hops	ping/old/ip6.h	/^#define	ip6_hops	/;"	d
+ip6_nxt	ping/old/ip6.h	/^#define	ip6_nxt	/;"	d
+ip6_plen	ping/old/ip6.h	/^#define	ip6_plen	/;"	d
+ip6_src	ping/old/ip6.h	/^    struct in6_addr ip6_src;		\/* source address *\/$/;"	m	struct:ip6hdr	typeref:struct:ip6hdr::in6_addr
+ip6_vfc	ping/old/ip6.h	/^#define ip6_vfc	/;"	d
+ip6hdr	ping/old/ip6.h	/^struct ip6hdr {$/;"	s
+ip6hdrctl	ping/old/ip6.h	/^	struct ip6hdrctl {$/;"	s	union:ip6hdr::__anon1
+un_ctl6	ping/old/ip6.h	/^	} un_ctl6;$/;"	m	union:ip6hdr::__anon1	typeref:struct:ip6hdr::__anon1::ip6hdrctl
+un_vfc	ping/old/ip6.h	/^	u_int8_t un_vfc;		\/* 4 bits version, 4 bits reserved *\/$/;"	m	union:ip6hdr::__anon1
+BUFSIZE	ping/ping.h	/^#define	BUFSIZE	/;"	d
+datalen	ping/ping.h	/^int		 datalen;			\/* # bytes of data following ICMP header *\/$/;"	v
+finit	ping/ping.h	/^  void	 (*finit)(void);$/;"	m	struct:proto
+fproc	ping/ping.h	/^  void	 (*fproc)(char *, ssize_t, struct msghdr *, struct timeval *);$/;"	m	struct:proto
+fsend	ping/ping.h	/^  void	 (*fsend)(void);$/;"	m	struct:proto
+host	ping/ping.h	/^char	*host;$/;"	v
+icmpproto	ping/ping.h	/^  int	   	    icmpproto;	\/* IPPROTO_xxx value for ICMP *\/$/;"	m	struct:proto
+nsent	ping/ping.h	/^int		 nsent;				\/* add 1 for each sendto() *\/$/;"	v
+pid	ping/ping.h	/^pid_t	 pid;				\/* our PID *\/$/;"	v
+pr	ping/ping.h	/^} *pr;$/;"	v	typeref:struct:proto
+proto	ping/ping.h	/^struct proto {$/;"	s
+salen	ping/ping.h	/^  socklen_t	    salen;		\/* length of sockaddr{}s *\/$/;"	m	struct:proto
+sarecv	ping/ping.h	/^  struct sockaddr  *sarecv;	\/* sockaddr{} for receiving *\/$/;"	m	struct:proto	typeref:struct:proto::sockaddr
+sasend	ping/ping.h	/^  struct sockaddr  *sasend;	\/* sockaddr{} for send, from getaddrinfo *\/$/;"	m	struct:proto	typeref:struct:proto::sockaddr
+sendbuf	ping/ping.h	/^char	 sendbuf[BUFSIZE];$/;"	v
+sockfd	ping/ping.h	/^int		 sockfd;$/;"	v
+verbose	ping/ping.h	/^int		 verbose;$/;"	v
+ping_v4	ping/ping_v4.c	/^ping_v4(struct hostent *hptr)$/;"	f
+proc_v4	ping/proc_v4.c	/^proc_v4(char *ptr, ssize_t len, struct msghdr *msg, struct timeval *tvrecv)$/;"	f
+proc_v6	ping/proc_v6.c	/^proc_v6(char *ptr, ssize_t len, struct msghdr *msg, struct timeval* tvrecv)$/;"	f
+readloop	ping/readloop.c	/^readloop(void)$/;"	f
+send_v4	ping/send_v4.c	/^send_v4(void)$/;"	f
+send_v6	ping/send_v6.c	/^send_v6()$/;"	f
+sig_alrm	ping/sig_alrm.c	/^sig_alrm(int signo)$/;"	f
+tv_sub	ping/tv_sub.c	/^tv_sub(struct timeval *out, struct timeval *in)$/;"	f
+PROGS	route/Makefile	/^PROGS =	checkudpsum getrt mynetstat \\$/;"	m
+main	route/checkudpsum.c	/^main(int argc, char **argv)$/;"	f
+Get_ifi_info	route/get_ifi_info.c	/^Get_ifi_info(int family, int doaliases)$/;"	f
+free_ifi_info	route/get_ifi_info.c	/^free_ifi_info(struct ifi_info *ifihead)$/;"	f
+get_ifi_info	route/get_ifi_info.c	/^get_ifi_info(int family, int doaliases)$/;"	f
+BUFLEN	route/getrt.c	/^#define	BUFLEN	/;"	d	file:
+SEQ	route/getrt.c	/^#define	SEQ	/;"	d	file:
+main	route/getrt.c	/^main(int argc, char **argv)$/;"	f
+main	route/mynetstat.c	/^main(int argc, char **argv)$/;"	f
+pr_iflist	route/mynetstat.c	/^pr_iflist(int family)$/;"	f
+pr_rtable	route/mynetstat.c	/^pr_rtable(int family)$/;"	f
+main	route/prifindex.c	/^main(int argc, char **argv)$/;"	f
+main	route/prifinfo.c	/^main(int argc, char **argv)$/;"	f
+main	route/prifname.c	/^main(int argc, char **argv)$/;"	f
+main	route/prifnameindex.c	/^main(int argc, char **argv)$/;"	f
+Sock_masktop	route/unproute.h	/^#define	Sock_masktop(/;"	d
+PROGS	rtt/Makefile	/^PROGS =	udpcli01$/;"	m
+dg_cli	rtt/dg_cli.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+dg_echo	rtt/dg_echo.c	/^dg_echo(int sockfd, SA *pcliaddr, socklen_t clilen)$/;"	f
+Dg_send_recv	rtt/dg_send_recv.c	/^Dg_send_recv(int fd, const void *outbuff, size_t outbytes,$/;"	f
+RTT_DEBUG	rtt/dg_send_recv.c	/^#define	RTT_DEBUG$/;"	d	file:
+dg_send_recv	rtt/dg_send_recv.c	/^dg_send_recv(int fd, const void *outbuff, size_t outbytes,$/;"	f
+hdr	rtt/dg_send_recv.c	/^static struct hdr {$/;"	s	file:
+jmpbuf	rtt/dg_send_recv.c	/^static sigjmp_buf	jmpbuf;$/;"	v	file:
+msgrecv	rtt/dg_send_recv.c	/^static struct msghdr	msgsend, msgrecv;	\/* assumed init to 0 *\/$/;"	v	typeref:struct:	file:
+msgsend	rtt/dg_send_recv.c	/^static struct msghdr	msgsend, msgrecv;	\/* assumed init to 0 *\/$/;"	v	typeref:struct:msghdr	file:
+recvhdr	rtt/dg_send_recv.c	/^} sendhdr, recvhdr;$/;"	v	typeref:struct:hdr	file:
+rttinfo	rtt/dg_send_recv.c	/^static struct rtt_info   rttinfo;$/;"	v	typeref:struct:rtt_info	file:
+rttinit	rtt/dg_send_recv.c	/^static int	rttinit = 0;$/;"	v	file:
+sendhdr	rtt/dg_send_recv.c	/^} sendhdr, recvhdr;$/;"	v	typeref:struct:hdr	file:
+seq	rtt/dg_send_recv.c	/^  uint32_t	seq;	\/* sequence # *\/$/;"	m	struct:hdr	file:
+sig_alrm	rtt/dg_send_recv.c	/^sig_alrm(int signo)$/;"	f	file:
+ts	rtt/dg_send_recv.c	/^  uint32_t	ts;		\/* timestamp when sent *\/$/;"	m	struct:hdr	file:
+main	rtt/udpcli01.c	/^main(int argc, char **argv)$/;"	f
+RTT_MAXNREXMT	rtt/unprtt.h	/^#define	RTT_MAXNREXMT /;"	d
+RTT_RXTMAX	rtt/unprtt.h	/^#define	RTT_RXTMAX /;"	d
+RTT_RXTMIN	rtt/unprtt.h	/^#define	RTT_RXTMIN /;"	d
+__unp_rtt_h	rtt/unprtt.h	/^#define	__unp_rtt_h$/;"	d
+rtt_base	rtt/unprtt.h	/^  uint32_t	rtt_base;	\/* #sec since 1\/1\/1970 at start *\/$/;"	m	struct:rtt_info
+rtt_info	rtt/unprtt.h	/^struct rtt_info {$/;"	s
+rtt_nrexmt	rtt/unprtt.h	/^  int		rtt_nrexmt;	\/* #times retransmitted: 0, 1, 2, ... *\/$/;"	m	struct:rtt_info
+rtt_rto	rtt/unprtt.h	/^  float		rtt_rto;	\/* current RTO to use, seconds *\/$/;"	m	struct:rtt_info
+rtt_rtt	rtt/unprtt.h	/^  float		rtt_rtt;	\/* most recent measured RTT, seconds *\/$/;"	m	struct:rtt_info
+rtt_rttvar	rtt/unprtt.h	/^  float		rtt_rttvar;	\/* smoothed mean deviation, seconds *\/$/;"	m	struct:rtt_info
+rtt_srtt	rtt/unprtt.h	/^  float		rtt_srtt;	\/* smoothed RTT estimator, seconds *\/$/;"	m	struct:rtt_info
+PROGS	sctp/Makefile	/^PROGS =	sctpserv01 sctpclient01 sctpserv02 sctpserv03 sctpclient02 sctpserv04 \\$/;"	m
+sctp_address_to_associd	sctp/sctp_addr_to_associd.c	/^sctp_address_to_associd(int sock_fd, struct sockaddr *sa, socklen_t salen)$/;"	f
+sctp_bind_arg_list	sctp/sctp_bindargs.c	/^sctp_bind_arg_list(int sock_fd, char **argv, int argc)$/;"	f
+check_notification	sctp/sctp_check_notify.c	/^check_notification(int sock_fd,char *recvline,int rd_len)$/;"	f
+print_notification	sctp/sctp_displayevents.c	/^print_notification(char *notify_buf)$/;"	f
+sctp_get_no_strms	sctp/sctp_getnostrm.c	/^sctp_get_no_strms(int sock_fd,struct sockaddr *to, socklen_t tolen)$/;"	f
+heartbeat_action	sctp/sctp_modify_hb.c	/^int heartbeat_action(int sock_fd, struct sockaddr *sa, socklen_t salen,$/;"	f
+pdapi_recvmsg	sctp/sctp_pdapircv.c	/^pdapi_recvmsg(int sock_fd,$/;"	f
+sctp_pdapi_rdbuf_sz	sctp/sctp_pdapircv.c	/^static int sctp_pdapi_rdbuf_sz=0;$/;"	v	file:
+sctp_pdapi_readbuf	sctp/sctp_pdapircv.c	/^static uint8_t *sctp_pdapi_readbuf=NULL;$/;"	v	file:
+sctp_print_addresses	sctp/sctp_print_addrs.c	/^sctp_print_addresses(struct sockaddr_storage *addrs, int num)$/;"	f
+sctpstr_cli	sctp/sctp_strcli.c	/^sctpstr_cli(FILE *fp, int sock_fd, struct sockaddr *to, socklen_t tolen)$/;"	f
+sctpstr_cli	sctp/sctp_strcli1.c	/^sctpstr_cli(FILE *fp, int sock_fd, struct sockaddr *to, socklen_t tolen)$/;"	f
+sctpstr_cli	sctp/sctp_strcli_un.c	/^sctpstr_cli(FILE *fp, int sock_fd, struct sockaddr *to, socklen_t tolen)$/;"	f
+SCTP_MAXLINE	sctp/sctp_strcliecho.c	/^#define	SCTP_MAXLINE	/;"	d	file:
+sctpstr_cli_echoall	sctp/sctp_strcliecho.c	/^sctpstr_cli_echoall(FILE *fp, int sock_fd, struct sockaddr *to, socklen_t tolen)$/;"	f
+SCTP_MAXLINE	sctp/sctp_strcliecho2.c	/^#define	SCTP_MAXLINE	/;"	d	file:
+sctpstr_cli_echoall	sctp/sctp_strcliecho2.c	/^sctpstr_cli_echoall(FILE *fp, int sock_fd, struct sockaddr *to, socklen_t tolen)$/;"	f
+Sctp_bindx	sctp/sctp_wrapper.c	/^Sctp_bindx(int sock_fd,struct sockaddr_storage *at,int num,int op)$/;"	f
+Sctp_recvmsg	sctp/sctp_wrapper.c	/^Sctp_recvmsg(int s, void *msg, size_t len,$/;"	f
+Sctp_sendmsg	sctp/sctp_wrapper.c	/^Sctp_sendmsg (int s, void *data, size_t len, struct sockaddr *to,$/;"	f
+main	sctp/sctpclient01.c	/^main(int argc, char **argv)$/;"	f
+main	sctp/sctpclient02.c	/^main(int argc, char **argv)$/;"	f
+main	sctp/sctpclient04.c	/^main(int argc, char **argv)$/;"	f
+main	sctp/sctpserv01.c	/^main(int argc, char **argv)$/;"	f
+main	sctp/sctpserv02.c	/^main(int argc, char **argv)$/;"	f
+main	sctp/sctpserv03.c	/^main(int argc, char **argv)$/;"	f
+main	sctp/sctpserv04.c	/^main(int argc, char **argv)$/;"	f
+main	sctp/sctpserv05.c	/^main(int argc, char **argv)$/;"	f
+main	sctp/sctpserv06.c	/^main(int argc, char **argv)$/;"	f
+main	sctp/sctpserv07.c	/^main(int argc, char **argv)$/;"	f
+main	sctp/sctpserv_fork.c	/^main(int argc, char **argv)$/;"	f
+AF_LOCAL	sctp/unp.h	/^#define AF_LOCAL	/;"	d
+BUFFSIZE	sctp/unp.h	/^#define	BUFFSIZE	/;"	d
+CMSG_LEN	sctp/unp.h	/^#define	CMSG_LEN(/;"	d
+CMSG_SPACE	sctp/unp.h	/^#define	CMSG_SPACE(/;"	d
+DIR_MODE	sctp/unp.h	/^#define	DIR_MODE	/;"	d
+FILE_MODE	sctp/unp.h	/^#define	FILE_MODE	/;"	d
+INADDR_NONE	sctp/unp.h	/^#define	INADDR_NONE	/;"	d
+INET6_ADDRSTRLEN	sctp/unp.h	/^#define	INET6_ADDRSTRLEN	/;"	d
+INET_ADDRSTRLEN	sctp/unp.h	/^#define	INET_ADDRSTRLEN	/;"	d
+INFTIM	sctp/unp.h	/^#define INFTIM /;"	d
+INFTIM_UNPH	sctp/unp.h	/^#define	INFTIM_UNPH	/;"	d
+LISTENQ	sctp/unp.h	/^#define	LISTENQ	/;"	d
+MAXLINE	sctp/unp.h	/^#define	MAXLINE	/;"	d
+MAXSOCKADDR	sctp/unp.h	/^#define	MAXSOCKADDR /;"	d
+PF_LOCAL	sctp/unp.h	/^#define PF_LOCAL	/;"	d
+SA	sctp/unp.h	/^#define	SA	/;"	d
+SCTP_DISABLE_HB	sctp/unp.h	/^#define SCTP_DISABLE_HB /;"	d
+SCTP_ON_DEMAND_HB	sctp/unp.h	/^#define SCTP_ON_DEMAND_HB /;"	d
+SCTP_PDAPI_INCR_SZ	sctp/unp.h	/^#define SCTP_PDAPI_INCR_SZ /;"	d
+SCTP_PDAPI_NEED_MORE_THRESHOLD	sctp/unp.h	/^#define SCTP_PDAPI_NEED_MORE_THRESHOLD /;"	d
+SCTP_SET_HB_INTERVAL	sctp/unp.h	/^#define SCTP_SET_HB_INTERVAL /;"	d
+SERV_MAX_SCTP_STRM	sctp/unp.h	/^#define SERV_MAX_SCTP_STRM	/;"	d
+SERV_MORE_STRMS_SCTP	sctp/unp.h	/^#define SERV_MORE_STRMS_SCTP	/;"	d
+SERV_PORT	sctp/unp.h	/^#define	SERV_PORT	/;"	d
+SERV_PORT_STR	sctp/unp.h	/^#define	SERV_PORT_STR	/;"	d
+SHUT_RD	sctp/unp.h	/^#define	SHUT_RD	/;"	d
+SHUT_RDWR	sctp/unp.h	/^#define	SHUT_RDWR	/;"	d
+SHUT_WR	sctp/unp.h	/^#define	SHUT_WR	/;"	d
+SUN_LEN	sctp/unp.h	/^# define	SUN_LEN(/;"	d
+Sigfunc	sctp/unp.h	/^typedef	void	Sigfunc(int);	\/* for signal handlers *\/$/;"	t
+UNIXDG_PATH	sctp/unp.h	/^#define	UNIXDG_PATH	/;"	d
+UNIXSTR_PATH	sctp/unp.h	/^#define	UNIXSTR_PATH	/;"	d
+__unp_h	sctp/unp.h	/^#define	__unp_h$/;"	d
+bzero	sctp/unp.h	/^#define	bzero(/;"	d
+gethostbyname2	sctp/unp.h	/^#define	gethostbyname2(/;"	d
+if_index	sctp/unp.h	/^  unsigned int   if_index;  \/* 1, 2, ... *\/$/;"	m	struct:if_nameindex
+if_name	sctp/unp.h	/^  char          *if_name;   \/* null terminated name: "le0", ... *\/$/;"	m	struct:if_nameindex
+if_nameindex	sctp/unp.h	/^struct if_nameindex {$/;"	s
+in_pktinfo	sctp/unp.h	/^struct in_pktinfo {$/;"	s
+ipi_addr	sctp/unp.h	/^  struct in_addr	ipi_addr;	\/* dst IPv4 address *\/$/;"	m	struct:in_pktinfo	typeref:struct:in_pktinfo::in_addr
+ipi_ifindex	sctp/unp.h	/^  int				ipi_ifindex;\/* received interface index *\/$/;"	m	struct:in_pktinfo
+max	sctp/unp.h	/^#define	max(/;"	d
+min	sctp/unp.h	/^#define	min(/;"	d
+recv	sctp/unp.h	/^#define	recv(/;"	d
+recv	sctp/unp.h	/^#undef	recv$/;"	d
+send	sctp/unp.h	/^#define	send(/;"	d
+send	sctp/unp.h	/^#undef	send$/;"	d
+timespec	sctp/unp.h	/^struct timespec {$/;"	s
+tv_nsec	sctp/unp.h	/^  long		tv_nsec;	\/* and nanoseconds *\/$/;"	m	struct:timespec
+tv_sec	sctp/unp.h	/^  time_t	tv_sec;		\/* seconds *\/$/;"	m	struct:timespec
+PROGS	select/Makefile	/^PROGS =	tcpcli01 tcpcli02 tcpcli03$/;"	m
+str_cli	select/strcliselect01.c	/^str_cli(FILE *fp, int sockfd)$/;"	f
+str_cli	select/strcliselect02.c	/^str_cli(FILE *fp, int sockfd)$/;"	f
+main	select/tcpcli01.c	/^main(int argc, char **argv)$/;"	f
+main	select/tcpcli02.c	/^main(int argc, char **argv)$/;"	f
+main	select/tcpcli03.c	/^main(int argc, char **argv)$/;"	f
+PROGS	server/Makefile	/^PROGS =	client clientrst \\$/;"	m
+Child	server/child.h	/^} Child;$/;"	t	typeref:struct:__anon8
+child_count	server/child.h	/^  long		child_count;	\/* # connections handled *\/$/;"	m	struct:__anon8
+child_pid	server/child.h	/^  pid_t		child_pid;		\/* process ID *\/$/;"	m	struct:__anon8
+child_pipefd	server/child.h	/^  int		child_pipefd;	\/* parent's stream pipe to\/from child *\/$/;"	m	struct:__anon8
+child_status	server/child.h	/^  int		child_status;	\/* 0 = ready *\/$/;"	m	struct:__anon8
+cptr	server/child.h	/^Child	*cptr;		\/* array of Child structures; calloc'ed *\/$/;"	v
+child_main	server/child02.c	/^child_main(int i, int listenfd, int addrlen)$/;"	f
+child_make	server/child02.c	/^child_make(int i, int listenfd, int addrlen)$/;"	f
+child_main	server/child02l.c	/^child_main(int i, int listenfd, int addrlen)$/;"	f
+child_make	server/child02l.c	/^child_make(int i, int listenfd, int addrlen)$/;"	f
+child_main	server/child02m.c	/^child_main(int i, int listenfd, int addrlen)$/;"	f
+child_make	server/child02m.c	/^child_make(int i, int listenfd, int addrlen)$/;"	f
+child_main	server/child03.c	/^child_main(int i, int listenfd, int addrlen)$/;"	f
+child_make	server/child03.c	/^child_make(int i, int listenfd, int addrlen)$/;"	f
+child_main	server/child03m.c	/^child_main(int i, int listenfd, int addrlen)$/;"	f
+child_make	server/child03m.c	/^child_make(int i, int listenfd, int addrlen)$/;"	f
+child_main	server/child04.c	/^child_main(int i, int listenfd, int addrlen)$/;"	f
+child_make	server/child04.c	/^child_make(int i, int listenfd, int addrlen)$/;"	f
+child_main	server/child05.c	/^child_main(int i, int listenfd, int addrlen)$/;"	f
+child_make	server/child05.c	/^child_make(int i, int listenfd, int addrlen)$/;"	f
+MAXN	server/client.c	/^#define	MAXN	/;"	d	file:
+main	server/client.c	/^main(int argc, char **argv)$/;"	f
+MAXN	server/clientrst.c	/^#define	MAXN	/;"	d	file:
+main	server/clientrst.c	/^main(int argc, char **argv)$/;"	f
+lock_fd	server/lock_fcntl.c	/^static int			lock_fd = -1;$/;"	v	file:
+lock_it	server/lock_fcntl.c	/^static struct flock	lock_it, unlock_it;$/;"	v	typeref:struct:flock	file:
+my_lock_init	server/lock_fcntl.c	/^my_lock_init(char *pathname)$/;"	f
+my_lock_release	server/lock_fcntl.c	/^my_lock_release()$/;"	f
+my_lock_wait	server/lock_fcntl.c	/^my_lock_wait()$/;"	f
+unlock_it	server/lock_fcntl.c	/^static struct flock	lock_it, unlock_it;$/;"	v	typeref:struct:	file:
+mptr	server/lock_pthread.c	/^static pthread_mutex_t	*mptr;	\/* actual mutex will be in shared memory *\/$/;"	v	file:
+my_lock_init	server/lock_pthread.c	/^my_lock_init(char *pathname)$/;"	f
+my_lock_release	server/lock_pthread.c	/^my_lock_release()$/;"	f
+my_lock_wait	server/lock_pthread.c	/^my_lock_wait()$/;"	f
+meter	server/meter.c	/^meter(int nchildren)$/;"	f
+pr_cpu_time	server/pr_cpu_time.c	/^pr_cpu_time(void)$/;"	f
+thread_main	server/pthread07.c	/^thread_main(void *arg)$/;"	f
+thread_make	server/pthread07.c	/^thread_make(int i)$/;"	f
+Thread	server/pthread07.h	/^} Thread;$/;"	t	typeref:struct:__anon6
+addrlen	server/pthread07.h	/^socklen_t		addrlen;$/;"	v
+listenfd	server/pthread07.h	/^int				listenfd, nthreads;$/;"	v
+mlock	server/pthread07.h	/^pthread_mutex_t	mlock;$/;"	v
+nthreads	server/pthread07.h	/^int				listenfd, nthreads;$/;"	v
+thread_count	server/pthread07.h	/^  long			thread_count;	\/* # connections handled *\/$/;"	m	struct:__anon6
+thread_tid	server/pthread07.h	/^  pthread_t		thread_tid;		\/* thread ID *\/$/;"	m	struct:__anon6
+tptr	server/pthread07.h	/^Thread	*tptr;		\/* array of Thread structures; calloc'ed *\/$/;"	v
+thread_main	server/pthread08.c	/^thread_main(void *arg)$/;"	f
+thread_make	server/pthread08.c	/^thread_make(int i)$/;"	f
+MAXNCLI	server/pthread08.h	/^#define	MAXNCLI	/;"	d
+Thread	server/pthread08.h	/^} Thread;$/;"	t	typeref:struct:__anon5
+clifd	server/pthread08.h	/^int					clifd[MAXNCLI], iget, iput;$/;"	v
+clifd_cond	server/pthread08.h	/^pthread_cond_t		clifd_cond;$/;"	v
+clifd_mutex	server/pthread08.h	/^pthread_mutex_t		clifd_mutex;$/;"	v
+iget	server/pthread08.h	/^int					clifd[MAXNCLI], iget, iput;$/;"	v
+iput	server/pthread08.h	/^int					clifd[MAXNCLI], iget, iput;$/;"	v
+thread_count	server/pthread08.h	/^  long			thread_count;	\/* # connections handled *\/$/;"	m	struct:__anon5
+thread_tid	server/pthread08.h	/^  pthread_t		thread_tid;		\/* thread ID *\/$/;"	m	struct:__anon5
+tptr	server/pthread08.h	/^Thread	*tptr;		\/* array of Thread structures; calloc'ed *\/$/;"	v
+thread_main	server/pthread09.c	/^thread_main(void *arg)$/;"	f
+thread_make	server/pthread09.c	/^thread_make(int i)$/;"	f
+Thread	server/pthread09.h	/^} Thread;$/;"	t	typeref:struct:__anon7
+addrlen	server/pthread09.h	/^socklen_t		addrlen;$/;"	v
+listenfd	server/pthread09.h	/^int				listenfd, nthreads;$/;"	v
+nthreads	server/pthread09.h	/^int				listenfd, nthreads;$/;"	v
+thread_count	server/pthread09.h	/^  long			thread_count;	\/* #connections handled *\/$/;"	m	struct:__anon7
+thread_tid	server/pthread09.h	/^  pthread_t		thread_tid;		\/* thread ID *\/$/;"	m	struct:__anon7
+tptr	server/pthread09.h	/^Thread	*tptr;		\/* array of Thread structures; calloc'ed *\/$/;"	v
+Readline	server/readline.c	/^Readline(int fd, void *ptr, size_t maxlen)$/;"	f
+readline	server/readline.c	/^readline(int fd, void *vptr, size_t maxlen)$/;"	f
+Readline_r	server/readline_r.c	/^Readline_r(Rline *rptr)$/;"	f
+my_read_r	server/readline_r.c	/^my_read_r(Rline *rptr, char *ptr)$/;"	f	file:
+readline_r	server/readline_r.c	/^readline_r(Rline *rptr)$/;"	f
+readline_rinit	server/readline_r.c	/^readline_rinit(int fd, void *ptr, size_t maxlen, Rline *rptr)$/;"	f
+Rline	server/readline_r.h	/^} Rline;$/;"	t	typeref:struct:__anon4
+read_fd	server/readline_r.h	/^  int		read_fd;		\/* caller's descriptor to read from *\/$/;"	m	struct:__anon4
+read_maxlen	server/readline_r.h	/^  size_t	read_maxlen;	\/* max #bytes to read *\/$/;"	m	struct:__anon4
+read_ptr	server/readline_r.h	/^  char		*read_ptr;		\/* caller's buffer to read into *\/$/;"	m	struct:__anon4
+rl_buf	server/readline_r.h	/^  char		rl_buf[MAXLINE];$/;"	m	struct:__anon4
+rl_bufptr	server/readline_r.h	/^  char		*rl_bufptr;		\/* initialize to rl_buf *\/$/;"	m	struct:__anon4
+rl_cnt	server/readline_r.h	/^  int		rl_cnt;			\/* initialize to 0 *\/$/;"	m	struct:__anon4
+main	server/serv00.c	/^main(int argc, char **argv)$/;"	f
+sig_int	server/serv00.c	/^sig_int(int signo)$/;"	f
+main	server/serv01.c	/^main(int argc, char **argv)$/;"	f
+sig_int	server/serv01.c	/^sig_int(int signo)$/;"	f
+main	server/serv02.c	/^main(int argc, char **argv)$/;"	f
+nchildren	server/serv02.c	/^static int		nchildren;$/;"	v	file:
+pids	server/serv02.c	/^static pid_t	*pids;$/;"	v	file:
+sig_int	server/serv02.c	/^sig_int(int signo)$/;"	f
+cptr	server/serv02m.c	/^long			*cptr, *meter(int);	\/* for counting #clients\/child *\/$/;"	v
+main	server/serv02m.c	/^main(int argc, char **argv)$/;"	f
+nchildren	server/serv02m.c	/^static int		nchildren;$/;"	v	file:
+pids	server/serv02m.c	/^static pid_t	*pids;$/;"	v	file:
+sig_int	server/serv02m.c	/^sig_int(int signo)$/;"	f
+main	server/serv03.c	/^main(int argc, char **argv)$/;"	f
+nchildren	server/serv03.c	/^static int		nchildren;$/;"	v	file:
+pids	server/serv03.c	/^static pid_t	*pids;$/;"	v	file:
+sig_int	server/serv03.c	/^sig_int(int signo)$/;"	f
+cptr	server/serv03m.c	/^long			*cptr, *meter(int);	\/* for counting #clients\/child *\/$/;"	v
+main	server/serv03m.c	/^main(int argc, char **argv)$/;"	f
+nchildren	server/serv03m.c	/^static int		nchildren;$/;"	v	file:
+pids	server/serv03m.c	/^static pid_t	*pids;$/;"	v	file:
+sig_int	server/serv03m.c	/^sig_int(int signo)$/;"	f
+main	server/serv04.c	/^main(int argc, char **argv)$/;"	f
+nchildren	server/serv04.c	/^static int		nchildren;$/;"	v	file:
+pids	server/serv04.c	/^static pid_t	*pids;$/;"	v	file:
+sig_int	server/serv04.c	/^sig_int(int signo)$/;"	f
+main	server/serv05.c	/^main(int argc, char **argv)$/;"	f
+nchildren	server/serv05.c	/^static int		nchildren;$/;"	v	file:
+sig_int	server/serv05.c	/^sig_int(int signo)$/;"	f
+doit	server/serv06.c	/^doit(void *arg)$/;"	f
+main	server/serv06.c	/^main(int argc, char **argv)$/;"	f
+sig_int	server/serv06.c	/^sig_int(int signo)$/;"	f
+main	server/serv07.c	/^main(int argc, char **argv)$/;"	f
+mlock	server/serv07.c	/^pthread_mutex_t	mlock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+sig_int	server/serv07.c	/^sig_int(int signo)$/;"	f
+clifd_cond	server/serv08.c	/^pthread_cond_t		clifd_cond = PTHREAD_COND_INITIALIZER;$/;"	v
+clifd_mutex	server/serv08.c	/^pthread_mutex_t		clifd_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+main	server/serv08.c	/^main(int argc, char **argv)$/;"	f
+nthreads	server/serv08.c	/^static int			nthreads;$/;"	v	file:
+sig_int	server/serv08.c	/^sig_int(int signo)$/;"	f
+main	server/serv09.c	/^main(int argc, char **argv)$/;"	f
+sig_int	server/serv09.c	/^sig_int(int signo)$/;"	f
+sig_chld	server/sig_chld_waitpid.c	/^sig_chld(int signo)$/;"	f
+__unp_pthread_h	server/unpthread.h	/^#define	__unp_pthread_h$/;"	d
+MAXN	server/web_child.c	/^#define	MAXN	/;"	d	file:
+web_child	server/web_child.c	/^web_child(int sockfd)$/;"	f
+MAXN	server/web_child_r.c	/^#define	MAXN	/;"	d	file:
+web_child	server/web_child_r.c	/^web_child(int sockfd)$/;"	f
+PROGS	sigio/Makefile	/^PROGS =	udpcli01 udpserv01$/;"	m
+dg_cli	sigio/dgcli01.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+DG	sigio/dgecho01.c	/^} DG;$/;"	t	typeref:struct:__anon10	file:
+MAXDG	sigio/dgecho01.c	/^#define	MAXDG	/;"	d	file:
+QSIZE	sigio/dgecho01.c	/^#define	QSIZE	/;"	d	file:
+clilen	sigio/dgecho01.c	/^static socklen_t clilen;\/* max length of sockaddr{} *\/$/;"	v	file:
+cntread	sigio/dgecho01.c	/^static long	cntread[QSIZE+1];	\/* diagnostic counter *\/$/;"	v	file:
+dg	sigio/dgecho01.c	/^static DG	dg[QSIZE];			\/* queue of datagrams to process *\/$/;"	v	file:
+dg_data	sigio/dgecho01.c	/^  void		*dg_data;		\/* ptr to actual datagram *\/$/;"	m	struct:__anon10	file:
+dg_echo	sigio/dgecho01.c	/^dg_echo(int sockfd_arg, SA *pcliaddr, socklen_t clilen_arg)$/;"	f
+dg_len	sigio/dgecho01.c	/^  size_t	dg_len;			\/* length of datagram *\/$/;"	m	struct:__anon10	file:
+dg_sa	sigio/dgecho01.c	/^  struct sockaddr  *dg_sa;	\/* ptr to sockaddr{} w\/client's address *\/$/;"	m	struct:__anon10	typeref:struct:__anon10::sockaddr	file:
+dg_salen	sigio/dgecho01.c	/^  socklen_t	dg_salen;		\/* length of sockaddr{} *\/$/;"	m	struct:__anon10	file:
+iget	sigio/dgecho01.c	/^static int	iget;		\/* next one for main loop to process *\/$/;"	v	file:
+iput	sigio/dgecho01.c	/^static int	iput;		\/* next one for signal handler to read into *\/$/;"	v	file:
+nqueue	sigio/dgecho01.c	/^static int	nqueue;		\/* # on queue for main loop to process *\/$/;"	v	file:
+sig_hup	sigio/dgecho01.c	/^sig_hup(int signo)$/;"	f	file:
+sig_io	sigio/dgecho01.c	/^sig_io(int signo)$/;"	f	file:
+sockfd	sigio/dgecho01.c	/^static int		sockfd;$/;"	v	file:
+main	sigio/udpcli01.c	/^main(int argc, char **argv)$/;"	f
+main	sigio/udpserv01.c	/^main(int argc, char **argv)$/;"	f
+OBJS	sock/Makefile	/^OBJS = buffers.o cliopen.o crlf.o error.o looptcp.o loopudp.o \\$/;"	m
+PROGS	sock/Makefile	/^PROGS =	sock$/;"	m
+buffers	sock/buffers.c	/^buffers(int sockfd)$/;"	f
+cliopen	sock/cliopen.c	/^cliopen(char *host, char *port)$/;"	f
+crlf_add	sock/crlf.c	/^crlf_add(char *dst, int dstsize, const char *src, int lenin)$/;"	f
+crlf_strip	sock/crlf.c	/^crlf_strip(char *dst, int dstsize, const char *src, int lenin)$/;"	f
+err_doit	sock/error.c	/^err_doit(int errnoflag, const char *fmt, va_list ap)$/;"	f	file:
+err_dump	sock/error.c	/^err_dump(const char *fmt, ...)$/;"	f
+err_msg	sock/error.c	/^err_msg(const char *fmt, ...)$/;"	f
+err_quit	sock/error.c	/^err_quit(const char *fmt, ...)$/;"	f
+err_ret	sock/error.c	/^err_ret(const char *fmt, ...)$/;"	f
+err_sys	sock/error.c	/^err_sys(const char *fmt, ...)$/;"	f
+pname	sock/error.c	/^char	*pname = NULL;		\/* caller can set this from argv[0] *\/$/;"	v
+CONTROLLEN	sock/loop.c	/^#define	CONTROLLEN	/;"	d	file:
+loop	sock/loop.c	/^loop(int sockfd)$/;"	f
+sig_catch	sock/loop.c	/^sig_catch(int signo)$/;"	f
+loop_tcp	sock/looptcp.c	/^loop_tcp(int sockfd)$/;"	f
+CONTROLLEN	sock/loopudp.c	/^#define	CONTROLLEN	/;"	d	file:
+loop_udp	sock/loopudp.c	/^loop_udp(int sockfd)$/;"	f
+bindport	sock/main.c	/^int		bindport;			\/* 0 or TCP or UDP port number to bind *\/$/;"	v
+broadcast	sock/main.c	/^int		broadcast;			\/* SO_BROADCAST *\/$/;"	v
+cbreak	sock/main.c	/^int		cbreak;				\/* set terminal to cbreak mode *\/$/;"	v
+chunkwrite	sock/main.c	/^int		chunkwrite;			\/* write in small chunks; not all-at-once *\/$/;"	v
+cliaddr	sock/main.c	/^struct sockaddr_in	cliaddr, servaddr;$/;"	v	typeref:struct:sockaddr_in
+client	sock/main.c	/^int		client = 1;			\/* acting as client is the default *\/$/;"	v
+connectudp	sock/main.c	/^int		connectudp = 1;		\/* connect UDP client *\/$/;"	v
+crlf	sock/main.c	/^int		crlf;				\/* convert newline to CR\/LF & vice versa *\/$/;"	v
+debug	sock/main.c	/^int		debug;				\/* SO_DEBUG *\/$/;"	v
+dofork	sock/main.c	/^int		dofork;				\/* concurrent server, do a fork() *\/$/;"	v
+dontroute	sock/main.c	/^int		dontroute;			\/* SO_DONTROUTE *\/$/;"	v
+foreignip	sock/main.c	/^char	foreignip[32];		\/* foreign IP address, dotted-decimal string *\/$/;"	v
+foreignport	sock/main.c	/^int		foreignport;		\/* foreign port number *\/$/;"	v
+halfclose	sock/main.c	/^int		halfclose;			\/* TCP half close option *\/$/;"	v
+host	sock/main.c	/^char	*host;		\/* hostname or dotted-decimal string *\/$/;"	v
+ignorewerr	sock/main.c	/^int		ignorewerr;			\/* true if write() errors should be ignored *\/$/;"	v
+iptos	sock/main.c	/^int		iptos = -1;			\/* IP_TOS opton *\/$/;"	v
+ipttl	sock/main.c	/^int		ipttl = -1;			\/* IP_TTL opton *\/$/;"	v
+joinip	sock/main.c	/^char	joinip[32];			\/* multicast IP address, dotted-decimal string *\/$/;"	v
+keepalive	sock/main.c	/^int		keepalive;			\/* SO_KEEPALIVE *\/$/;"	v
+linger	sock/main.c	/^long	linger = -1;		\/* 0 or positive turns on option *\/$/;"	v
+listenq	sock/main.c	/^int		listenq = 5;		\/* listen queue for TCP Server *\/$/;"	v
+localip	sock/main.c	/^char	localip[32];		\/* local IP address, dotted-decimal string *\/$/;"	v
+main	sock/main.c	/^main(int argc, char *argv[])$/;"	f
+maxseg	sock/main.c	/^int		maxseg;				\/* TCP_MAXSEG *\/$/;"	v
+mcastttl	sock/main.c	/^int		mcastttl;			\/* multicast TTL *\/$/;"	v
+msgpeek	sock/main.c	/^int		msgpeek;			\/* MSG_PEEK *\/$/;"	v
+nbuf	sock/main.c	/^int		nbuf = 1024;		\/* number of buffers to write (sink mode) *\/$/;"	v
+nodelay	sock/main.c	/^int		nodelay;			\/* TCP_NODELAY (Nagle algorithm) *\/$/;"	v
+onesbcast	sock/main.c	/^int		onesbcast;			\/* set IP_ONESBCAST for 255.255.255.255 bcasts *\/$/;"	v
+pauseclose	sock/main.c	/^int		pauseclose;			\/* #ms to sleep after recv FIN, before close *\/$/;"	v
+pauseinit	sock/main.c	/^int		pauseinit;			\/* #ms to sleep before first read *\/$/;"	v
+pauselisten	sock/main.c	/^int		pauselisten;		\/* #ms to sleep after listen() *\/$/;"	v
+pauserw	sock/main.c	/^int		pauserw;			\/* #ms to sleep before each read or write *\/$/;"	v
+port	sock/main.c	/^char	*port;$/;"	v
+rbuf	sock/main.c	/^char   *rbuf;				\/* pointer that is malloc'ed *\/$/;"	v
+rcvbuflen	sock/main.c	/^int		rcvbuflen;			\/* size for SO_RCVBUF *\/$/;"	v
+rcvtimeo	sock/main.c	/^long	rcvtimeo;			\/* SO_RCVTIMEO *\/$/;"	v
+readlen	sock/main.c	/^int		readlen = 1024;		\/* default read length for socket *\/$/;"	v
+recvdstaddr	sock/main.c	/^int		recvdstaddr;		\/* IP_RECVDSTADDR option *\/$/;"	v
+reuseaddr	sock/main.c	/^int		reuseaddr;			\/* SO_REUSEADDR *\/$/;"	v
+reuseport	sock/main.c	/^int		reuseport;			\/* SO_REUSEPORT *\/$/;"	v
+servaddr	sock/main.c	/^struct sockaddr_in	cliaddr, servaddr;$/;"	v	typeref:struct:
+server	sock/main.c	/^int		server;				\/* to act as server requires -s option *\/$/;"	v
+sigio	sock/main.c	/^int		sigio;				\/* send SIGIO *\/$/;"	v
+sndbuflen	sock/main.c	/^int		sndbuflen;			\/* size for SO_SNDBUF *\/$/;"	v
+sndtimeo	sock/main.c	/^long	sndtimeo;			\/* SO_SNDTIMEO *\/$/;"	v
+sourcesink	sock/main.c	/^int		sourcesink;			\/* source\/sink mode *\/$/;"	v
+sroute_cnt	sock/main.c	/^int		sroute_cnt;			\/* count of #IP addresses in route *\/$/;"	v
+udp	sock/main.c	/^int		udp;				\/* use UDP instead of TCP *\/$/;"	v
+urgwrite	sock/main.c	/^int		urgwrite;			\/* write urgent byte after this write *\/$/;"	v
+usage	sock/main.c	/^usage(const char *msg)$/;"	f	file:
+usewritev	sock/main.c	/^int		usewritev;			\/* use writev() instead of write() *\/$/;"	v
+verbose	sock/main.c	/^int		verbose;			\/* each -v increments this by 1 *\/$/;"	v
+wbuf	sock/main.c	/^char   *wbuf;				\/* pointer that is malloc'ed *\/$/;"	v
+writelen	sock/main.c	/^int		writelen = 1024;	\/* default write length for socket *\/$/;"	v
+join_mcast	sock/multicast.c	/^join_mcast(int fd, struct sockaddr_in *sin)$/;"	f
+DIR_MODE	sock/ourhdr.h	/^#define	DIR_MODE	/;"	d
+FILE_MODE	sock/ourhdr.h	/^#define	FILE_MODE	/;"	d
+MAXLINE	sock/ourhdr.h	/^#define	MAXLINE	/;"	d
+SIG_ERR	sock/ourhdr.h	/^#define	SIG_ERR	/;"	d
+Sigfunc	sock/ourhdr.h	/^typedef	void	Sigfunc(int);	\/* for signal handlers *\/$/;"	t
+__ourhdr_h	sock/ourhdr.h	/^#define	__ourhdr_h$/;"	d
+is_readlock	sock/ourhdr.h	/^#define	is_readlock(/;"	d
+is_writelock	sock/ourhdr.h	/^#define	is_writelock(/;"	d
+max	sock/ourhdr.h	/^#define	max(/;"	d
+min	sock/ourhdr.h	/^#define	min(/;"	d
+read_lock	sock/ourhdr.h	/^#define	read_lock(/;"	d
+readw_lock	sock/ourhdr.h	/^#define	readw_lock(/;"	d
+send	sock/ourhdr.h	/^#define	send(/;"	d
+ssize_t	sock/ourhdr.h	/^typedef	int	ssize_t;$/;"	t
+un_lock	sock/ourhdr.h	/^#define	un_lock(/;"	d
+write_lock	sock/ourhdr.h	/^#define	write_lock(/;"	d
+writew_lock	sock/ourhdr.h	/^#define	writew_lock(/;"	d
+pattern	sock/pattern.c	/^pattern(char *ptr, int len)$/;"	f
+servopen	sock/servopen.c	/^servopen(char *host, char *port)$/;"	f
+sink_tcp	sock/sinktcp.c	/^sink_tcp(int sockfd)$/;"	f
+sink_udp	sock/sinkudp.c	/^sink_udp(int sockfd)	\/* TODO: use recvfrom ?? *\/$/;"	f
+sleep_us	sock/sleepus.c	/^sleep_us(unsigned int nusecs)$/;"	f
+INET_NTOA	sock/sock.h	/^#define	INET_NTOA(/;"	d
+sigio_func	sock/sockopts.c	/^sigio_func(int signo)$/;"	f	file:
+sockopts	sock/sockopts.c	/^sockopts(int sockfd, int doall)$/;"	f
+optr	sock/sourceroute.c	/^u_char	*optr;				\/* pointer into options being formed *\/$/;"	v
+sroute_doopt	sock/sourceroute.c	/^sroute_doopt(int strict, char *argptr)$/;"	f
+sroute_opt	sock/sourceroute.c	/^u_char	sroute_opt[44];		\/* some implementations require this to be$/;"	v
+sroute_set	sock/sourceroute.c	/^sroute_set(int sockfd)$/;"	f
+pattern	sock/sourcesink.c	/^pattern(char *ptr, int len)$/;"	f
+sink	sock/sourcesink.c	/^sink(int sockfd)$/;"	f
+source_tcp	sock/sourcetcp.c	/^source_tcp(int sockfd)$/;"	f
+source_udp	sock/sourceudp.c	/^source_udp(int sockfd)	\/* TODO: use sendto ?? *\/$/;"	f
+strerror	sock/strerror.c	/^strerror(int error)$/;"	f
+TELL_CHILD	sock/tellwait.c	/^TELL_CHILD(pid_t pid)$/;"	f
+TELL_PARENT	sock/tellwait.c	/^TELL_PARENT(pid_t pid)$/;"	f
+TELL_WAIT	sock/tellwait.c	/^TELL_WAIT()$/;"	f
+WAIT_CHILD	sock/tellwait.c	/^WAIT_CHILD(void)$/;"	f
+WAIT_PARENT	sock/tellwait.c	/^WAIT_PARENT(void)$/;"	f
+newmask	sock/tellwait.c	/^static sigset_t			newmask, oldmask, zeromask;$/;"	v	file:
+oldmask	sock/tellwait.c	/^static sigset_t			newmask, oldmask, zeromask;$/;"	v	file:
+sig_usr	sock/tellwait.c	/^sig_usr(int signo)	\/* one signal handler for SIGUSR1 and SIGUSR2 *\/$/;"	f	file:
+sigflag	sock/tellwait.c	/^static volatile sig_atomic_t	sigflag;$/;"	v	file:
+zeromask	sock/tellwait.c	/^static sigset_t			newmask, oldmask, zeromask;$/;"	v	file:
+UIO_MAXIOV	sock/write.c	/^#define	UIO_MAXIOV	/;"	d	file:
+dowrite	sock/write.c	/^dowrite(int fd, const void *vptr, size_t nbytes)$/;"	f
+writen	sock/writen.c	/^writen(int fd, const void *vptr, size_t n)$/;"	f
+PROGS	sockopt/Makefile	/^PROGS =	checkopts prdefaults rcvbuf rcvbufset sockopt$/;"	m
+i_val	sockopt/checkopts.c	/^  int				i_val;$/;"	m	union:val	file:
+l_val	sockopt/checkopts.c	/^  long				l_val;$/;"	m	union:val	file:
+linger_val	sockopt/checkopts.c	/^  struct linger		linger_val;$/;"	m	union:val	typeref:struct:val::linger	file:
+main	sockopt/checkopts.c	/^main(int argc, char **argv)$/;"	f
+opt_level	sockopt/checkopts.c	/^  int		opt_level;$/;"	m	struct:sock_opts	file:
+opt_name	sockopt/checkopts.c	/^  int		opt_name;$/;"	m	struct:sock_opts	file:
+opt_str	sockopt/checkopts.c	/^  const char	   *opt_str;$/;"	m	struct:sock_opts	file:
+opt_val_str	sockopt/checkopts.c	/^  char   *(*opt_val_str)(union val *, int);$/;"	m	struct:sock_opts	file:
+sock_opts	sockopt/checkopts.c	/^struct sock_opts {$/;"	s	file:
+sock_opts	sockopt/checkopts.c	/^} sock_opts[] = {$/;"	v	typeref:struct:sock_opts
+sock_str_flag	sockopt/checkopts.c	/^sock_str_flag(union val *ptr, int len)$/;"	f	file:
+sock_str_int	sockopt/checkopts.c	/^sock_str_int(union val *ptr, int len)$/;"	f	file:
+sock_str_linger	sockopt/checkopts.c	/^sock_str_linger(union val *ptr, int len)$/;"	f	file:
+sock_str_timeval	sockopt/checkopts.c	/^sock_str_timeval(union val *ptr, int len)$/;"	f	file:
+strres	sockopt/checkopts.c	/^static char	strres[128];$/;"	v	file:
+timeval_val	sockopt/checkopts.c	/^  struct timeval	timeval_val;$/;"	m	union:val	typeref:struct:val::timeval	file:
+val	sockopt/checkopts.c	/^union val {$/;"	u	file:
+val	sockopt/checkopts.c	/^} val;$/;"	v	typeref:union:val
+doit	sockopt/prdefaults.c	/^doit(int fd, const char *name)$/;"	f	file:
+main	sockopt/prdefaults.c	/^main()$/;"	f
+main	sockopt/rcvbuf.c	/^main(int argc, char **argv)$/;"	f
+main	sockopt/rcvbufset.c	/^main(int argc, char **argv)$/;"	f
+main	sockopt/sockopt.c	/^main(int argc, char **argv)$/;"	f
+CPU_VENDOR_OS	sparc64-unknown-freebsd5.1/config.h	/^#define CPU_VENDOR_OS /;"	d
+HAVE_ADDRINFO_STRUCT	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_ADDRINFO_STRUCT /;"	d
+HAVE_ARPA_INET_H	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_ARPA_INET_H /;"	d
+HAVE_BZERO	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_BZERO /;"	d
+HAVE_ERRNO_H	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_ERRNO_H /;"	d
+HAVE_FCNTL_H	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_FCNTL_H /;"	d
+HAVE_GETADDRINFO	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_GETADDRINFO /;"	d
+HAVE_GETADDRINFO_PROTO	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_GETADDRINFO_PROTO /;"	d
+HAVE_GETHOSTBYNAME2	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_GETHOSTBYNAME2 /;"	d
+HAVE_GETHOSTNAME	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_GETHOSTNAME /;"	d
+HAVE_GETHOSTNAME_PROTO	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_GETHOSTNAME_PROTO /;"	d
+HAVE_GETNAMEINFO	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_GETNAMEINFO /;"	d
+HAVE_GETNAMEINFO_PROTO	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_GETNAMEINFO_PROTO /;"	d
+HAVE_GETRUSAGE_PROTO	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_GETRUSAGE_PROTO /;"	d
+HAVE_HSTRERROR	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_HSTRERROR /;"	d
+HAVE_HSTRERROR_PROTO	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_HSTRERROR_PROTO /;"	d
+HAVE_IF_NAMEINDEX_STRUCT	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_IF_NAMEINDEX_STRUCT /;"	d
+HAVE_IF_NAMETOINDEX	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_IF_NAMETOINDEX /;"	d
+HAVE_IF_NAMETOINDEX_PROTO	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_IF_NAMETOINDEX_PROTO /;"	d
+HAVE_INET_ATON	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_INET_ATON /;"	d
+HAVE_INET_ATON_PROTO	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_INET_ATON_PROTO /;"	d
+HAVE_INET_PTON	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_INET_PTON /;"	d
+HAVE_INET_PTON_PROTO	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_INET_PTON_PROTO /;"	d
+HAVE_KEVENT	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_KEVENT /;"	d
+HAVE_KQUEUE	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_KQUEUE /;"	d
+HAVE_MKSTEMP	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_MKSTEMP /;"	d
+HAVE_MSGHDR_MSG_CONTROL	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_MSGHDR_MSG_CONTROL /;"	d
+HAVE_NETCONFIG_H	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_NETCONFIG_H /;"	d
+HAVE_NETDB_H	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_NETDB_H /;"	d
+HAVE_NETINET_IN_H	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_NETINET_IN_H /;"	d
+HAVE_NET_IF_DL_H	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_NET_IF_DL_H /;"	d
+HAVE_POLL	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_POLL /;"	d
+HAVE_POLL_H	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_POLL_H /;"	d
+HAVE_PSELECT	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_PSELECT /;"	d
+HAVE_PSELECT_PROTO	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_PSELECT_PROTO /;"	d
+HAVE_PTHREAD_H	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_PTHREAD_H /;"	d
+HAVE_SIGNAL_H	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_SIGNAL_H /;"	d
+HAVE_SNPRINTF	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_SNPRINTF /;"	d
+HAVE_SNPRINTF_PROTO	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_SNPRINTF_PROTO /;"	d
+HAVE_SOCKADDR_DL_STRUCT	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_SOCKADDR_DL_STRUCT /;"	d
+HAVE_SOCKADDR_SA_LEN	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_SOCKADDR_SA_LEN /;"	d
+HAVE_SOCKATMARK	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_SOCKATMARK /;"	d
+HAVE_SOCKATMARK_PROTO	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_SOCKATMARK_PROTO /;"	d
+HAVE_STDIO_H	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_STDIO_H /;"	d
+HAVE_STDLIB_H	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_STDLIB_H /;"	d
+HAVE_STRINGS_H	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_STRINGS_H /;"	d
+HAVE_STRING_H	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_STRING_H /;"	d
+HAVE_STRUCT_IFREQ_IFR_MTU	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_STRUCT_IFREQ_IFR_MTU /;"	d
+HAVE_STRUCT_SOCKADDR_STORAGE	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_STRUCT_SOCKADDR_STORAGE /;"	d
+HAVE_SYS_EVENT_H	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_SYS_EVENT_H /;"	d
+HAVE_SYS_FILIO_H	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_SYS_FILIO_H /;"	d
+HAVE_SYS_IOCTL_H	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_SYS_IOCTL_H /;"	d
+HAVE_SYS_SELECT_H	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_SYS_SELECT_H /;"	d
+HAVE_SYS_SOCKET_H	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_SYS_SOCKET_H /;"	d
+HAVE_SYS_SOCKIO_H	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_SYS_SOCKIO_H /;"	d
+HAVE_SYS_STAT_H	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_SYS_STAT_H /;"	d
+HAVE_SYS_SYSCTL_H	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_SYS_SYSCTL_H /;"	d
+HAVE_SYS_TIME_H	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_SYS_TIME_H /;"	d
+HAVE_SYS_TYPES_H	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_SYS_TYPES_H /;"	d
+HAVE_SYS_UIO_H	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_SYS_UIO_H /;"	d
+HAVE_SYS_UN_H	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_SYS_UN_H /;"	d
+HAVE_SYS_WAIT_H	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_SYS_WAIT_H /;"	d
+HAVE_TIMESPEC_STRUCT	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_TIMESPEC_STRUCT /;"	d
+HAVE_TIME_H	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_TIME_H /;"	d
+HAVE_UNISTD_H	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_UNISTD_H /;"	d
+HAVE_VSNPRINTF	sparc64-unknown-freebsd5.1/config.h	/^#define HAVE_VSNPRINTF /;"	d
+IPV4	sparc64-unknown-freebsd5.1/config.h	/^#define IPV4 /;"	d
+IPV6	sparc64-unknown-freebsd5.1/config.h	/^#define IPV6 /;"	d
+IPv4	sparc64-unknown-freebsd5.1/config.h	/^#define IPv4 /;"	d
+IPv6	sparc64-unknown-freebsd5.1/config.h	/^#define IPv6 /;"	d
+MCAST	sparc64-unknown-freebsd5.1/config.h	/^#define MCAST /;"	d
+STDC_HEADERS	sparc64-unknown-freebsd5.1/config.h	/^#define STDC_HEADERS /;"	d
+TIME_WITH_SYS_TIME	sparc64-unknown-freebsd5.1/config.h	/^#define TIME_WITH_SYS_TIME /;"	d
+UNIXDOMAIN	sparc64-unknown-freebsd5.1/config.h	/^#define UNIXDOMAIN /;"	d
+UNIXdomain	sparc64-unknown-freebsd5.1/config.h	/^#define UNIXdomain /;"	d
+t_scalar_t	sparc64-unknown-freebsd5.1/config.h	/^#define t_scalar_t /;"	d
+t_uscalar_t	sparc64-unknown-freebsd5.1/config.h	/^#define t_uscalar_t /;"	d
+PROGS	ssntp/Makefile	/^PROGS =	ssntp$/;"	m
+main	ssntp/main.c	/^main(int argc, char **argv)$/;"	f
+JAN_1970	ssntp/ntp.h	/^#define	JAN_1970	/;"	d
+MODE_BROADCAST	ssntp/ntp.h	/^#define	MODE_BROADCAST	/;"	d
+MODE_CLIENT	ssntp/ntp.h	/^#define	MODE_CLIENT	/;"	d
+MODE_MASK	ssntp/ntp.h	/^#define	MODE_MASK	/;"	d
+MODE_SERVER	ssntp/ntp.h	/^#define	MODE_SERVER	/;"	d
+VERSION_MASK	ssntp/ntp.h	/^#define	VERSION_MASK	/;"	d
+dispersion	ssntp/ntp.h	/^  struct s_fixedpt	dispersion;$/;"	m	struct:ntpdata	typeref:struct:ntpdata::s_fixedpt
+distance	ssntp/ntp.h	/^  struct s_fixedpt	distance;$/;"	m	struct:ntpdata	typeref:struct:ntpdata::s_fixedpt
+fraction	ssntp/ntp.h	/^  uint16_t	fraction;$/;"	m	struct:s_fixedpt
+fraction	ssntp/ntp.h	/^  uint32_t	fraction;$/;"	m	struct:l_fixedpt
+int_part	ssntp/ntp.h	/^  uint16_t	int_part;$/;"	m	struct:s_fixedpt
+int_part	ssntp/ntp.h	/^  uint32_t	int_part;$/;"	m	struct:l_fixedpt
+l_fixedpt	ssntp/ntp.h	/^struct l_fixedpt {		\/* 64-bit fixed-point *\/$/;"	s
+ntpdata	ssntp/ntp.h	/^struct ntpdata {		\/* NTP header *\/$/;"	s
+org	ssntp/ntp.h	/^  struct l_fixedpt	org;$/;"	m	struct:ntpdata	typeref:struct:ntpdata::l_fixedpt
+ppoll	ssntp/ntp.h	/^  u_char			ppoll;$/;"	m	struct:ntpdata
+precision	ssntp/ntp.h	/^  int				precision:8;$/;"	m	struct:ntpdata
+rec	ssntp/ntp.h	/^  struct l_fixedpt	rec;$/;"	m	struct:ntpdata	typeref:struct:ntpdata::l_fixedpt
+refid	ssntp/ntp.h	/^  uint32_t			refid;$/;"	m	struct:ntpdata
+reftime	ssntp/ntp.h	/^  struct l_fixedpt	reftime;$/;"	m	struct:ntpdata	typeref:struct:ntpdata::l_fixedpt
+s_fixedpt	ssntp/ntp.h	/^struct s_fixedpt {		\/* 32-bit fixed-point *\/$/;"	s
+status	ssntp/ntp.h	/^  u_char			status;$/;"	m	struct:ntpdata
+stratum	ssntp/ntp.h	/^  u_char			stratum;$/;"	m	struct:ntpdata
+xmt	ssntp/ntp.h	/^  struct l_fixedpt	xmt;$/;"	m	struct:ntpdata	typeref:struct:ntpdata::l_fixedpt
+sntp_proc	ssntp/sntp_proc.c	/^sntp_proc(char *buf, ssize_t n, struct timeval *nowptr)$/;"	f
+PROGS	streams/Makefile	/^PROGS =	strlist_sock strlist_xti tpi_daytime$/;"	m
+SERV_HOST_ADDR	streams/stream_dg/client.c	/^#define SERV_HOST_ADDR /;"	d	file:
+SERV_TCP_PORT	streams/stream_dg/client.c	/^#define SERV_TCP_PORT /;"	d	file:
+echo_driver	streams/stream_dg/client.c	/^echo_driver(int fd, struct sockaddr_in *serv_addr)$/;"	f
+main	streams/stream_dg/client.c	/^main()$/;"	f
+net_bind	streams/stream_dg/net_stream.c	/^net_bind (int fd, void *addr, int addrlen)$/;"	f
+net_open	streams/stream_dg/net_stream.c	/^net_open (char *path, int oflags, void *addr, int addrlen)$/;"	f
+net_recv	streams/stream_dg/net_stream.c	/^net_recv (int fd, char *buf, int len, char *from_addr, int addrlen)$/;"	f
+net_send	streams/stream_dg/net_stream.c	/^net_send (int fd, char *buf, int len, char *to_addr, int addrlen)$/;"	f
+SERV_TCP_PORT	streams/stream_dg/server.c	/^#define SERV_TCP_PORT /;"	d	file:
+echo_serv	streams/stream_dg/server.c	/^echo_serv (int fd)$/;"	f
+main	streams/stream_dg/server.c	/^main()$/;"	f
+main	streams/strlist_sock.c	/^main(int argc, char *argv[])$/;"	f
+main	streams/strlist_xti.c	/^main(int argc, char *argv[])$/;"	f
+tpi_bind	streams/tpi_bind.c	/^tpi_bind(int fd, const void *addr, size_t addrlen)$/;"	f
+tpi_close	streams/tpi_close.c	/^tpi_close(int fd)$/;"	f
+tpi_connect	streams/tpi_connect.c	/^tpi_connect(int fd, const void *addr, size_t addrlen)$/;"	f
+main	streams/tpi_daytime.c	/^main(int argc, char **argv)$/;"	f
+tpi_read	streams/tpi_read.c	/^tpi_read(int fd, void *buf, size_t len)$/;"	f
+INFTIM	streams/unpxti.h	/^#undef	INFTIM	/;"	d
+T_INET_IP	streams/unpxti.h	/^#define	T_INET_IP	/;"	d
+T_INET_TCP	streams/unpxti.h	/^#define	T_INET_TCP	/;"	d
+T_INET_UDP	streams/unpxti.h	/^#define	T_INET_UDP	/;"	d
+T_IP_BROADCAST	streams/unpxti.h	/^#define	T_IP_BROADCAST	/;"	d
+T_IP_DONTROUTE	streams/unpxti.h	/^#define	T_IP_DONTROUTE	/;"	d
+T_IP_OPTIONS	streams/unpxti.h	/^#define	T_IP_OPTIONS	/;"	d
+T_IP_REUSEADDR	streams/unpxti.h	/^#define	T_IP_REUSEADDR	/;"	d
+T_IP_TOS	streams/unpxti.h	/^#define	T_IP_TOS	/;"	d
+T_IP_TTL	streams/unpxti.h	/^#define	T_IP_TTL	/;"	d
+T_TCP_KEEPALIVE	streams/unpxti.h	/^#define	T_TCP_KEEPALIVE	/;"	d
+T_TCP_MAXSEG	streams/unpxti.h	/^#define	T_TCP_MAXSEG	/;"	d
+T_TCP_NODELAY	streams/unpxti.h	/^#define	T_TCP_NODELAY	/;"	d
+T_UDP_CHECKSUM	streams/unpxti.h	/^#define	T_UDP_CHECKSUM	/;"	d
+XTI_TCP	streams/unpxti.h	/^# define	XTI_TCP	/;"	d
+XTI_UDP	streams/unpxti.h	/^# define	XTI_UDP	/;"	d
+__unp_xti_h	streams/unpxti.h	/^#define	__unp_xti_h$/;"	d
+PROGS	tcpcliserv/Makefile	/^PROGS =	tcpcli01 tcpcli04 tcpcli05 tcpcli06 \\$/;"	m
+sig_chld	tcpcliserv/sigchldwait.c	/^sig_chld(int signo)$/;"	f
+sig_chld	tcpcliserv/sigchldwaitpid.c	/^sig_chld(int signo)$/;"	f
+str_cli	tcpcliserv/str_cli08.c	/^str_cli(FILE *fp, int sockfd)$/;"	f
+str_cli	tcpcliserv/str_cli09.c	/^str_cli(FILE *fp, int sockfd)$/;"	f
+str_cli	tcpcliserv/str_cli11.c	/^str_cli(FILE *fp, int sockfd)$/;"	f
+str_echo	tcpcliserv/str_echo08.c	/^str_echo(int sockfd)$/;"	f
+str_echo	tcpcliserv/str_echo09.c	/^str_echo(int sockfd)$/;"	f
+arg1	tcpcliserv/sum.h	/^  long	arg1;$/;"	m	struct:args
+arg2	tcpcliserv/sum.h	/^  long	arg2;$/;"	m	struct:args
+args	tcpcliserv/sum.h	/^struct args {$/;"	s
+result	tcpcliserv/sum.h	/^struct result {$/;"	s
+sum	tcpcliserv/sum.h	/^  long	sum;$/;"	m	struct:result
+main	tcpcliserv/tcpcli01.c	/^main(int argc, char **argv)$/;"	f
+main	tcpcliserv/tcpcli04.c	/^main(int argc, char **argv)$/;"	f
+main	tcpcliserv/tcpcli05.c	/^main(int argc, char **argv)$/;"	f
+main	tcpcliserv/tcpcli06.c	/^main(int argc, char **argv)$/;"	f
+main	tcpcliserv/tcpcli07.c	/^main(int argc, char **argv)$/;"	f
+sig_alrm	tcpcliserv/tcpcli07.c	/^sig_alrm(int signo)$/;"	f
+main	tcpcliserv/tcpcli08.c	/^main(int argc, char **argv)$/;"	f
+main	tcpcliserv/tcpcli09.c	/^main(int argc, char **argv)$/;"	f
+main	tcpcliserv/tcpcli10.c	/^main(int argc, char **argv)$/;"	f
+main	tcpcliserv/tcpcli11.c	/^main(int argc, char **argv)$/;"	f
+main	tcpcliserv/tcpserv01.c	/^main(int argc, char **argv)$/;"	f
+main	tcpcliserv/tcpserv02.c	/^main(int argc, char **argv)$/;"	f
+main	tcpcliserv/tcpserv03.c	/^main(int argc, char **argv)$/;"	f
+main	tcpcliserv/tcpserv04.c	/^main(int argc, char **argv)$/;"	f
+main	tcpcliserv/tcpserv08.c	/^main(int argc, char **argv)$/;"	f
+main	tcpcliserv/tcpserv09.c	/^main(int argc, char **argv)$/;"	f
+main	tcpcliserv/tcpservpoll01.c	/^main(int argc, char **argv)$/;"	f
+main	tcpcliserv/tcpservselect01.c	/^main(int argc, char **argv)$/;"	f
+main	tcpcliserv/tsigpipe.c	/^main(int argc, char **argv)$/;"	f
+sig_pipe	tcpcliserv/tsigpipe.c	/^sig_pipe(int signo)$/;"	f
+PROGS	test/Makefile	/^PROGS =	accept_eintr test1 treadline1 treadline2 treadline3 \\$/;"	m
+TEST1_OBJS	test/Makefile	/^TEST1_OBJS = test1.o funcs.o$/;"	m
+main	test/accept_eintr.c	/^main(int argc, char **argv)$/;"	f
+sig_int	test/accept_eintr.c	/^sig_int(int signo)$/;"	f
+TcpSockByAddr	test/funcs.c	/^TcpSockByAddr(char *ipaddr, int port \/* host byte order *\/ )$/;"	f
+UdpConnSockByAddr	test/funcs.c	/^UdpConnSockByAddr(char *ipaddr, int port \/* host byte order *\/ )$/;"	f
+UdpSockByAddr	test/funcs.c	/^UdpSockByAddr(char *ipaddr, int port \/* host byte order *\/ )$/;"	f
+Rline	test/readline.h	/^} Rline;$/;"	t	typeref:struct:__anon3
+read_fd	test/readline.h	/^  int		read_fd;		\/* caller's descriptor to read from *\/$/;"	m	struct:__anon3
+read_maxlen	test/readline.h	/^  size_t	read_maxlen;	\/* max #bytes to read *\/$/;"	m	struct:__anon3
+read_ptr	test/readline.h	/^  char		*read_ptr;		\/* caller's buffer to read into *\/$/;"	m	struct:__anon3
+rl_buf	test/readline.h	/^  char		rl_buf[MAXLINE];$/;"	m	struct:__anon3
+rl_bufptr	test/readline.h	/^  char		*rl_bufptr;		\/* initialize to rl_buf *\/$/;"	m	struct:__anon3
+rl_cnt	test/readline.h	/^  int		rl_cnt;			\/* initialize to 0 *\/$/;"	m	struct:__anon3
+Readline	test/readline1.c	/^Readline(int fd, void *ptr, size_t maxlen)$/;"	f
+readline	test/readline1.c	/^readline(int fd, void *vptr, size_t maxlen)$/;"	f
+Readline	test/readline2.c	/^Readline(int fd, void *ptr, size_t maxlen)$/;"	f
+my_read	test/readline2.c	/^my_read(int fd, char *ptr)$/;"	f	file:
+readline	test/readline2.c	/^readline(int fd, void *vptr, size_t maxlen)$/;"	f
+Readline	test/readline3.c	/^Readline(int fd, void *ptr, size_t maxlen)$/;"	f
+my_read	test/readline3.c	/^my_read(Rline *rptr, char *ptr)$/;"	f	file:
+readline_r	test/readline3.c	/^readline_r(Rline *rptr)$/;"	f
+readline_rinit	test/readline3.c	/^readline_rinit(int fd, void *ptr, size_t maxlen, Rline *rptr)$/;"	f
+buff	test/test1.c	/^char	buff[8192];$/;"	v
+cliaddr	test/test1.c	/^struct sockaddr_in	servaddr, cliaddr;$/;"	v	typeref:struct:
+header_flags	test/test1.c	/^header_flags()$/;"	f
+main	test/test1.c	/^main(int argc, char **argv)$/;"	f
+sendto_01	test/test1.c	/^sendto_01()$/;"	f
+servaddr	test/test1.c	/^struct sockaddr_in	servaddr, cliaddr;$/;"	v	typeref:struct:sockaddr_in
+udp_01	test/test1.c	/^udp_01()$/;"	f
+usage	test/test1.c	/^usage(const char *msg)$/;"	f	file:
+verbose	test/test1.c	/^int		verbose;$/;"	v
+Udp_client	test/test2.c	/^Udp_client(const char *host, const char *serv, void **saptr, socklen_t *lenptr)$/;"	f
+main	test/test2.c	/^main(int argc, char **argv)$/;"	f
+udp_client	test/test2.c	/^udp_client(const char *host, const char *serv, void **saptr, socklen_t *lenp)$/;"	f
+main	test/tisfdtype.c	/^main()$/;"	f
+main	test/treadline1.c	/^main(int argc, char **argv)$/;"	f
+main	test/treadline2.c	/^main(int argc, char **argv)$/;"	f
+main	test/treadline3.c	/^main(int argc, char **argv)$/;"	f
+BUFF	test/tshutdown.c	/^#define	BUFF	/;"	d	file:
+buff	test/tshutdown.c	/^char	buff[BUFF];$/;"	v
+main	test/tshutdown.c	/^main(int argc, char **argv)$/;"	f
+main	test/tsnprintf.c	/^main(int argc, char **argv)$/;"	f
+PROGS	threads/Makefile	/^PROGS =	web01 web02 web03 \\$/;"	m
+NLOOP	threads/example01.c	/^#define	NLOOP /;"	d	file:
+counter	threads/example01.c	/^int				counter;		\/* incremented by threads *\/$/;"	v
+doit	threads/example01.c	/^doit(void *vptr)$/;"	f
+main	threads/example01.c	/^main(int argc, char **argv)$/;"	f
+NLOOP	threads/example02.c	/^#define	NLOOP /;"	d	file:
+counter	threads/example02.c	/^int				counter;		\/* incremented by threads *\/$/;"	v
+counter_mutex	threads/example02.c	/^pthread_mutex_t	counter_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+doit	threads/example02.c	/^doit(void *vptr)$/;"	f
+main	threads/example02.c	/^main(int argc, char **argv)$/;"	f
+BUFFSIZE	threads/example03.c	/^#define	BUFFSIZE	/;"	d	file:
+NLOOP	threads/example03.c	/^#define	NLOOP	/;"	d	file:
+Pthread_cond_signal	threads/example03.c	/^#define	Pthread_cond_signal(/;"	d	file:
+Pthread_cond_wait	threads/example03.c	/^#define	Pthread_cond_wait(/;"	d	file:
+Pthread_mutex_lock	threads/example03.c	/^#define	Pthread_mutex_lock(/;"	d	file:
+Pthread_mutex_unlock	threads/example03.c	/^#define	Pthread_mutex_unlock(/;"	d	file:
+b_buf	threads/example03.c	/^  int		b_buf[BUFFSIZE];	\/* the buffer which contains integer items *\/$/;"	m	struct:buf_t	file:
+b_cond_consumer	threads/example03.c	/^  pthread_cond_t	b_cond_consumer;	\/* consumer waiting to get *\/$/;"	m	struct:buf_t	file:
+b_cond_producer	threads/example03.c	/^  pthread_cond_t	b_cond_producer;	\/* producer waiting to put *\/$/;"	m	struct:buf_t	file:
+b_mutex	threads/example03.c	/^  pthread_mutex_t	b_mutex;$/;"	m	struct:buf_t	file:
+b_nextget	threads/example03.c	/^  int		b_nextget;$/;"	m	struct:buf_t	file:
+b_nextput	threads/example03.c	/^  int		b_nextput;$/;"	m	struct:buf_t	file:
+b_nitems	threads/example03.c	/^  int		b_nitems;			\/* #items currently in buffer *\/$/;"	m	struct:buf_t	file:
+buf_t	threads/example03.c	/^struct buf_t {$/;"	s	file:
+buf_t	threads/example03.c	/^} buf_t;$/;"	v	typeref:struct:buf_t
+consume	threads/example03.c	/^consume(struct buf_t *bptr)$/;"	f
+consume_loop	threads/example03.c	/^consume_loop(void *vptr)$/;"	f
+main	threads/example03.c	/^main(int argc, char **argv)$/;"	f
+produce	threads/example03.c	/^produce(struct buf_t *bptr, int val)$/;"	f
+produce_loop	threads/example03.c	/^produce_loop(void *vptr)$/;"	f
+Readline	threads/readline.c	/^Readline(int fd, void *ptr, size_t maxlen)$/;"	f
+Rline	threads/readline.c	/^} Rline;$/;"	t	typeref:struct:__anon9	file:
+my_read	threads/readline.c	/^my_read(Rline *tsd, int fd, char *ptr)$/;"	f	file:
+readline	threads/readline.c	/^readline(int fd, void *vptr, size_t maxlen)$/;"	f
+readline_destructor	threads/readline.c	/^readline_destructor(void *ptr)$/;"	f	file:
+readline_once	threads/readline.c	/^readline_once(void)$/;"	f	file:
+rl_buf	threads/readline.c	/^  char	 rl_buf[MAXLINE];$/;"	m	struct:__anon9	file:
+rl_bufptr	threads/readline.c	/^  char	*rl_bufptr;			\/* initialize to rl_buf *\/$/;"	m	struct:__anon9	file:
+rl_cnt	threads/readline.c	/^  int	 rl_cnt;			\/* initialize to 0 *\/$/;"	m	struct:__anon9	file:
+rl_key	threads/readline.c	/^static pthread_key_t	rl_key;$/;"	v	file:
+rl_once	threads/readline.c	/^static pthread_once_t	rl_once = PTHREAD_ONCE_INIT;$/;"	v	file:
+copyto	threads/strclithread.c	/^copyto(void *arg)$/;"	f
+fp	threads/strclithread.c	/^static FILE	*fp;$/;"	v	file:
+sockfd	threads/strclithread.c	/^static int	sockfd;		\/* global for both threads to access *\/$/;"	v	file:
+str_cli	threads/strclithread.c	/^str_cli(FILE *fp_arg, int sockfd_arg)$/;"	f
+copyto	threads/strclithread2.c	/^copyto(void *arg)$/;"	f
+done	threads/strclithread2.c	/^static int	done;$/;"	v	file:
+fp	threads/strclithread2.c	/^static FILE	*fp;$/;"	v	file:
+sockfd	threads/strclithread2.c	/^static int	sockfd;$/;"	v	file:
+str_cli	threads/strclithread2.c	/^str_cli(FILE *fp_arg, int sockfd_arg)$/;"	f
+main	threads/tcpcli01.c	/^main(int argc, char **argv)$/;"	f
+main	threads/tcpcli02.c	/^main(int argc, char **argv)$/;"	f
+doit	threads/tcpserv01.c	/^doit(void *arg)$/;"	f	file:
+main	threads/tcpserv01.c	/^main(int argc, char **argv)$/;"	f
+doit	threads/tcpserv02.c	/^doit(void *arg)$/;"	f	file:
+main	threads/tcpserv02.c	/^main(int argc, char **argv)$/;"	f
+main	threads/test01.c	/^main(int argc, char **argv)$/;"	f
+myfunc	threads/test01.c	/^myfunc(void *ptr)$/;"	f
+main	threads/test02.c	/^main(int argc, char **argv)$/;"	f
+myfunc	threads/test02.c	/^myfunc(void *ptr)$/;"	f
+main	threads/test03.c	/^main(int argc, char **argv)$/;"	f
+myfunc	threads/test03.c	/^myfunc(void *ptr)$/;"	f
+ndone	threads/test03.c	/^int				ndone;$/;"	v
+ndone_cond	threads/test03.c	/^pthread_cond_t	ndone_cond = PTHREAD_COND_INITIALIZER;$/;"	v
+ndone_mutex	threads/test03.c	/^pthread_mutex_t	ndone_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+infile	threads/test04.c	/^static char	*infile;	\/* from argv[1]; read-only by threads *\/$/;"	v	file:
+main	threads/test04.c	/^main(int argc, char **argv)$/;"	f
+myfunc	threads/test04.c	/^myfunc(void *ptr)$/;"	f
+main	threads/test05.c	/^main(int argc, char **argv)$/;"	f
+my_key	threads/test05.c	/^pthread_key_t	my_key;$/;"	v
+__unp_pthread_h	threads/unpthread.h	/^#define	__unp_pthread_h$/;"	d
+F_CONNECTING	threads/web01.c	/^#define	F_CONNECTING	/;"	d	file:
+F_DONE	threads/web01.c	/^#define	F_DONE	/;"	d	file:
+F_READING	threads/web01.c	/^#define	F_READING	/;"	d	file:
+GET_CMD	threads/web01.c	/^#define	GET_CMD	/;"	d	file:
+MAXFILES	threads/web01.c	/^#define	MAXFILES	/;"	d	file:
+SERV	threads/web01.c	/^#define	SERV	/;"	d	file:
+do_get_read	threads/web01.c	/^do_get_read(void *vptr)$/;"	f
+f_fd	threads/web01.c	/^  int    f_fd;				\/* descriptor *\/$/;"	m	struct:file	file:
+f_flags	threads/web01.c	/^  int	 f_flags;			\/* F_xxx below *\/$/;"	m	struct:file	file:
+f_host	threads/web01.c	/^  char	*f_host;			\/* hostname or IP address *\/$/;"	m	struct:file	file:
+f_name	threads/web01.c	/^  char	*f_name;			\/* filename *\/$/;"	m	struct:file	file:
+f_tid	threads/web01.c	/^  pthread_t	 f_tid;			\/* thread ID *\/$/;"	m	struct:file	file:
+file	threads/web01.c	/^struct file {$/;"	s	file:
+file	threads/web01.c	/^} file[MAXFILES];$/;"	v	typeref:struct:file
+home_page	threads/web01.c	/^home_page(const char *host, const char *fname)$/;"	f
+main	threads/web01.c	/^main(int argc, char **argv)$/;"	f
+nconn	threads/web01.c	/^int		nconn, nfiles, nlefttoconn, nlefttoread;$/;"	v
+nfiles	threads/web01.c	/^int		nconn, nfiles, nlefttoconn, nlefttoread;$/;"	v
+nlefttoconn	threads/web01.c	/^int		nconn, nfiles, nlefttoconn, nlefttoread;$/;"	v
+nlefttoread	threads/web01.c	/^int		nconn, nfiles, nlefttoconn, nlefttoread;$/;"	v
+write_get_cmd	threads/web01.c	/^write_get_cmd(struct file *fptr)$/;"	f
+F_CONNECTING	threads/web02.c	/^#define	F_CONNECTING	/;"	d	file:
+F_DONE	threads/web02.c	/^#define	F_DONE	/;"	d	file:
+F_JOINED	threads/web02.c	/^#define	F_JOINED	/;"	d	file:
+F_READING	threads/web02.c	/^#define	F_READING	/;"	d	file:
+MAXFILES	threads/web02.c	/^#define	MAXFILES	/;"	d	file:
+SERV	threads/web02.c	/^#define	SERV	/;"	d	file:
+do_get_read	threads/web02.c	/^do_get_read(void *vptr)$/;"	f
+f_fd	threads/web02.c	/^  int    f_fd;				\/* descriptor *\/$/;"	m	struct:file	file:
+f_flags	threads/web02.c	/^  int	 f_flags;			\/* F_xxx below *\/$/;"	m	struct:file	file:
+f_host	threads/web02.c	/^  char	*f_host;			\/* hostname or IP address *\/$/;"	m	struct:file	file:
+f_name	threads/web02.c	/^  char	*f_name;			\/* filename *\/$/;"	m	struct:file	file:
+f_tid	threads/web02.c	/^  pthread_t	 f_tid;			\/* thread ID *\/$/;"	m	struct:file	file:
+file	threads/web02.c	/^struct file {$/;"	s	file:
+file	threads/web02.c	/^} file[MAXFILES];$/;"	v	typeref:struct:file
+get	threads/web02.c	/^char	get[] = "GET \/ HTTP\/1.0\\r\\n\\r\\n";	\/* for home page *\/$/;"	v
+home_page	threads/web02.c	/^home_page(const char *host, const char *fname)$/;"	f
+main	threads/web02.c	/^main(int argc, char **argv)$/;"	f
+nconn	threads/web02.c	/^int		nconn, nfiles, nlefttoconn, nlefttoread;$/;"	v
+ndone	threads/web02.c	/^int				ndone;		\/* number of terminated threads & mutex *\/$/;"	v
+ndone_mutex	threads/web02.c	/^pthread_mutex_t	ndone_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+nfiles	threads/web02.c	/^int		nconn, nfiles, nlefttoconn, nlefttoread;$/;"	v
+nlefttoconn	threads/web02.c	/^int		nconn, nfiles, nlefttoconn, nlefttoread;$/;"	v
+nlefttoread	threads/web02.c	/^int		nconn, nfiles, nlefttoconn, nlefttoread;$/;"	v
+write_get_cmd	threads/web02.c	/^write_get_cmd(struct file *fptr)$/;"	f
+F_CONNECTING	threads/web03.c	/^#define	F_CONNECTING	/;"	d	file:
+F_DONE	threads/web03.c	/^#define	F_DONE	/;"	d	file:
+F_JOINED	threads/web03.c	/^#define	F_JOINED	/;"	d	file:
+F_READING	threads/web03.c	/^#define	F_READING	/;"	d	file:
+GET_CMD	threads/web03.c	/^#define	GET_CMD	/;"	d	file:
+MAXFILES	threads/web03.c	/^#define	MAXFILES	/;"	d	file:
+SERV	threads/web03.c	/^#define	SERV	/;"	d	file:
+do_get_read	threads/web03.c	/^do_get_read(void *vptr)$/;"	f
+f_fd	threads/web03.c	/^  int    f_fd;				\/* descriptor *\/$/;"	m	struct:file	file:
+f_flags	threads/web03.c	/^  int	 f_flags;			\/* F_xxx below *\/$/;"	m	struct:file	file:
+f_host	threads/web03.c	/^  char	*f_host;			\/* hostname or IP address *\/$/;"	m	struct:file	file:
+f_name	threads/web03.c	/^  char	*f_name;			\/* filename *\/$/;"	m	struct:file	file:
+f_tid	threads/web03.c	/^  pthread_t	 f_tid;			\/* thread ID *\/$/;"	m	struct:file	file:
+file	threads/web03.c	/^struct file {$/;"	s	file:
+file	threads/web03.c	/^} file[MAXFILES];$/;"	v	typeref:struct:file
+home_page	threads/web03.c	/^home_page(const char *host, const char *fname)$/;"	f
+main	threads/web03.c	/^main(int argc, char **argv)$/;"	f
+nconn	threads/web03.c	/^int		nconn, nfiles, nlefttoconn, nlefttoread;$/;"	v
+ndone	threads/web03.c	/^int				ndone;		\/* number of terminated threads *\/$/;"	v
+ndone_cond	threads/web03.c	/^pthread_cond_t	ndone_cond = PTHREAD_COND_INITIALIZER;$/;"	v
+ndone_mutex	threads/web03.c	/^pthread_mutex_t	ndone_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+nfiles	threads/web03.c	/^int		nconn, nfiles, nlefttoconn, nlefttoread;$/;"	v
+nlefttoconn	threads/web03.c	/^int		nconn, nfiles, nlefttoconn, nlefttoread;$/;"	v
+nlefttoread	threads/web03.c	/^int		nconn, nfiles, nlefttoconn, nlefttoread;$/;"	v
+write_get_cmd	threads/web03.c	/^write_get_cmd(struct file *fptr)$/;"	f
+OBJS	traceroute/Makefile	/^OBJS = main.o icmpcode_v4.o icmpcode_v6.o recv_v4.o recv_v6.o \\$/;"	m
+PROGS	traceroute/Makefile	/^PROGS =	traceroute$/;"	m
+icmpcode_v4	traceroute/icmpcode_v4.c	/^icmpcode_v4(int code)$/;"	f
+icmpcode_v6	traceroute/icmpcode_v6.c	/^icmpcode_v6(int code)$/;"	f
+datalen	traceroute/main.c	/^int		datalen = sizeof(struct rec);	\/* defaults *\/$/;"	v
+dport	traceroute/main.c	/^u_short	dport = 32768 + 666;$/;"	v
+main	traceroute/main.c	/^main(int argc, char **argv)$/;"	f
+max_ttl	traceroute/main.c	/^int		max_ttl = 30;$/;"	v
+nprobes	traceroute/main.c	/^int		nprobes = 3;$/;"	v
+proto_v4	traceroute/main.c	/^struct proto	proto_v4 = { icmpcode_v4, recv_v4, NULL, NULL, NULL, NULL, 0,$/;"	v	typeref:struct:proto
+proto_v6	traceroute/main.c	/^struct proto	proto_v6 = { icmpcode_v6, recv_v6, NULL, NULL, NULL, NULL, 0,$/;"	v	typeref:struct:proto
+recv_v4	traceroute/recv_v4.c	/^recv_v4(int seq, struct timeval *tv)$/;"	f
+recv_v6	traceroute/recv_v6.c	/^recv_v6(int seq, struct timeval *tv)$/;"	f
+gotalarm	traceroute/sig_alrm.c	/^int gotalarm;$/;"	v
+sig_alrm	traceroute/sig_alrm.c	/^sig_alrm(int signo)$/;"	f
+BUFSIZE	traceroute/trace.h	/^#define	BUFSIZE	/;"	d
+datalen	traceroute/trace.h	/^int		 datalen;			\/* # bytes of data following ICMP header *\/$/;"	v
+dport	traceroute/trace.h	/^u_short	 sport, dport;$/;"	v
+host	traceroute/trace.h	/^char	*host;$/;"	v
+icmpcode	traceroute/trace.h	/^  const char	*(*icmpcode)(int);$/;"	m	struct:proto
+icmpproto	traceroute/trace.h	/^  int			icmpproto;	\/* IPPROTO_xxx value for ICMP *\/$/;"	m	struct:proto
+max_ttl	traceroute/trace.h	/^int		 ttl, max_ttl;$/;"	v
+nprobes	traceroute/trace.h	/^int		 probe, nprobes;$/;"	v
+nsent	traceroute/trace.h	/^int		 nsent;				\/* add 1 for each sendto() *\/$/;"	v
+pid	traceroute/trace.h	/^pid_t	 pid;				\/* our PID *\/$/;"	v
+pr	traceroute/trace.h	/^} *pr;$/;"	v	typeref:struct:proto
+probe	traceroute/trace.h	/^int		 probe, nprobes;$/;"	v
+proto	traceroute/trace.h	/^struct proto {$/;"	s
+rec	traceroute/trace.h	/^struct rec {					\/* format of outgoing UDP data *\/$/;"	s
+rec_seq	traceroute/trace.h	/^  u_short	rec_seq;			\/* sequence number *\/$/;"	m	struct:rec
+rec_ttl	traceroute/trace.h	/^  u_short	rec_ttl;			\/* TTL packet left with *\/$/;"	m	struct:rec
+rec_tv	traceroute/trace.h	/^  struct timeval	rec_tv;		\/* time packet left *\/$/;"	m	struct:rec	typeref:struct:rec::timeval
+recv	traceroute/trace.h	/^  int	 (*recv)(int, struct timeval *);$/;"	m	struct:proto
+recvbuf	traceroute/trace.h	/^char	 recvbuf[BUFSIZE];$/;"	v
+recvfd	traceroute/trace.h	/^int		 sendfd, recvfd;	\/* send on UDP sock, read on raw ICMP sock *\/$/;"	v
+sabind	traceroute/trace.h	/^  struct sockaddr  *sabind;	\/* sockaddr{} for binding source port *\/$/;"	m	struct:proto	typeref:struct:proto::sockaddr
+salast	traceroute/trace.h	/^  struct sockaddr  *salast;	\/* last sockaddr{} for receiving *\/$/;"	m	struct:proto	typeref:struct:proto::sockaddr
+salen	traceroute/trace.h	/^  socklen_t   		salen;	\/* length of sockaddr{}s *\/$/;"	m	struct:proto
+sarecv	traceroute/trace.h	/^  struct sockaddr  *sarecv;	\/* sockaddr{} for receiving *\/$/;"	m	struct:proto	typeref:struct:proto::sockaddr
+sasend	traceroute/trace.h	/^  struct sockaddr  *sasend;	\/* sockaddr{} for send, from getaddrinfo *\/$/;"	m	struct:proto	typeref:struct:proto::sockaddr
+sendbuf	traceroute/trace.h	/^char	 sendbuf[BUFSIZE];$/;"	v
+sendfd	traceroute/trace.h	/^int		 sendfd, recvfd;	\/* send on UDP sock, read on raw ICMP sock *\/$/;"	v
+sport	traceroute/trace.h	/^u_short	 sport, dport;$/;"	v
+ttl	traceroute/trace.h	/^int		 ttl, max_ttl;$/;"	v
+ttllevel	traceroute/trace.h	/^  int	   ttllevel;		\/* setsockopt() level to set TTL *\/$/;"	m	struct:proto
+ttloptname	traceroute/trace.h	/^  int	   ttloptname;		\/* setsockopt() name to set TTL *\/$/;"	m	struct:proto
+verbose	traceroute/trace.h	/^int		 verbose;$/;"	v
+traceloop	traceroute/traceloop.c	/^traceloop(void)$/;"	f
+tv_sub	traceroute/tv_sub.c	/^tv_sub(struct timeval *out, struct timeval *in)$/;"	f
+OBJS	udpcksum/Makefile	/^OBJS = main.o cleanup.o pcap.o udpcksum.o senddnsquery-raw.o udpread.o udpwrite.o$/;"	m
+OBJSNET	udpcksum/Makefile	/^OBJSNET = main.o cleanup.o pcap.o udpcksum.o senddnsquery-libnet.o udpread.o$/;"	m
+PROGS	udpcksum/Makefile	/^PROGS =	udpcksum udpcksum-libnet$/;"	m
+cleanup	udpcksum/cleanup.c	/^cleanup(int signo)$/;"	f
+datalink	udpcksum/main.c	/^int		datalink;		\/* from pcap_datalink(), in <net\/bpf.h> *\/$/;"	v
+dest	udpcksum/main.c	/^struct sockaddr	*dest, *local;$/;"	v	typeref:struct:sockaddr
+destlen	udpcksum/main.c	/^socklen_t		destlen, locallen;$/;"	v
+device	udpcksum/main.c	/^char   *device;			\/* pcap device *\/$/;"	v
+local	udpcksum/main.c	/^struct sockaddr	*dest, *local;$/;"	v	typeref:struct:
+locallen	udpcksum/main.c	/^socklen_t		destlen, locallen;$/;"	v
+locallookup	udpcksum/main.c	/^struct sockaddr_in locallookup;$/;"	v	typeref:struct:sockaddr_in
+main	udpcksum/main.c	/^main(int argc, char *argv[])$/;"	f
+pd	udpcksum/main.c	/^pcap_t *pd;				\/* packet capture struct pointer *\/$/;"	v
+rawfd	udpcksum/main.c	/^int		rawfd;			\/* raw socket to write on *\/$/;"	v
+snaplen	udpcksum/main.c	/^int		snaplen = 200;	\/* amount of data to capture *\/$/;"	v
+usage	udpcksum/main.c	/^usage(const char *msg)$/;"	f	file:
+verbose	udpcksum/main.c	/^int		verbose;$/;"	v
+zerosum	udpcksum/main.c	/^int		zerosum;		\/* send UDP query with no checksum *\/$/;"	v
+CMD	udpcksum/pcap.c	/^#define	CMD	/;"	d	file:
+next_pcap	udpcksum/pcap.c	/^next_pcap(int *len)$/;"	f
+open_pcap	udpcksum/pcap.c	/^open_pcap(void)$/;"	f
+l	udpcksum/senddnsquery-libnet.c	/^static libnet_t *l;		\/* libnet descriptor *\/$/;"	v	file:
+open_output	udpcksum/senddnsquery-libnet.c	/^open_output(void)$/;"	f
+send_dns_query	udpcksum/senddnsquery-libnet.c	/^send_dns_query(void)$/;"	f
+send_dns_query	udpcksum/senddnsquery-raw.c	/^send_dns_query(void)$/;"	f
+canjump	udpcksum/udpcksum.c	/^static int			canjump;$/;"	v	file:
+jmpbuf	udpcksum/udpcksum.c	/^static sigjmp_buf	jmpbuf;$/;"	v	file:
+sig_alrm	udpcksum/udpcksum.c	/^sig_alrm(int signo)$/;"	f
+test_udp	udpcksum/udpcksum.c	/^test_udp(void)$/;"	f
+TTL_OUT	udpcksum/udpcksum.h	/^#define	TTL_OUT	/;"	d
+udp_check	udpcksum/udpread.c	/^udp_check(char *ptr, int len)$/;"	f
+udp_read	udpcksum/udpread.c	/^udp_read(void)$/;"	f
+open_output	udpcksum/udpwrite.c	/^open_output(void)$/;"	f
+rawfd	udpcksum/udpwrite.c	/^int		rawfd;			\/* raw socket to write on *\/$/;"	v
+udp_write	udpcksum/udpwrite.c	/^udp_write(char *buf, int userlen)$/;"	f
+PROGS	udpcliserv/Makefile	/^PROGS =	udpcli01 udpserv01 udpcli02 udpcli03 udpcli04 \\$/;"	m
+dg_cli	udpcliserv/dgcliaddr.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+MAXLINE	udpcliserv/dgclibig.c	/^#define	MAXLINE /;"	d	file:
+MAXLINE	udpcliserv/dgclibig.c	/^#undef	MAXLINE$/;"	d	file:
+dg_cli	udpcliserv/dgclibig.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+dg_cli	udpcliserv/dgcliconnect.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+dg_cli	udpcliserv/dgcliinetaddr.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+DGLEN	udpcliserv/dgcliloop1.c	/^#define	DGLEN	/;"	d	file:
+NDG	udpcliserv/dgcliloop1.c	/^#define	NDG	/;"	d	file:
+dg_cli	udpcliserv/dgcliloop1.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+DGLEN	udpcliserv/dgcliloop3.c	/^#define	DGLEN	/;"	d	file:
+NDG	udpcliserv/dgcliloop3.c	/^#define	NDG	/;"	d	file:
+dg_cli	udpcliserv/dgcliloop3.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+count	udpcliserv/dgecholoop1.c	/^static int	count;$/;"	v	file:
+dg_echo	udpcliserv/dgecholoop1.c	/^dg_echo(int sockfd, SA *pcliaddr, socklen_t clilen)$/;"	f
+recvfrom_int	udpcliserv/dgecholoop1.c	/^recvfrom_int(int signo)$/;"	f	file:
+count	udpcliserv/dgecholoop2.c	/^static int	count;$/;"	v	file:
+dg_echo	udpcliserv/dgecholoop2.c	/^dg_echo(int sockfd, SA *pcliaddr, socklen_t clilen)$/;"	f
+recvfrom_int	udpcliserv/dgecholoop2.c	/^recvfrom_int(int signo)$/;"	f	file:
+sig_chld	udpcliserv/sigchldwaitpid.c	/^sig_chld(int signo)$/;"	f
+main	udpcliserv/udpcli01.c	/^main(int argc, char **argv)$/;"	f
+main	udpcliserv/udpcli02.c	/^main(int argc, char **argv)$/;"	f
+main	udpcliserv/udpcli03.c	/^main(int argc, char **argv)$/;"	f
+main	udpcliserv/udpcli04.c	/^main(int argc, char **argv)$/;"	f
+main	udpcliserv/udpcli05.c	/^main(int argc, char **argv)$/;"	f
+main	udpcliserv/udpcli06.c	/^main(int argc, char **argv)$/;"	f
+main	udpcliserv/udpcli08.c	/^main(int argc, char **argv)$/;"	f
+main	udpcliserv/udpcli09.c	/^main(int argc, char **argv)$/;"	f
+main	udpcliserv/udpcli10.c	/^main(int argc, char **argv)$/;"	f
+main	udpcliserv/udpserv01.c	/^main(int argc, char **argv)$/;"	f
+main	udpcliserv/udpserv06.c	/^main(int argc, char **argv)$/;"	f
+main	udpcliserv/udpserv07.c	/^main(int argc, char **argv)$/;"	f
+main	udpcliserv/udpservselect01.c	/^main(int argc, char **argv)$/;"	f
+PROGS	unixdomain/Makefile	/^PROGS =	daytimetcpcli daytimetcpsrv2 mycat openfile \\$/;"	m
+main	unixdomain/daytimetcpcli.c	/^main(int argc, char **argv)$/;"	f
+main	unixdomain/daytimetcpsrv2.c	/^main(int argc, char **argv)$/;"	f
+main	unixdomain/mycat.c	/^main(int argc, char **argv)$/;"	f
+my_open	unixdomain/myopen.c	/^my_open(const char *pathname, int mode)$/;"	f
+main	unixdomain/openfile.c	/^main(int argc, char **argv)$/;"	f
+CONTROL_LEN	unixdomain/readcred.c	/^#define	CONTROL_LEN	/;"	d	file:
+read_cred	unixdomain/readcred.c	/^read_cred(int fd, void *ptr, size_t nbytes, struct cmsgcred *cmsgcredptr)$/;"	f
+sig_chld	unixdomain/sigchldwaitpid.c	/^sig_chld(int signo)$/;"	f
+str_echo	unixdomain/strecho.c	/^str_echo(int sockfd)$/;"	f
+main	unixdomain/testfcred.c	/^main()$/;"	f
+CONTROL_LEN	unixdomain/tfcred01.c	/^#define	CONTROL_LEN	/;"	d	file:
+main	unixdomain/tfcred01.c	/^main()$/;"	f
+recv_cred	unixdomain/tfcred01.c	/^recv_cred(int fd, void *ptr, size_t nbytes, struct fcred *fcredptr)$/;"	f
+main	unixdomain/unixbind.c	/^main(int argc, char **argv)$/;"	f
+main	unixdomain/unixdgcli01.c	/^main(int argc, char **argv)$/;"	f
+main	unixdomain/unixdgserv01.c	/^main(int argc, char **argv)$/;"	f
+main	unixdomain/unixstrcli01.c	/^main(int argc, char **argv)$/;"	f
+main	unixdomain/unixstrserv01.c	/^main(int argc, char **argv)$/;"	f
+main	unixdomain/unixstrserv02.c	/^main(int argc, char **argv)$/;"	f
